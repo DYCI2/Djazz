@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/3_api.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/3_api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index of important abstractions</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references.html</guid>
+      <description>Hmmmm…</description>
+    </item>
+    <item>
+      <title>externals</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/2_externals.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/2_externals.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>File formats used</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/3_file_formats_used.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/3_file_formats_used.html</guid>
+      <description>File formats used json song file score/track files for MIDI audio: wav and json</description>
+    </item>
+    <item>
+      <title>External controls and views</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/4_external_controls_and_views.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/4_external_controls_and_views.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Improvisation with the Factor Oracle</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/5_improvisation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/5_improvisation.html</guid>
+      <description>The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.</description>
+    </item>
+    <item>
+      <title>System Architecture</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/6_architecture.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/6_architecture.html</guid>
+      <description>Because Djazz is beat-based, most objects are built to receive and process information at recurring instances.</description>
+    </item>
+    <item>
+      <title>Going further</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/7_going_further.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/7_going_further.html</guid>
+      <description>Dynamic creation and destruction of objects: arrays and dicts Hierarchies Saving and reloading architecture Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.</description>
+    </item>
+    <item>
+      <title>Notes on databases in Max</title>
+      <link>http://localhost:1313/djazz_doc_website/3_api/8_notes_on_rewriting_djazz.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/3_api/8_notes_on_rewriting_djazz.html</guid>
+      <description>The goals in rewriting Djazz are as follows.&#xA;•&#x9;prepare the software for distribution as a standalone •&#x9;design an architecture that is extensible: ⁃&#x9;Changes can be made in one area without creating bugs in other areas (dependence and modularity) ⁃&#x9;new functionality can be added without changing the existing code base ⁃&#x9;new functionality is easy to integrate.</description>
+    </item>
+  </channel>
+</rss>

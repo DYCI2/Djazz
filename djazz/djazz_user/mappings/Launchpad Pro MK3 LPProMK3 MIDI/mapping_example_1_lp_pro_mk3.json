@@ -1,0 +1,38 @@
+{
+	"device" : "Launchpad Pro MK3",
+	"parameters" : 	{
+		"audio_1_loop_1" : "midi 41 blue",
+		"audio_1_loop_2" : "midi 42 blue",
+		"audio_1_loop_3" : "midi 43 blue",
+		"audio_1_loop_4" : "midi 44 blue",
+		"audio_2_loop_1" : "midi 45 purple",
+		"audio_2_loop_2" : "midi 46 purple",
+		"audio_2_loop_3" : "midi 47 purple",
+		"audio_2_loop_4" : "midi 48 purple",
+		"audio_1_speed_2" : "midi 31 yellow",
+		"audio_1_speed_3/2" : "midi 21 yellow",
+		"audio_1_speed_1/2" : "midi 11 yellow",
+		"audio_1_pitch_up" : "midi 32 brown",
+		"audio_1_reset_pitch" : "midi 22 brown",
+		"audio_1_pitch_down" : "midi 12 brown",
+		"audio_1_octave_up" : "midi 33 green",
+		"audio_1_reset_octave" : "midi 23 green",
+		"audio_1_octave_down" : "midi 13 green",
+		"audio_out_1_unmute" : "midi 34 orange",
+		"audio_1_active" : "midi 24 brown",
+		"audio_1_improvise" : "midi 14 red",
+		"audio_2_speed_2" : "midi 35 yellow",
+		"audio_2_speed_3/2" : "midi 25 yellow",
+		"audio_2_speed_1/2" : "midi 15 yellow",
+		"audio_2_pitch_up" : "midi 36 brown",
+		"audio_2_reset_pitch" : "midi 26 brown",
+		"audio_2_pitch_down" : "midi 16 brown",
+		"audio_2_octave_up" : "midi 37 blue",
+		"audio_2_reset_octave" : "midi 27 blue",
+		"audio_2_octave_down" : "midi 17 blue",
+		"audio_out_2_unmute" : "midi 38 orange",
+		"audio_2_active" : "midi 28 brown",
+		"audio_2_improvise" : "midi 18 red"
+	}
+
+}

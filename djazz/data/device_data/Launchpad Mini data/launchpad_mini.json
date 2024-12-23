@@ -1,0 +1,59 @@
+{
+    "device" : "Launchpad Mini"
+    ,
+    "manual" : "https://leemans.ch/latex/doc_launchpad-programmers-reference.pdf"
+    ,
+    "midi_count" : 120 
+    ,
+    "cc_count" : 0
+    ,
+	"colors" : 	    {
+        "none" : {
+            "bright"    : 0
+            ,
+            "dim"       : 0
+        }
+        ,
+		"red" : {
+            "dim"       : 1
+            ,
+            "bright"    : 3
+        }
+        ,
+        "orange" : {
+            "dim"       : 17
+            ,
+            "bright"    : 51
+        }
+        ,
+        "yellow" : {
+            "dim"       : 41
+            , 
+            "bright"    : 51
+        }
+        ,
+        "green" : {
+            "dim"       : 16
+            ,
+            "bright"    : 48
+        }
+        ,
+        "brown" : {
+            "dim"       : 38
+            ,
+            "bright"    : 35
+        }
+
+    }
+    ,
+    "behaviors" : {
+        "static"        : 12
+        ,
+        "flashing"      : 8
+    }
+    ,
+    "color_callback" : {
+        "arguments": "color_code, behavior_code",
+        "body": "return [color_code + behavior_code, 1];"
+    }
+}

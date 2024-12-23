@@ -1,0 +1,675 @@
+{
+	"metadata" : 	{
+		"name" : "MakingFlippy",
+		"tempo" : 130,
+		"beats_per_measure" : 4,
+		"chapter_count" : 1,
+		"beat_count" : 64
+	}
+,
+	"chapters" : 	{
+		"0" : 		{
+			"min_measure" : 0,
+			"max_measure" : 16,
+			"min_beat" : 0,
+			"max_beat" : 64
+		}
+
+	}
+,
+	"measures" : 	{
+		"0" : 		{
+			"min_beat" : 0,
+			"length_in_beats" : 4
+		}
+,
+		"1" : 		{
+			"min_beat" : 4,
+			"length_in_beats" : 4
+		}
+,
+		"2" : 		{
+			"min_beat" : 8,
+			"length_in_beats" : 4
+		}
+,
+		"3" : 		{
+			"min_beat" : 12,
+			"length_in_beats" : 4
+		}
+,
+		"4" : 		{
+			"min_beat" : 16,
+			"length_in_beats" : 4
+		}
+,
+		"5" : 		{
+			"min_beat" : 20,
+			"length_in_beats" : 4
+		}
+,
+		"6" : 		{
+			"min_beat" : 24,
+			"length_in_beats" : 4
+		}
+,
+		"7" : 		{
+			"min_beat" : 28,
+			"length_in_beats" : 4
+		}
+,
+		"8" : 		{
+			"min_beat" : 32,
+			"length_in_beats" : 4
+		}
+,
+		"9" : 		{
+			"min_beat" : 36,
+			"length_in_beats" : 4
+		}
+,
+		"10" : 		{
+			"min_beat" : 40,
+			"length_in_beats" : 4
+		}
+,
+		"11" : 		{
+			"min_beat" : 44,
+			"length_in_beats" : 4
+		}
+,
+		"12" : 		{
+			"min_beat" : 48,
+			"length_in_beats" : 4
+		}
+,
+		"13" : 		{
+			"min_beat" : 52,
+			"length_in_beats" : 4
+		}
+,
+		"14" : 		{
+			"min_beat" : 56,
+			"length_in_beats" : 4
+		}
+,
+		"15" : 		{
+			"min_beat" : 60,
+			"length_in_beats" : 4
+		}
+
+	}
+,
+	"beats" : 	{
+		"0" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 0
+		}
+,
+		"1" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 1
+		}
+,
+		"2" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 2
+		}
+,
+		"3" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 3
+		}
+,
+		"4" : 		{
+			"chapter" : 0,
+			"measure" : 1,
+			"position" : 0
+		}
+,
+		"5" : 		{
+			"chapter" : 0,
+			"measure" : 1,
+			"position" : 1
+		}
+,
+		"6" : 		{
+			"chapter" : 0,
+			"measure" : 1,
+			"position" : 2
+		}
+,
+		"7" : 		{
+			"chapter" : 0,
+			"measure" : 1,
+			"position" : 3
+		}
+,
+		"8" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 0
+		}
+,
+		"9" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 1
+		}
+,
+		"10" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 2
+		}
+,
+		"11" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 3
+		}
+,
+		"12" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 0
+		}
+,
+		"13" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 1
+		}
+,
+		"14" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 2
+		}
+,
+		"15" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 3
+		}
+,
+		"16" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 0
+		}
+,
+		"17" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 1
+		}
+,
+		"18" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 2
+		}
+,
+		"19" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 3
+		}
+,
+		"20" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 0
+		}
+,
+		"21" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 1
+		}
+,
+		"22" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 2
+		}
+,
+		"23" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 3
+		}
+,
+		"24" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 0
+		}
+,
+		"25" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 1
+		}
+,
+		"26" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 2
+		}
+,
+		"27" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 3
+		}
+,
+		"28" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 0
+		}
+,
+		"29" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 1
+		}
+,
+		"30" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 2
+		}
+,
+		"31" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 3
+		}
+,
+		"32" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 0
+		}
+,
+		"33" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 1
+		}
+,
+		"34" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 2
+		}
+,
+		"35" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 3
+		}
+,
+		"36" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 0
+		}
+,
+		"37" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 1
+		}
+,
+		"38" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 2
+		}
+,
+		"39" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 3
+		}
+,
+		"40" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 0
+		}
+,
+		"41" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 1
+		}
+,
+		"42" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 2
+		}
+,
+		"43" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 3
+		}
+,
+		"44" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 0
+		}
+,
+		"45" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 1
+		}
+,
+		"46" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 2
+		}
+,
+		"47" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 3
+		}
+,
+		"48" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 0
+		}
+,
+		"49" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 1
+		}
+,
+		"50" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 2
+		}
+,
+		"51" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 3
+		}
+,
+		"52" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 0
+		}
+,
+		"53" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 1
+		}
+,
+		"54" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 2
+		}
+,
+		"55" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 3
+		}
+,
+		"56" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 0
+		}
+,
+		"57" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 1
+		}
+,
+		"58" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 2
+		}
+,
+		"59" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 3
+		}
+,
+		"60" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 0
+		}
+,
+		"61" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 1
+		}
+,
+		"62" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 2
+		}
+,
+		"63" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 3
+		}
+
+	}
+,
+	"grid" : 	{
+		"0" : 		{
+			"0" : 			{
+				"0" : 0,
+				"1" : 1,
+				"2" : 2,
+				"3" : 3
+			}
+,
+			"1" : 			{
+				"0" : 4,
+				"1" : 5,
+				"2" : 6,
+				"3" : 7
+			}
+,
+			"2" : 			{
+				"0" : 8,
+				"1" : 9,
+				"2" : 10,
+				"3" : 11
+			}
+,
+			"3" : 			{
+				"0" : 12,
+				"1" : 13,
+				"2" : 14,
+				"3" : 15
+			}
+,
+			"4" : 			{
+				"0" : 16,
+				"1" : 17,
+				"2" : 18,
+				"3" : 19
+			}
+,
+			"5" : 			{
+				"0" : 20,
+				"1" : 21,
+				"2" : 22,
+				"3" : 23
+			}
+,
+			"6" : 			{
+				"0" : 24,
+				"1" : 25,
+				"2" : 26,
+				"3" : 27
+			}
+,
+			"7" : 			{
+				"0" : 28,
+				"1" : 29,
+				"2" : 30,
+				"3" : 31
+			}
+,
+			"8" : 			{
+				"0" : 32,
+				"1" : 33,
+				"2" : 34,
+				"3" : 35
+			}
+,
+			"9" : 			{
+				"0" : 36,
+				"1" : 37,
+				"2" : 38,
+				"3" : 39
+			}
+,
+			"10" : 			{
+				"0" : 40,
+				"1" : 41,
+				"2" : 42,
+				"3" : 43
+			}
+,
+			"11" : 			{
+				"0" : 44,
+				"1" : 45,
+				"2" : 46,
+				"3" : 47
+			}
+,
+			"12" : 			{
+				"0" : 48,
+				"1" : 49,
+				"2" : 50,
+				"3" : 51
+			}
+,
+			"13" : 			{
+				"0" : 52,
+				"1" : 53,
+				"2" : 54,
+				"3" : 55
+			}
+,
+			"14" : 			{
+				"0" : 56,
+				"1" : 57,
+				"2" : 58,
+				"3" : 59
+			}
+,
+			"15" : 			{
+				"0" : 60,
+				"1" : 61,
+				"2" : 62,
+				"3" : 63
+			}
+
+		}
+
+	}
+,
+	"grid_data" : 	{
+		"0" : "8_7",
+		"1" : "8_7",
+		"2" : "8_7",
+		"3" : "8_7",
+		"4" : "8_7",
+		"5" : "8_7",
+		"6" : "8_7",
+		"7" : "8_7",
+		"8" : "8_7",
+		"9" : "8_7",
+		"10" : "8_7",
+		"11" : "8_7",
+		"12" : "8_7",
+		"13" : "8_7",
+		"14" : "8_7",
+		"15" : "8_7",
+		"16" : "8_7",
+		"17" : "8_7",
+		"18" : "8_7",
+		"19" : "8_7",
+		"20" : "8_7",
+		"21" : "8_7",
+		"22" : "8_7",
+		"23" : "8_7",
+		"24" : "8_7",
+		"25" : "8_7",
+		"26" : "8_7",
+		"27" : "8_7",
+		"28" : "8_7",
+		"29" : "8_7",
+		"30" : "8_7",
+		"31" : "8_7",
+		"32" : "8_7",
+		"33" : "8_7",
+		"34" : "8_7",
+		"35" : "8_7",
+		"36" : "8_7",
+		"37" : "8_7",
+		"38" : "8_7",
+		"39" : "8_7",
+		"40" : "8_7",
+		"41" : "8_7",
+		"42" : "8_7",
+		"43" : "8_7",
+		"44" : "8_7",
+		"45" : "8_7",
+		"46" : "8_7",
+		"47" : "8_7",
+		"48" : "8_7",
+		"49" : "8_7",
+		"50" : "8_7",
+		"51" : "8_7",
+		"52" : "8_7",
+		"53" : "8_7",
+		"54" : "8_7",
+		"55" : "8_7",
+		"56" : "8_7",
+		"57" : "8_7",
+		"58" : "8_7",
+		"59" : "8_7",
+		"60" : "8_7",
+		"61" : "8_7",
+		"62" : "8_7",
+		"63" : "8_7"
+	}
+
+}

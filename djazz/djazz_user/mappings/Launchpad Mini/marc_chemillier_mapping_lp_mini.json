@@ -1,0 +1,36 @@
+{
+	"device" : "Launchpad Mini",
+	"parameters" : 	{
+		"global_solo_effects_reset_octave" : "midi 83 orange",
+		"global_solo_effects_octave_up" : "midi 85 orange",
+		"global_solo_effects_octave_down" : "midi 84 orange",
+		"global_solo_effects_speed_1/2" : "midi 64 yellow",
+		"global_solo_effects_speed_3/2" : "midi 80 yellow",
+		"global_solo_effects_speed_2" : "midi 96 yellow",
+		"global_solo_effects_speed_4" : "midi 112 yellow",
+		"global_solo_effects_loop_1" : "midi 71 yellow",
+		"global_solo_effects_loop_2" : "midi 87 yellow",
+		"global_solo_effects_loop_3" : "midi 103 yellow",
+		"global_solo_effects_loop_4" : "midi 119 yellow",
+		"global_solo_effects_loop_5" : "midi 70 yellow",
+		"global_solo_effects_loop_6" : "midi 86 yellow",
+		"global_solo_effects_loop_7" : "midi 102 yellow",
+		"global_solo_effects_loop_8" : "midi 118 yellow",
+		"midi_out_3_unmute" : "midi 97 green",
+		"midi_out_4_unmute" : "midi 98 green",
+		"midi_out_5_unmute" : "midi 99 green",
+		"midi_out_6_unmute" : "midi 100 green",
+		"midi_out_7_unmute" : "midi 101 green",
+		"midi_out_8_unmute" : "midi 65 green",
+		"midi_out_9_unmute" : "midi 66 green",
+		"midi_out_10_unmute" : "midi 67 green",
+		"midi_out_11_unmute" : "midi 68 green",
+		"midi_out_12_unmute" : "midi 69 green",
+		"midi_out_13_unmute" : "midi 81 green",
+		"midi_out_14_unmute" : "midi 82 green",
+		"audio_out_1_unmute" : "midi 113 green",
+		"audio_out_2_unmute" : "midi 114 green",
+		"audio_out_3_unmute" : "midi 115 green"
+	}
+
+}

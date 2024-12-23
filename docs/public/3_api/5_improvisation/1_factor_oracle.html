@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/djazz_doc_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=djazz_doc_website/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="The oracle factor patch is here: patchers/data_structures/factor_oracle/factor_oracle.maxpat
+To use different comparison functions, you need to write a Max patch that performs the label comparison.">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta name="twitter:title" content="Description of the Factor Oracle :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="The oracle factor patch is here: patchers/data_structures/factor_oracle/factor_oracle.maxpat
+To use different comparison functions, you need to write a Max patch that performs the label comparison.">
+    <meta property="og:url" content="http://localhost:1313/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="Description of the Factor Oracle :: Hugo Relearn Theme">
+    <meta property="og:description" content="The oracle factor patch is here: patchers/data_structures/factor_oracle/factor_oracle.maxpat
+To use different comparison functions, you need to write a Max patch that performs the label comparison.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="API">
+    <meta property="og:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta itemprop="name" content="Description of the Factor Oracle :: Hugo Relearn Theme">
+    <meta itemprop="description" content="The oracle factor patch is here: patchers/data_structures/factor_oracle/factor_oracle.maxpat
+To use different comparison functions, you need to write a Max patch that performs the label comparison.">
+    <meta itemprop="wordCount" content="56">
+    <meta itemprop="image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <title>Description of the Factor Oracle :: Hugo Relearn Theme</title>
+    <link href="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle/index.xml" rel="alternate" type="application/rss+xml" title="Description of the Factor Oracle :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle/index.print.html" rel="alternate" type="text/html" title="Description of the Factor Oracle :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/nucleus.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/perfect-scrollbar.min.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/theme.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/theme-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-style">
+    <link href="/djazz_doc_website/css/chroma-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/djazz_doc_website/css/variant.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/print.css?1734990963" rel="stylesheet" media="print">
+    <script src="/djazz_doc_website/js/variant.js?1734990963"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/djazz_doc_website';
+      window.index_js_url="/djazz_doc_website/index.search.js?1734990963";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents"></nav> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api/5_improvisation.html"><span itemprop="name">Improvisation with the Factor Oracle</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Description of the Factor Oracle</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/3_API/5_improvisation/1_factor_oracle/index.md" target="_self" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/5_improvisation.html" title="Improvisation with the Factor Oracle (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/5_improvisation/2_factor_oracle_player.html" title="The Factor Oracle Player (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="description-of-the-factor-oracle">Description of the Factor Oracle</h1>
+
+<ol>
+<li>The oracle factor patch is here:</li>
+</ol>
+<p>patchers/data_structures/factor_oracle/factor_oracle.maxpat</p>
+<ol start="2">
+<li>To use different comparison functions, you need to write a Max patch that performs the label comparison. Then you can change the comparison function in the oracle factor patch by passing it the “comparison” message and the name of the comparison patch. So far, I&rsquo;ve written two comparison patches:</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation showVisitedLinks">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="R-logo" href="/djazz_doc_website/index.html">
+  <img src='/images/djazz_logo.png'>
+</a>
+        </div>
+
+        <search><form action="/djazz_doc_website/search.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/djazz_doc_website/js/auto-complete.js?1734990963" defer></script>
+        <script src="/djazz_doc_website/js/lunr/lunr.min.js?1734990963" defer></script>
+        <script src="/djazz_doc_website/js/lunr/lunr.stemmer.support.min.js?1734990963" defer></script>
+        <script src="/djazz_doc_website/js/lunr/lunr.multi.min.js?1734990963" defer></script>
+        <script src="/djazz_doc_website/js/lunr/lunr.en.min.js?1734990963" defer></script>
+        <script src="/djazz_doc_website/js/search.js?1734990963" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual.html" class="alwaysopen"><input type="checkbox" id="R-section-1bcfc5d5405617a68f74aa479dae99d2" aria-controls="R-subsections-1bcfc5d5405617a68f74aa479dae99d2" checked><label for="R-section-1bcfc5d5405617a68f74aa479dae99d2"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Manual</span></label><a class="padding" href="/djazz_doc_website/1_manual.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Manual<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-1bcfc5d5405617a68f74aa479dae99d2" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual/1_installation.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/1_installation.html">Installation<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/2_main_window.html" class="alwaysopen"><input type="checkbox" id="R-section-5785c1366fb23669af69d5cd3b8d8992" aria-controls="R-subsections-5785c1366fb23669af69d5cd3b8d8992" checked><label for="R-section-5785c1366fb23669af69d5cd3b8d8992"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Main Window</span></label><a class="padding" href="/djazz_doc_website/1_manual/2_main_window.html">Main Window<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-5785c1366fb23669af69d5cd3b8d8992" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual/2_main_window/2_beat_window_selector.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/2_main_window/2_beat_window_selector.html">Beat Input<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/2_main_window/4_song_grid.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/2_main_window/4_song_grid.html">Song Grid<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/2_main_window/8_midi_input_selector.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/2_main_window/8_midi_input_selector.html">MIDI Input Selector<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/3_midi_window.html" class="alwaysopen"><input type="checkbox" id="R-section-099c408b2285e232930bf1efb636b441" aria-controls="R-subsections-099c408b2285e232930bf1efb636b441" checked><label for="R-section-099c408b2285e232930bf1efb636b441"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu MIDI Window</span></label><a class="padding" href="/djazz_doc_website/1_manual/3_midi_window.html">MIDI Window<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-099c408b2285e232930bf1efb636b441" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual/3_midi_window/1_live_input.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/3_midi_window/1_live_input.html">MIDI Live Input View<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/3_midi_window/2_scores_view.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/3_midi_window/2_scores_view.html">MIDI Scores View<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/3_midi_window/3_midi_out.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/3_midi_window/3_midi_out.html">MIDI Out Bank<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/3_midi_window/4_tracks_view.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/3_midi_window/4_tracks_view.html">MIDI Tracks View<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/4_audio_window.html" class="alwaysopen"><input type="checkbox" id="R-section-07803eefbe511acde55b25a23ec852e2" aria-controls="R-subsections-07803eefbe511acde55b25a23ec852e2" checked><label for="R-section-07803eefbe511acde55b25a23ec852e2"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Audio Window</span></label><a class="padding" href="/djazz_doc_website/1_manual/4_audio_window.html">Audio Window<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-07803eefbe511acde55b25a23ec852e2" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual/4_audio_window/1_live_input.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/4_audio_window/1_live_input.html">Live Input<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/4_audio_window/2_live_output.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/4_audio_window/2_live_output.html">Live Output<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/4_audio_window/3_audio_out_bank.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/4_audio_window/3_audio_out_bank.html">Audio Out Bank<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/5_effects.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/5_effects.html">Effects Bar<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/6_external-controllers.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/6_external-controllers.html">External Controllers<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/7_tools.html" class="alwaysopen"><input type="checkbox" id="R-section-587674c27ff9223b1ffdce24f2fcf0b4" aria-controls="R-subsections-587674c27ff9223b1ffdce24f2fcf0b4" checked><label for="R-section-587674c27ff9223b1ffdce24f2fcf0b4"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Tools</span></label><a class="padding" href="/djazz_doc_website/1_manual/7_tools.html">Tools<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-587674c27ff9223b1ffdce24f2fcf0b4" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/1_manual/7_tools/make_song_file.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/7_tools/make_song_file.html">Making a Song File<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/7_tools/make_score_file.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/7_tools/make_score_file.html">Making a Score File<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/8_preloaded_resources.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/8_preloaded_resources.html">Preloaded Songs<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/9_saving_and_loading_files.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/9_saving_and_loading_files.html">Saving and Loading Files<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/10_view_messages.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/10_view_messages.html">View Messages<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/11_settings.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/11_settings.html">Settings<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/1_manual/12_improvising.html" class=""><a class="padding" href="/djazz_doc_website/1_manual/12_improvising.html">Improvising with Djazz<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/2_tutorials.html" class=""><a class="padding" href="/djazz_doc_website/2_tutorials.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> Tutorials<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api.html" class="parent alwaysopen"><input type="checkbox" id="R-section-de962242ae288aca3f6a1dd98cf0c730" aria-controls="R-subsections-de962242ae288aca3f6a1dd98cf0c730" checked><label for="R-section-de962242ae288aca3f6a1dd98cf0c730"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu API</span></label><a class="padding" href="/djazz_doc_website/3_api.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> API<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-de962242ae288aca3f6a1dd98cf0c730" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references.html" class="alwaysopen"><input type="checkbox" id="R-section-fef8321c633b34f741d8a92ac000dc4b" aria-controls="R-subsections-fef8321c633b34f741d8a92ac000dc4b" checked><label for="R-section-fef8321c633b34f741d8a92ac000dc4b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Index of important abstractions</span></label><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references.html">Index of important abstractions<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-fef8321c633b34f741d8a92ac000dc4b" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/darr.get_size.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/darr.get_size.html">darr.get_size<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/main_components.html" class="alwaysopen"><input type="checkbox" id="R-section-b47162586012f9f9afefa263d6c353cb" aria-controls="R-subsections-b47162586012f9f9afefa263d6c353cb" checked><label for="R-section-b47162586012f9f9afefa263d6c353cb"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Main Components</span></label><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/main_components.html">Main Components<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b47162586012f9f9afefa263d6c353cb" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz.html">djazz<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_view.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_view.html">djazz view<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_view_control.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_view_control.html">djazz view control<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_control.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/main_components/djazz_control.html">djazz control<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/darr.set_at.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/darr.set_at.html">darr.set_at<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.analyzer.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.analyzer.html">djazz.analyzer<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/tools.html" class="alwaysopen"><input type="checkbox" id="R-section-bd8cd2cc6e40ba264ae47a518fb0910c" aria-controls="R-subsections-bd8cd2cc6e40ba264ae47a518fb0910c" checked><label for="R-section-bd8cd2cc6e40ba264ae47a518fb0910c"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Tools</span></label><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/tools.html">Tools<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-bd8cd2cc6e40ba264ae47a518fb0910c" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/tools/make_song_file.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/tools/make_song_file.html">make song file<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/tools/make_score_file.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/tools/make_score_file.html">make score file<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.antescofo_file_to_tracks_dict.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.antescofo_file_to_tracks_dict.html">djazz.antescofo_file_to_tracks_dict<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.antescofo_get_tempo.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.antescofo_get_tempo.html">djazz.antescofo_get_tempo<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_generator.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_generator.html">djazz.audio.beat_generator<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_player.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_player.html">djazz.audio.beat_player<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_reader.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.beat_reader.html">djazz.audio.beat_reader<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.listeners_router.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.listeners_router.html">djazz.audio.listeners_router<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.record.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.record.html">djazz.audio.record<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.supervp_player.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.supervp_player.html">djazz.audio.supervp_player<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves.html">djazz.audio.transpose_octaves<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_pitch.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_pitch.html">djazz.audio.transpose_pitch<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.html">djazz.audio<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio_out_track.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio_out_track.html">djazz.audio_out_track<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.bang_speed.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.bang_speed.html">djazz.bang_speed<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.beat_clock.html" class=""><a class="padding" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.beat_clock.html">djazz.beat_clock<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/2_externals.html" class="alwaysopen"><input type="checkbox" id="R-section-e8792b186280afdf02181a4395457f8b" aria-controls="R-subsections-e8792b186280afdf02181a4395457f8b" checked><label for="R-section-e8792b186280afdf02181a4395457f8b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu externals</span></label><a class="padding" href="/djazz_doc_website/3_api/2_externals.html">externals<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-e8792b186280afdf02181a4395457f8b" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/2_externals/antescofo.html" class=""><a class="padding" href="/djazz_doc_website/3_api/2_externals/antescofo.html">antescofo<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/2_externals/midifile.html" class=""><a class="padding" href="/djazz_doc_website/3_api/2_externals/midifile.html">midifile<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/2_externals/supervp.html" class=""><a class="padding" href="/djazz_doc_website/3_api/2_externals/supervp.html">supervp<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/3_file_formats_used.html" class=""><a class="padding" href="/djazz_doc_website/3_api/3_file_formats_used.html">File formats used<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/4_external_controls_and_views.html" class="alwaysopen"><input type="checkbox" id="R-section-cd234e8b268effbb4d5d4f115acb40e0" aria-controls="R-subsections-cd234e8b268effbb4d5d4f115acb40e0" checked><label for="R-section-cd234e8b268effbb4d5d4f115acb40e0"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu External controls and views</span></label><a class="padding" href="/djazz_doc_website/3_api/4_external_controls_and_views.html">External controls and views<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-cd234e8b268effbb4d5d4f115acb40e0" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/4_external_controls_and_views/1_parameters.html" class=""><a class="padding" href="/djazz_doc_website/3_api/4_external_controls_and_views/1_parameters.html">Parameters<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/4_external_controls_and_views/2_dicts.html" class=""><a class="padding" href="/djazz_doc_website/3_api/4_external_controls_and_views/2_dicts.html">Dicts<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/5_improvisation.html" class="parent alwaysopen"><input type="checkbox" id="R-section-a5f5365ae453b23d7a3ba7167da05ff3" aria-controls="R-subsections-a5f5365ae453b23d7a3ba7167da05ff3" checked><label for="R-section-a5f5365ae453b23d7a3ba7167da05ff3"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Improvisation with the Factor Oracle</span></label><a class="padding" href="/djazz_doc_website/3_api/5_improvisation.html">Improvisation with the Factor Oracle<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-a5f5365ae453b23d7a3ba7167da05ff3" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html" class="active"><a class="padding" href="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html">Description of the Factor Oracle<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/5_improvisation/2_factor_oracle_player.html" class=""><a class="padding" href="/djazz_doc_website/3_api/5_improvisation/2_factor_oracle_player.html">The Factor Oracle Player<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/5_improvisation/4_analyzer.html" class=""><a class="padding" href="/djazz_doc_website/3_api/5_improvisation/4_analyzer.html">Analyzer<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/5_improvisation/5_listener.html" class=""><a class="padding" href="/djazz_doc_website/3_api/5_improvisation/5_listener.html">Listener<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/6_architecture.html" class="alwaysopen"><input type="checkbox" id="R-section-c068588df7641bbc6f35a050a776c9ab" aria-controls="R-subsections-c068588df7641bbc6f35a050a776c9ab" checked><label for="R-section-c068588df7641bbc6f35a050a776c9ab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu System Architecture</span></label><a class="padding" href="/djazz_doc_website/3_api/6_architecture.html">System Architecture<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-c068588df7641bbc6f35a050a776c9ab" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/6_architecture/component_descriptions/master_control.html" class=""><a class="padding" href="/djazz_doc_website/3_api/6_architecture/component_descriptions/master_control.html">main components<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/6_architecture/control_flow.html" class=""><a class="padding" href="/djazz_doc_website/3_api/6_architecture/control_flow.html">control flow<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/6_architecture/overview_of_mvcvc.html" class=""><a class="padding" href="/djazz_doc_website/3_api/6_architecture/overview_of_mvcvc.html">Overview of MVVCC (Model-View-View Controller-View) Architecture<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/6_architecture/pattr_usage.html" class=""><a class="padding" href="/djazz_doc_website/3_api/6_architecture/pattr_usage.html">Pattr usage<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/7_going_further.html" class="alwaysopen"><input type="checkbox" id="R-section-f2ec5ddfe6677fabdd6072923a75ddcc" aria-controls="R-subsections-f2ec5ddfe6677fabdd6072923a75ddcc" checked><label for="R-section-f2ec5ddfe6677fabdd6072923a75ddcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Going further</span></label><a class="padding" href="/djazz_doc_website/3_api/7_going_further.html">Going further<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-f2ec5ddfe6677fabdd6072923a75ddcc" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/7_going_further/dynamic_object_creation_and_destruction.html" class=""><a class="padding" href="/djazz_doc_website/3_api/7_going_further/dynamic_object_creation_and_destruction.html">Dynamic Object Creation and Destruction<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/7_going_further/factor_oracle_creation.html" class=""><a class="padding" href="/djazz_doc_website/3_api/7_going_further/factor_oracle_creation.html">Factor Oracle Labeling<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/7_going_further/listeners-and-analyzers.html" class=""><a class="padding" href="/djazz_doc_website/3_api/7_going_further/listeners-and-analyzers.html">Listeners and Real-time Analyzers<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz.html" class="alwaysopen"><input type="checkbox" id="R-section-c2f05543f31914343c51bfe4db66d0df" aria-controls="R-subsections-c2f05543f31914343c51bfe4db66d0df" checked><label for="R-section-c2f05543f31914343c51bfe4db66d0df"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Notes on databases in Max</span></label><a class="padding" href="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz.html">Notes on databases in Max<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-c2f05543f31914343c51bfe4db66d0df" class="morespace collapsible-menu">
+          <li data-nav-id="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz/max_dictionaris_in_js_and_max.html" class=""><a class="padding" href="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz/max_dictionaris_in_js_and_max.html">Dicts in Max and javascript<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz/thoughts_on_dicts.html" class=""><a class="padding" href="/djazz_doc_website/3_api/8_notes_on_rewriting_djazz/thoughts_on_dicts.html">Notes on dicts<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/danielbrownmusic/djazz_with_data"><i class='fa-fw fab fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="/djazz_doc_website/index.html"><i class='fa-fw fas fa-bullhorn'></i> Credits</a></li>
+            <li><a class="padding" href="/djazz_doc_website/tags.html"><i class='fa-fw fas fa-tags'></i> Tags</a></li>
+            <li><a class="padding" href="/djazz_doc_website/categories.html"><i class='fa-fw fas fa-layer-group'></i> Categories</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch showVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html" lang="en" selected>English</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                      <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                      <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                      <option id="R-select-variant-relearn-bright" value="relearn-bright">Relearn Bright</option>
+                      <option id="R-select-variant-zen-auto" value="zen-auto">Zen Light/Dark</option>
+                      <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                      <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                      <option id="R-select-variant-retro-auto" value="retro-auto">Retro Learn/Neon</option>
+                      <option id="R-select-variant-neon" value="neon">Neon</option>
+                      <option id="R-select-variant-learn" value="learn">Learn</option>
+                      <option id="R-select-variant-blue" value="blue">Blue</option>
+                      <option id="R-select-variant-green" value="green">Green</option>
+                      <option id="R-select-variant-red" value="red">Red</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks showVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+            <span class="github-buttons"></span>
+            <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+            <script>
+              function githubButtonsScheme(){
+                var scheme = 'light';
+                var colorPropertyValue = window.getComputedStyle( document.querySelector( '#R-sidebar' ) ).getPropertyValue( 'background-color' );
+                var colorValues = colorPropertyValue.match( /\d+/g ).map( function( e ){ return parseInt(e,10); });
+                if( colorValues.length === 3 && ((0.2126 * colorValues[0]) + (0.7152 * colorValues[1]) + (0.0722 * colorValues[2]) < 165) ){
+                  scheme = 'dark';
+                }
+                return scheme;
+              }
+              function githubButtonsInit(){
+                if( !window.githubButtons ){
+                  setTimeout( githubButtonsInit, 50 );
+                  return;
+                }
+                var scheme = githubButtonsScheme();
+                var githubButtonsHTML = `
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn/archive/main.zip" data-color-scheme="${scheme}" data-icon="octicon-cloud-download"  aria-label="Download McShelby/hugo-theme-relearn on GitHub">Download</a>
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn" data-color-scheme="${scheme}" data-icon="octicon-star" data-show-count="true"  aria-label="Star McShelby/hugo-theme-relearn on GitHub">Star</a>
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn/fork" data-color-scheme="${scheme}" data-icon="octicon-repo-forked"   data-show-count="true" aria-label="Fork McShelby/hugo-theme-relearn on GitHub">Fork</a>
+                 `;
+                document.querySelector( '.github-buttons' ).innerHTML = githubButtonsHTML;
+                document.querySelectorAll( '.github-button' ).forEach( function( anchor ){
+                  anchor.dataset.colorScheme = scheme;
+                  window.githubButtons.render( anchor, function( el ){
+                    anchor.parentNode.replaceChild( el, anchor );
+                  });
+                });
+              }
+              document.addEventListener( 'themeVariantLoaded', function( e ){
+                setTimeout( githubButtonsInit, 400 );
+              });
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+                setTimeout( githubButtonsInit, 400 );
+              });
+            </script>
+            <script async src="/djazz_doc_website/js/github-buttons.js?1734990963"></script>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/djazz_doc_website/js/clipboard.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/perfect-scrollbar.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/theme.js?1734990963" defer></script>
+  </body>
+</html>

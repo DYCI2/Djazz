@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio_out_track" module="max" category="djazz">
+
+<digest>
+Passes audio signal through. Control with djazz.view.audio_track.
+</digest>
+
+<description>
+Pattr messages (must be passed via an external pattrhub/pattrstorage):
+volume (int) 0-127
+active (int) 0/1
+solo (int) 0/1
+mute (int) 0/1
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="signal">
+		<digest>
+		audio signal 1/L
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="signal">
+		<digest>
+		audio signal 2/R
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="signal ">
+		<digest>
+		left inlet: audio signal 1/L
+		</digest>
+
+		<description>
+		right inlet: audio signal 2/R
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name=""/>
+</seealsolist>
+
+</c74object>

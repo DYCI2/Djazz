@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.beat_player" module="max" category="djazz">
+
+<digest>
+Plays back a beat of audio at a time from a buffer, where beats are passed in in a dict.
+</digest>
+
+<description>
+Uses supervp to playback in tempo and with pitch transposition.
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="signal ">
+		<digest>
+		audio out 1
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="signal ">
+		<digest>
+		audio out 2
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="list ">
+		<digest>
+		left inlet: (int float int int) 1. pitch transposition, 2. tempo, 3. start time, 4. end time
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="audio_buffer_offset_in_ms">
+		<digest>
+		middle inlet: (+ int) adjusts the latency of the audio output. Default is 170 ms.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="crossfade_time_in_ms">
+		<digest>
+		middle inlet: (+ int) adjusts the crossfade time between beats.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="audio_buffer_name">
+		<digest>
+		right inlet: (+ symbol) audio buffer to play from
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name=""/>
+</seealsolist>
+
+</c74object>

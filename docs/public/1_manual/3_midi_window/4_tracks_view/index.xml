@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIDI Tracks View :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/4_tracks_view.html</link>
+    <description>Track effects File/track info select Load MIDI track You can load a track that does not follow the chord progression in the song file.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/4_tracks_view/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

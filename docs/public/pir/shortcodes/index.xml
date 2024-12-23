@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shorrrtcodes :: Cap&#39;n Hugo Relearrrn Theme</title>
+    <link>http://localhost:1313/pir/shortcodes/index.html</link>
+    <description>Cap&#39;n Hugo uses Marrrkdown fer its simple rrrambl&#39;n format. However, there be a lot o&#39; th&#39;ns that Marrrkdown doesn’t support well.</description>
+    <generator>Hugo</generator>
+    <language>art-x-pir</language>
+    <atom:link href="http://localhost:1313/pir/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Badge</title>
+      <link>http://localhost:1313/pir/shortcodes/badge/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/badge/index.html</guid>
+      <description>Marker badges t&#39; display &#39;n yer text</description>
+    </item>
+    <item>
+      <title>Button</title>
+      <link>http://localhost:1313/pir/shortcodes/button/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/button/index.html</guid>
+      <description>Nice buttons on yer plank</description>
+    </item>
+    <item>
+      <title>Children</title>
+      <link>http://localhost:1313/pir/shortcodes/children/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/children/index.html</guid>
+      <description>List th&#39; child planks on a plank</description>
+    </item>
+    <item>
+      <title>Expand</title>
+      <link>http://localhost:1313/pir/shortcodes/expand/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/expand/index.html</guid>
+      <description>Displays an expand&#39;ble/collaps&#39;ble sect&#39;n o&#39; text on yer plank</description>
+    </item>
+    <item>
+      <title>Highlight</title>
+      <link>http://localhost:1313/pir/shortcodes/highlight/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/highlight/index.html</guid>
+      <description>Render code with a syntax highlighter</description>
+    </item>
+    <item>
+      <title>Icon</title>
+      <link>http://localhost:1313/pir/shortcodes/icon/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/icon/index.html</guid>
+      <description>Nice ay&#39;cons fer yer plank</description>
+    </item>
+    <item>
+      <title>Include</title>
+      <link>http://localhost:1313/pir/shortcodes/include/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/include/index.html</guid>
+      <description>Displays content from other Marrrkdown files</description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/pir/shortcodes/math/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/math/index.html</guid>
+      <description>Beaut&#39;fl math and chemical formulae</description>
+    </item>
+    <item>
+      <title>Merrrmaid</title>
+      <link>http://localhost:1313/pir/shortcodes/mermaid/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/mermaid/index.html</guid>
+      <description>Generrrat&#39;n o&#39; diagrrram an&#39; flowcharrrt frrrom text &#39;n a similar manner as Marrrkdown</description>
+    </item>
+    <item>
+      <title>Notice</title>
+      <link>http://localhost:1313/pir/shortcodes/notice/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/notice/index.html</guid>
+      <description>Disclaimerrrs t&#39; help ye strrructurrre yer plank</description>
+    </item>
+    <item>
+      <title>OpenAPI</title>
+      <link>http://localhost:1313/pir/shortcodes/openapi/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/openapi/index.html</guid>
+      <description>Adds UI fer yer OpenAPI / Swaggerrr Specificat&#39;ns</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/pir/shortcodes/resources/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/resources/index.html</guid>
+      <description>List Rrresources shorrrtcode contained in a plank bundle</description>
+    </item>
+    <item>
+      <title>SiteParam</title>
+      <link>http://localhost:1313/pir/shortcodes/siteparam/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/siteparam/index.html</guid>
+      <description>Get value o&#39; ship parrrams varrriables &#39;n yer plank</description>
+    </item>
+    <item>
+      <title>Tab</title>
+      <link>http://localhost:1313/pir/shortcodes/tab/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/tab/index.html</guid>
+      <description>Show rrrambl&#39;n &#39;n a single tab</description>
+    </item>
+    <item>
+      <title>Tabs</title>
+      <link>http://localhost:1313/pir/shortcodes/tabs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pir/shortcodes/tabs/index.html</guid>
+      <description>Synchr&#39;nize select&#39;n o&#39; content &#39;n different tabbed views</description>
+    </item>
+  </channel>
+</rss>

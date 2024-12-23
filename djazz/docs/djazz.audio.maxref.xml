@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio" module="max" category="djazz">
+
+<digest>
+Handles all the audio portion of djazz.
+</digest>
+
+<description>
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="signal">
+		<digest>
+		audio out 1 left
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="signal">
+		<digest>
+		audio out 1 right
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="2" type="signal">
+		<digest>
+		audio out 2 left
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="3" type="signal">
+		<digest>
+		audio out 2 right
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="4" type="signal">
+		<digest>
+		audio out 3 left
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="5" type="signal">
+		<digest>
+		audio out 3 right
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="signal ">
+		<digest>
+		left inlet: audio in 1
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="signal">
+		<digest>
+		in1: audio in 2
+		</digest>
+
+		<description>
+		-
+		</description>
+	</method>
+
+	<method name="audio_buffer_name">
+		<digest>
+		in2: (+ symbol) name of audio buffer to record to and play from
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="record_active">
+		<digest>
+		in2: (+ 0/1) 1 arms the audio buffer to record; will not start recording until a beat number is received. 0 turns off record state.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="initial_tempo">
+		<digest>
+		in2: (+ float) bpm by which to calculate next beat and note durations
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="loop_section_beats">
+		<digest>
+		in2: (+ list: int int) start beat, end beat
+		</digest>
+
+		<description>
+		will begin a new repetition whenever end beat is reached, restarting at start beat 
+		</description>
+	</method>
+
+	<method name="max_repetitions">
+		<digest>
+		in2: (+ int) will stop recording when this number is reached
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="in ">
+		<digest>
+		right inlet: (+ symbol) folder name audio data to load for audio in subpatcher
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="out ">
+		<digest>
+		right inlet: (+ symbol) folder name audio data to load for audio out subpatcher
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name="djazz.audio.record"/>
+</seealsolist>
+
+</c74object>

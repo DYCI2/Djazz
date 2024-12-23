@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darr.get_size :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references/components/darr.get_size.html</link>
+    <description>Returns the number of keys in a dict&#xA;When using a dict to mimic an array, use this to retrieve the length of the array.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references/components/darr.get_size/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

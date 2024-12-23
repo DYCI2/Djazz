@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.antescofo_get_tempo" module="max" category="djazz">
+
+<digest>
+Uses antescofo to infer the current tempo based on time between input messages.
+</digest>
+
+<description>
+Loads the file _antescofo_djazz.txt_, which must be in the Max search path (currently in data/antescofo_scores).
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="float">
+		<digest>
+		tempo inferred from time between inputs
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="bang">
+		<digest>
+		left inlet: bangs will cause inferred tempo to be output. Initial tempo must be set and bangs must not deviate far from current tempo. Two bangs must occur before tempo is inferred.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="initial_tempo">
+		<digest>
+		left inlet: ( + float) tempo to set antescofo's tempo inference mechanism. Initial input tempo must be close to this.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

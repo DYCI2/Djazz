@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.supervp_player" module="max" category="djazz">
+
+<digest>
+Wraps the supervp player for audio playback
+</digest>
+
+<description>
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="signal">
+		<digest>
+		audio out 1
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="signal">
+		<digest>
+		audio out 2
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="2" type="signal">
+		<digest>
+		position in audio file
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="list">
+		<digest>
+		left inlet: float float float int:1. start time in ms, 2. end time in ms, 3. duration in ms, 4. transposition (in semitones)
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="int">
+		<digest>
+		in1: crossfade time between beats in ms
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="symbol">
+		<digest>
+		right inlet: buffer name to play from
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

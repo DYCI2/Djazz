@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.analyzer" module="max" category="djazz">
+
+<digest>
+Takes a label representing the current musical state, and returns another label to be used by the improvisation algorithm.
+</digest>
+
+<description>
+The input label can be passed to it by anything--the master control, other generators, or the same generator in which this analyzer resides.
+Currently only passes  the chord label for the next beat, passed by the master control, directly through without modification.
+So for now this object exists more as a placeholder. This is where real-time music analysis code should go.
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="list: symbol symbol">
+		<digest>
+		label + new symbol
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="symbol ">
+		<digest>
+		a label representing the current musical state to be used by the improvisation algorithm.
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name=""/>
+</seealsolist>
+
+</c74object>

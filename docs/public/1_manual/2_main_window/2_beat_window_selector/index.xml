@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beat Input :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/1_manual/2_main_window/2_beat_window_selector.html</link>
+    <description>2. BEAT INPUT Input Selector Djazz plays a beat each time it receives a message (a “tap,” or “click”), if it is engaged (how to engage Djazz will be explained below).</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/1_manual/2_main_window/2_beat_window_selector/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

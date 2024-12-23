@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.record" module="max" category="djazz">
+
+<digest>
+Records an audio buffer and a beat list, given the appropriate input.
+</digest>
+
+<description>
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="repetitions + int">
+		<digest>
+		sends every time a new repetition is added to beat list
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="setsize + int, crop 0 + int">
+		<digest>
+		sets the size of the buffer when recording is started/stopped, with/without clearing it, respectively
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="signal ">
+		<digest>
+		left inlet: audio in 1
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="signal ">
+		<digest>
+		in1: audio in 2
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="audio_buffer_name">
+		<digest>
+		right inlet: (+ symbol) name of audio buffer to record to
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="audio_score_dict_name">
+		<digest>
+		right inlet: (+ symbol) name of audio score (+ beat list) to write to
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="beat">
+		<digest>
+		right inlet: (+ int) starts writing a new beat when received
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="initial_tempo">
+		<digest>
+		right inlet: (+ float) bpm by which to calculate next beat and note durations
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="loop_section_beats  ">
+		<digest>
+		right inlet: (+ list: int int) start beat, end beat
+		</digest>
+
+		<description>
+		will begin a new repetition whenever end beat is reached, restarting at start beat 
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name="djazz.audio"/>
+</seealsolist>
+
+</c74object>

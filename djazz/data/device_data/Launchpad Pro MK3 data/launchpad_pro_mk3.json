@@ -1,0 +1,75 @@
+{
+    "device" : "Launchpad Pro MK3"
+    ,
+    "manual" : "https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/LPP3_prog_ref_guide_200415.pdf"
+    ,
+    "midi_count" : 89
+    ,
+    "cc_count" : 109
+    ,
+    "sysex" :       {
+        "connect" :     "240 0 32 41 2 14 0 17 0 0 247",
+        "disconnect" :  "240 0 32 41 2 14 0 4 0 0 247"
+    }
+    ,
+
+	"colors" : 	    {
+        "none" : {
+            "bright" : 0,
+            "dim" : 0
+        }
+        ,
+		"white" : {
+            "dim" :     1,
+            "bright" :  3
+        }
+        ,
+		"red" : {
+            "dim" :     4,
+            "bright" :  5
+        }
+        ,
+        "orange" : {
+            "dim" :     8,
+            "bright" :  9
+        }
+        ,
+        "yellow" : {
+            "dim" :     12,
+            "bright" :  13
+        }
+        ,
+        "green" : {
+            "dim" :     20,
+            "bright" :  21
+        }
+        ,
+        "blue" : {
+            "dim" :     36,
+            "bright" :  37
+        }
+        ,
+        "purple" : {
+            "dim" :     44,
+            "bright" :  45
+        }
+        ,
+        "brown" : {
+            "dim"       : 100
+            ,
+            "bright"    : 11
+        }
+	}
+    ,
+    "behaviors" :   {
+        "static" : 1,
+        "flashing" : 2,
+        "pulsing" : 3    
+    }
+    ,
+    "color_callback" : {
+        "arguments": "color_code, behavior_code",
+        "body": "return [color_code, behavior_code];"
+    }
+    
+}

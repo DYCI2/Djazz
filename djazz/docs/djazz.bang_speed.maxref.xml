@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.bang_speed" module="max" category="djazz">
+
+<digest>
+When active, will output beats in the polyrhythm given by numerator/denominator. Incoming beats will not be output, except for those that fall in phase with the output beats. 
+</digest>
+
+<description>
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="bang">
+		<digest>
+		-bangs over time in the polyrhythm determined by <i>numerator</i> and <i>denominator</i>
+		</digest>
+
+		<description>
+		-
+		</description>
+	</outlet>
+
+	<outlet id="1" type="float">
+		<digest>
+		-tempo using output bangs as beat
+		</digest>
+
+		<description>
+		-
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="bang">
+		<digest>
+		depends on polyrhythm state
+		</digest>
+
+		<description>
+		left inlet: When effect off (active = 0), passed directly through. When effect on (active = 1), triggers a new polyrhythm, or is ignored if a polyrhythm is in course.
+		</description>
+	</method>
+
+	<method name="active">
+		<digest>
+		left inlet: (+ 0/1) turns effect off or on
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="numerator">
+		<digest>
+		left inlet: (+ int) number of evenly spaced bangs to output in the space of <i>denominator</i> beats at the given tempo
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="denominator">
+		<digest>
+		left inlet: (+ int)  number of beats to output <i>numerator</i> evenly spaced bangs over
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

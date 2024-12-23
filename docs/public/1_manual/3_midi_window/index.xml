@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIDI Window :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window.html</link>
+    <description> Live Input View Scores View MIDI Out Bank Tracks View </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIDI Live Input View</title>
+      <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/1_live_input.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/1_live_input.html</guid>
+      <description>When clicked and illuminated, the record button arms the buffer for recording.</description>
+    </item>
+    <item>
+      <title>MIDI Scores View</title>
+      <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/2_scores_view.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/2_scores_view.html</guid>
+      <description>Score Player/Loader Window MIDI scores are made up of multiple MIDI tracks.</description>
+    </item>
+    <item>
+      <title>MIDI Out Bank</title>
+      <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/3_midi_out.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/3_midi_out.html</guid>
+      <description>The MIDI out bank contains 15 tracks output controls.</description>
+    </item>
+    <item>
+      <title>MIDI Tracks View</title>
+      <link>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/4_tracks_view.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/djazz_doc_website/1_manual/3_midi_window/4_tracks_view.html</guid>
+      <description>Track effects File/track info select Load MIDI track You can load a track that does not follow the chord progression in the song file.</description>
+    </item>
+  </channel>
+</rss>

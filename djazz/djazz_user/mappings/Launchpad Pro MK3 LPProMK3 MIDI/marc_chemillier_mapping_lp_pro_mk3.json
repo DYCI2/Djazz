@@ -1,0 +1,38 @@
+{
+	"device" : "Launchpad Pro MK3",
+	"parameters" : 	{
+		"global_solo_effects_speed_1/2" : "midi 41 yellow",
+		"global_solo_effects_speed_3/2" : "midi 31 yellow",
+		"global_solo_effects_speed_2" : "midi 21 yellow",
+		"global_solo_effects_speed_4" : "midi 11 yellow",
+		"midi_out_8_unmute" : "midi 42 green",
+		"midi_out_9_unmute" : "midi 43 green",
+		"midi_out_10_unmute" : "midi 44 green",
+		"midi_out_11_unmute" : "midi 45 green",
+		"midi_out_12_unmute" : "midi 46 green",
+		"midi_out_13_unmute" : "midi 32 green",
+		"midi_out_14_unmute" : "midi 33 green",
+		"midi_out_3_unmute" : "midi 22 green",
+		"midi_out_4_unmute" : "midi 23 green",
+		"midi_out_5_unmute" : "midi 24 green",
+		"midi_out_6_unmute" : "midi 25 green",
+		"midi_out_7_unmute" : "midi 26 green",
+		"midi_out_1_unmute" : "midi 12 green",
+		"midi_out_2_unmute" : "midi 13 green",
+		"audio_out_1_unmute" : "midi 12 green",
+		"audio_out_2_unmute" : "midi 13 green",
+		"audio_out_3_unmute" : "midi 14 green",
+		"global_solo_effects_reset_octave" : "midi 34 orange",
+		"global_solo_effects_octave_down" : "midi 35 orange",
+		"global_solo_effects_octave_up" : "midi 36 orange",
+		"global_solo_effects_loop_1" : "midi 48 yellow",
+		"global_solo_effects_loop_2" : "midi 38 yellow",
+		"global_solo_effects_loop_3" : "midi 28 yellow",
+		"global_solo_effects_loop_4" : "midi 18 yellow",
+		"global_solo_effects_loop_5" : "midi 47 yellow",
+		"global_solo_effects_loop_6" : "midi 37 yellow",
+		"global_solo_effects_loop_7" : "midi 27 yellow",
+		"global_solo_effects_loop_8" : "midi 17 yellow"
+	}
+
+}

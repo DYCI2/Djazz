@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/pir/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/index.html" />
+    <xhtml:link rel="alternate" hreflang="art-x-pir" href="http://localhost:1313/pir/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/pir/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="art-x-pir" href="http://localhost:1313/pir/categories/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/pir/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="art-x-pir" href="http://localhost:1313/pir/tags/index.html" />
+  </url>
+</urlset>

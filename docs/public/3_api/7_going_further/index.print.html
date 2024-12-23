@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/djazz_doc_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=djazz_doc_website/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="Dynamic creation and destruction of objects: arrays and dicts Hierarchies Saving and reloading architecture Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta name="twitter:title" content="Going further :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Dynamic creation and destruction of objects: arrays and dicts Hierarchies Saving and reloading architecture Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.">
+    <meta property="og:url" content="http://localhost:1313/djazz_doc_website/3_api/7_going_further.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="Going further :: Hugo Relearn Theme">
+    <meta property="og:description" content="Dynamic creation and destruction of objects: arrays and dicts Hierarchies Saving and reloading architecture Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta itemprop="name" content="Going further :: Hugo Relearn Theme">
+    <meta itemprop="description" content="Dynamic creation and destruction of objects: arrays and dicts Hierarchies Saving and reloading architecture Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.">
+    <meta itemprop="wordCount" content="948">
+    <meta itemprop="image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <title>Going further :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/djazz_doc_website/3_api/7_going_further.html" rel="canonical" type="text/html" title="Going further :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/3_api/7_going_further/index.xml" rel="alternate" type="application/rss+xml" title="Going further :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/nucleus.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/perfect-scrollbar.min.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/theme.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/theme-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-style">
+    <link href="/djazz_doc_website/css/chroma-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/djazz_doc_website/css/variant.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/print.css?1734990963" rel="stylesheet" media="print">
+    <link href="/djazz_doc_website/css/format-print.css?1734990963" rel="stylesheet">
+    <script src="/djazz_doc_website/js/variant.js?1734990963"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/djazz_doc_website';
+      window.index_js_url="/djazz_doc_website/index.search.js?1734990963";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/djazz_doc_website/3_api/7_going_further.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Going further</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/6_architecture/pattr_usage.html" title="Pattr usage (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/7_going_further/dynamic_object_creation_and_destruction.html" title="Dynamic Object Creation and Destruction (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="going-further">Going further</h1>
+
+<ol start="2">
+<li>Dynamic creation and destruction of objects: arrays and dicts
+Hierarchies
+Saving and reloading architecture</li>
+</ol>
+<p>Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.  The resulting configurations can then be saved and reloaded.</p>
+<p>There are two data structures for saving objects: dictionaries and arrays, because some objects occur as ordered sets [midi tracks, effects], while others don’t (players, although they could).</p>
+<p>Ordered sets are placed in arrays using javascript. This way they can be addressed using their indices in the array, and array operations can be used to keep track and change them.</p>
+<p>In javascript you can make arrays of objects.
+To delete them, you have to both remove them from the patcher and remove them from the array or you will get undefined stuff.</p>
+<p>The midi out bank is an example of a hierarchy of objects containing arrays. The bank contains tracks, and the tracks contain (among other things) midi effects. Tracks can be created and deleted, and so can effects. [SLIDE: tree]
+In addition, there are effects that apply to groups of tracks.</p>
+<p>BANK
+TRACK GROUP
+TRACK
+EFFECT_LIST
+EFFECT</p>
+<p>To make this structure:</p>
+<p>Each object in the hierarchy contains a javascript object with the variable name « components, » which is responsible for creating, deleting, and dispatching messages to, and gathering data from the hierarchy objects it contains.</p>
+<p>Each « component » object contains an array of objects. [SLIDE]</p>
+<p>When objects are created, they are also placed in the array.</p>
+<p>The code in each of these component objects is similar, and they could be abstracted into classes (prototypes) that components are derived from, if this method seems important enough to do that.</p>
+<p>The bank can be saved as a dictionary.</p>
+<p>Dictionary entries can be dictionaries and arrays, and array entries can be dictionaries and arrays.
+The midi bank dictionary contains arrays which contain dictionaries which contain arrays. Arbitrary nesting of dictionaries and arrays is possible. Access and modification becomes complicated, which I’ll talk about in section 4.</p>
+<p>To save a midi bank layout:</p>
+<p>Javascript objects can declare attributes: values that can be accessed like normal max objects.  Attributes can be dictionaries. Attribute values can also have custom getters and setters, which means that the attribute value does not have be something actually stored. A getter can dynamically construct it when it is invoked, and a setter can do something other than save the given value.</p>
+<p>The midi bank thus has an attribute « bank_dict » that, when queried, builds a dictionary from its components’ data. It writes an array of its tracks, calling each of its tracks to give it the required data for its given array index.  It calls each track by requesting a dict attribute from the track representing its components. The track builds a dict in the same way, calling its effect components. This process continues until a recursively-built dictionary is completed, then the midi bank passes it to the caller which writes it as a json file.</p>
+<p>To reload the midi bank, the opposite occurs: the attribute value setter builds the track list by creating each track and then sending it the corresponding track dict so that it can build itself.</p>
+<p>The actual dict values are at no time saved.</p>
+<p>[EXAMPLE]</p>
+<p>This can be applied to the entire architecture of a session, including all the players. It will be once we’ve worked out what all the players will be and how they will be arranged.</p>
+<p>Because of the hierarchical arrangement of dictionaries, the midi bank can have its own set of presets that can be loaded and saved inside the preset of an entire session.</p>
+<p>To load an entire session including the pattr presets, the architecture dictionary has to be loaded first, and then the preset file.</p>
+<p>Both the model and the view contain these component objects.
+Communication between the view and model is in the rightmost wire.
+Building from these dicts in the model and the view treat the dict like a model, and the model and view become its views.</p>
+<p>Communication between the control and model during construction must be handled carefully and I’m interested in how to do it better. Originally I thought it would be great to include the dict attributes in the pattr system. Then they could be controlled in the same way that the rest of the parameters are controlled.
+The problem is this. [SLIDE] Javascript operates on a different (low-priority) thread than Max objects. When it calls Max to creat an object (new default), it passes control to this thread and continues to the next javascript command—we don’t know when the max command will finish in relation to the javascript.
+As components in the view hierarchy are built, we can’t assume that their analogs in the model are built at the same time. Thus messages cannot be passed from one to the other.
+Thus we cannot count on the pattr system working when the hierarchies are constructed. It has to use a different system.</p>
+<p>Creating effects: to create a midi effect, several easy standards must be met:
+MIDI notes follow a given value (list of numbers)
+MIDI comes in the left inlet and out the left inlet
+A control/view and a model patch
+Communication btw control and model occur via pattr, so pattrs with the same name (possibly hierarchic) must exist in both patches
+Control and model patchers must be put in appropriately named subfolders of a folder titled by the effect name.</p>
+<p>If you do this, the effect will show up in the effect list.
+This gives an easy, max-less way for developers to add their own effects.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Going further</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="dynamic-object-creation-and-destruction">Dynamic Object Creation and Destruction</h1>
+
+<ol start="2">
+<li>Dynamic creation and destruction of objects: arrays and dicts
+Hierarchies
+Saving and reloading architecture</li>
+</ol>
+<p>Objects in djazz can be created and destroyed, so you can set up variable numbers of different types of players, and different midi and audio outputs.  The resulting configurations can then be saved and reloaded.</p>
+<p>There are two data structures for saving objects: dictionaries and arrays, because some objects occur as ordered sets [midi tracks, effects], while others don’t (players, although they could).</p>
+<p>Ordered sets are placed in arrays using javascript. This way they can be addressed using their indices in the array, and array operations can be used to keep track and change them.</p>
+<p>In javascript you can make arrays of objects.
+To delete them, you have to both remove them from the patcher and remove them from the array or you will get undefined stuff.</p>
+<p>The midi out bank is an example of a hierarchy of objects containing arrays. The bank contains tracks, and the tracks contain (among other things) midi effects. Tracks can be created and deleted, and so can effects. [SLIDE: tree]
+In addition, there are effects that apply to groups of tracks.</p>
+<p>BANK
+TRACK GROUP
+TRACK
+EFFECT_LIST
+EFFECT</p>
+<p>To make this structure:</p>
+<p>Each object in the hierarchy contains a javascript object with the variable name « components, » which is responsible for creating, deleting, and dispatching messages to, and gathering data from the hierarchy objects it contains.</p>
+<p>Each « component » object contains an array of objects. [SLIDE]</p>
+<p>When objects are created, they are also placed in the array.</p>
+<p>The code in each of these component objects is similar, and they could be abstracted into classes (prototypes) that components are derived from, if this method seems important enough to do that.</p>
+<p>The bank can be saved as a dictionary.</p>
+<p>Dictionary entries can be dictionaries and arrays, and array entries can be dictionaries and arrays.
+The midi bank dictionary contains arrays which contain dictionaries which contain arrays. Arbitrary nesting of dictionaries and arrays is possible. Access and modification becomes complicated, which I’ll talk about in section 4.</p>
+<p>To save a midi bank layout:</p>
+<p>Javascript objects can declare attributes: values that can be accessed like normal max objects.  Attributes can be dictionaries. Attribute values can also have custom getters and setters, which means that the attribute value does not have be something actually stored. A getter can dynamically construct it when it is invoked, and a setter can do something other than save the given value.</p>
+<p>The midi bank thus has an attribute « bank_dict » that, when queried, builds a dictionary from its components’ data. It writes an array of its tracks, calling each of its tracks to give it the required data for its given array index.  It calls each track by requesting a dict attribute from the track representing its components. The track builds a dict in the same way, calling its effect components. This process continues until a recursively-built dictionary is completed, then the midi bank passes it to the caller which writes it as a json file.</p>
+<p>To reload the midi bank, the opposite occurs: the attribute value setter builds the track list by creating each track and then sending it the corresponding track dict so that it can build itself.</p>
+<p>The actual dict values are at no time saved.</p>
+<p>[EXAMPLE]</p>
+<p>This can be applied to the entire architecture of a session, including all the players. It will be once we’ve worked out what all the players will be and how they will be arranged.</p>
+<p>Because of the hierarchical arrangement of dictionaries, the midi bank can have its own set of presets that can be loaded and saved inside the preset of an entire session.</p>
+<p>To load an entire session including the pattr presets, the architecture dictionary has to be loaded first, and then the preset file.</p>
+<p>Both the model and the view contain these component objects.
+Communication between the view and model is in the rightmost wire.
+Building from these dicts in the model and the view treat the dict like a model, and the model and view become its views.</p>
+<p>Communication between the control and model during construction must be handled carefully and I’m interested in how to do it better. Originally I thought it would be great to include the dict attributes in the pattr system. Then they could be controlled in the same way that the rest of the parameters are controlled.
+The problem is this. [SLIDE] Javascript operates on a different (low-priority) thread than Max objects. When it calls Max to creat an object (new default), it passes control to this thread and continues to the next javascript command—we don’t know when the max command will finish in relation to the javascript.
+As components in the view hierarchy are built, we can’t assume that their analogs in the model are built at the same time. Thus messages cannot be passed from one to the other.
+Thus we cannot count on the pattr system working when the hierarchies are constructed. It has to use a different system.</p>
+<p>Creating effects: to create a midi effect, several easy standards must be met:
+MIDI notes follow a given value (list of numbers)
+MIDI comes in the left inlet and out the left inlet
+A control/view and a model patch
+Communication btw control and model occur via pattr, so pattrs with the same name (possibly hierarchic) must exist in both patches
+Control and model patchers must be put in appropriately named subfolders of a folder titled by the effect name.</p>
+<p>If you do this, the effect will show up in the effect list.
+This gives an easy, max-less way for developers to add their own effects.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="factor-oracle-labeling">Factor Oracle Labeling</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="listeners-and-real-time-analyzers">Listeners and Real-time Analyzers</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/djazz_doc_website/js/clipboard.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/perfect-scrollbar.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/theme.js?1734990963" defer></script>
+  </body>
+</html>

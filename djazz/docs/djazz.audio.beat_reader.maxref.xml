@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.beat_reader" module="max" category="djazz">
+
+<digest>
+Reads the note data at the given beat data and sends it out to the beat player.
+</digest>
+
+<description>
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="list ">
+		<digest>
+		(int int int) 1. track number, 2. start time in ms 3. end time in ms 
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="int ">
+		<digest>
+		beat count
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="list ">
+		<digest>
+		left inlet: (symbol int float) 1. beat dict name, 2. pitch transposition, 3. tempo
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="symbol">
+		<digest>
+		right inlet: beat list dict name
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

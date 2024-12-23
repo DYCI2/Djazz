@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>djazz MIDI :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/3_api/1_abstraction_references/components/djazz_midi.html</link>
+    <description> flowchart TB; gIn(( )) g1[Generator 1] g2[Generator 2] g3[Generator 3] g4[Generator 4] g5[Generator 5] mbPlayer[MIDI Beat Player] t1[MIDI\nTrack 1] t2[MIDI\nTrack 2] t3[MIDI\nTrack 3] t4[MIDI\nTrack 4] t5[MIDI\nTrack 5] gOut((( ))) gIn --&gt; g1 --&gt; mbPlayer gIn --&gt; g2 --&gt; mbPlayer gIn --&gt; g3 --&gt; mbPlayer gIn --&gt; g4 --&gt; mbPlayer gIn --&gt; g5 --&gt; mbPlayer mbPlayer --&gt; t1 --&gt; gOut mbPlayer --&gt; t2 --&gt; gOut mbPlayer --&gt; t3 --&gt; gOut mbPlayer --&gt; t4 --&gt; gOut mbPlayer --&gt; t5 --&gt; gOut </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3_api/1_abstraction_references/components/djazz_midi/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

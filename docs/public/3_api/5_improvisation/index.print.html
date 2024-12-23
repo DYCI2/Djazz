@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/djazz_doc_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=djazz_doc_website/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta name="twitter:title" content="Improvisation with the Factor Oracle :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.">
+    <meta property="og:url" content="http://localhost:1313/djazz_doc_website/3_api/5_improvisation.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="Improvisation with the Factor Oracle :: Hugo Relearn Theme">
+    <meta property="og:description" content="The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta itemprop="name" content="Improvisation with the Factor Oracle :: Hugo Relearn Theme">
+    <meta itemprop="description" content="The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.">
+    <meta itemprop="wordCount" content="1458">
+    <meta itemprop="image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <title>Improvisation with the Factor Oracle :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/djazz_doc_website/3_api/5_improvisation.html" rel="canonical" type="text/html" title="Improvisation with the Factor Oracle :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/3_api/5_improvisation/index.xml" rel="alternate" type="application/rss+xml" title="Improvisation with the Factor Oracle :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/nucleus.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/perfect-scrollbar.min.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/theme.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/theme-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-style">
+    <link href="/djazz_doc_website/css/chroma-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/djazz_doc_website/css/variant.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/print.css?1734990963" rel="stylesheet" media="print">
+    <link href="/djazz_doc_website/css/format-print.css?1734990963" rel="stylesheet">
+    <script src="/djazz_doc_website/js/variant.js?1734990963"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/djazz_doc_website';
+      window.index_js_url="/djazz_doc_website/index.search.js?1734990963";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/djazz_doc_website/3_api/5_improvisation.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Improvisation with the Factor Oracle</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/4_external_controls_and_views/2_dicts.html" title="Dicts (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/5_improvisation/1_factor_oracle.html" title="Description of the Factor Oracle (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="improvisation-with-the-factor-oracle">Improvisation with the Factor Oracle</h1>
+
+<p>The generator uses the beat number when improvise mode is not on; it uses this to play the next beat or a different beat if one has been selected by the user.  In improvise mode, the beat number is not considered. The label produced by the analyzer is used, as described above.</p>
+<p>The factor oracle player has two asynchronous controls: max-continuity and pitch-transposition.</p>
+<p>The beat generator can play in two modes: score player and improviser. Each of these also contain two modes: play at the tempo given by the tap,
+or play at a different speed: double speed, quadruple speed, half speed, and one and a half speed.  This speed change is controlled
+by an object&ndash;the &ldquo;Speed Control&rdquo; that, when messages are passed to the generator, modifies the timing of their distribution to the generator&rsquo;s internal objects.
+Even though both the score player and the improviser use the Speed Control, the result is different, because the Score Player receives
+beat <em>number</em> messages and the Improviser receives beat <em>label</em> messages.</p>
+<p>The Score Player contains two subpatchers, a &ldquo;Master Clock Follower&rdquo; and an &ldquo;Internal Clock Follower.&rdquo; In Score Player mode,
+if the Speed Control is active, beat numbers are sent to the Internal Clock Follower, which outputs beat numbers at a different tempo than
+the input tap. The musical result is an interesting version of &ldquo;playing out:&rdquo; beats are played at a different rate, meaning their
+internal harmony, given by each beat&rsquo;s chord label, no longer aligns with that of the other tracks:</p>
+<table>
+<thead>
+<tr>
+<th>Master Clock Input:</th>
+<th>Am7</th>
+<th></th>
+<th>D7</th>
+<th></th>
+<th>Gmaj7</th>
+<th></th>
+<th>Cmaj7</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Internal Clock Follower Output:</td>
+<td>Am7</td>
+<td>D7</td>
+<td>Gmaj7</td>
+<td>Cmaj7</td>
+<td>Am7</td>
+<td>D7</td>
+<td>Gmaj7</td>
+<td>Cmaj7</td>
+</tr>
+</tbody>
+</table>
+<p>The Internal Clock Follower contains its own Beat Clock object. It is passed the same asynchronous messages as the Master Beat Clock,
+concerning the song beat data like the end beat, the current section beats, and whether the current chapter is being looped.
+If the Speed Control is inactive, the beat number messages given by the Master Beat Clock are simply passed through.</p>
+<p>In the Improviser, it is the beat label messages are passed. Beat labels are passed in at the master tempo. When a label is received, it is saved in
+a message object and a bang is sent to the Speed Control. If active, the speed control at its modified tempo, which trigger the saved
+label to be passed to the factor oracle player. The result is that the factor oracle player outputs beats that conform to
+the harmony of the given beat, even though they are at a different tempo:</p>
+<table>
+<thead>
+<tr>
+<th>Master Clock Input:</th>
+<th>Am7</th>
+<th></th>
+<th>D7</th>
+<th></th>
+<th>Gmaj7</th>
+<th></th>
+<th>Cmaj7</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Improviser Output:</td>
+<td>Am7</td>
+<td>Am7</td>
+<td>D7</td>
+<td>D7</td>
+<td>Gmaj7</td>
+<td>Gmaj7</td>
+<td>Cmaj7</td>
+<td>Cmaj7</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-improviser">The Improviser</h2>
+<h3 id="the-factor-oracle-factor_oraclemaxpat">The factor oracle (&ldquo;factor_oracle.maxpat&rdquo;)</h3>
+<p>The factor oracle player creates the improvisation. As its name suggests, it contains and makes use of the &ldquo;factor_oracle&rdquo; Max abstraction.</p>
+<p>The analyzer uses the same set of symbols as the factor oracle. It is used both offline, to create a file of labeled beats for a song, and online, to convert the data at the beginning of each beat into a symbol to be passed to the factor oracle player.
+This symbol is then used as the query to the factor oracle to produce the next beat.</p>
+<h2 id="the-analyzer">The analyzer</h2>
+<p>Definition:</p>
+<p>A beat is a collection of notes that occurs between two timepoints. These timepoints are considered to occur at regular intervals.
+Thus a piece of music that has a pulse can be considered a sequence of beats.</p>
+<p>At each new beat, calculate a new beat&rsquo;s worth of music to play. The calculation consists of finding a beat in the database that is the
+“best match” (or at least a “good match”) based on the data that exists at the beginning of the new beat.</p>
+<p>This data can be based on any of the following:</p>
+<ol>
+<li>
+<p>The location in the song/musical piece.  For example, “the A minor 7 chord that occurs at the beginning
+of measure 13.”  A good match is a beat from the database that occurs over the same chord. This could be
+the same beat as in the original piece, or it could be a different
+beat that has the same chord, which is more interesting. This creates correct adherence to musical form, if such form exists in the piece.</p>
+</li>
+<li>
+<p>What we just played in the last beat. For example, an ascending scale in the previous beat could look for a melody that starts on the next
+note in the scale in the next beat. This creates continuity.</p>
+</li>
+<li>
+<p>What other listeners have played. This creates responsiveness.</p>
+</li>
+</ol>
+<p>In the current usage of Djazz, this match is based only on option 1: the chord symbol that occurs on the given beat.</p>
+<h4 id="label-matching">Label matching</h4>
+<p>Matching is done by
+comparing labels. Each beat has a label which reflects the data described above. It is a string of symbols. The nature of this string is
+determined by the user. In the current usage of Djazz, this string represents the chord symbol, which consists of the chord root and its
+quality, separated by an underline. Chord roots are numbered from zero to eleven, with zero representing C; thus, C# (or Db) is 1, D is 2, etc.
+For example, &ldquo;0_maj7&rdquo; represents a C major seventh chord.</p>
+<p>A match can be made by exact comparison, or by “fuzzy” methods. In the current usage of Djazz, a chord represents a match if the quality is
+the same, but the root can be a small distance away from the desired one.
+The melody is then transposed to match the correct root.</p>
+<p>Offline analysis currently consists of adding the chord labels to each beat. The user inputs this using a graphical tool that takes chord
+information and stores it in a list of beats; that is, no analysis is done save for copying the &ldquo;chord chart&rdquo; into a data file.
+This data file, which also contains other data like the song tempo, time signature, section starting and ending beats, and song title, is loaded
+into Djazz when a song is played.</p>
+<p>Online analysis, as a result, is just a case of reading the chord label from the dictionary when a beat number is generated. This is in fact done
+by the master clock: it sends out the tempo, chord label, beat number, in immediate succession each time a tap is input.</p>
+<p>The methods here are general, and the current usage of Djazz can be changed to admit other types of music. This would involve
+using an extant system, devising a new one, or modifying an extant one to label beats. Optionally defining the definition of a
+match, if it is not defined as exact.</p>
+<p>The following criteria must be met:
+The online analyzer uses the same set of labels as the offline analyzer, if an offline analyzer is used.</p>
+<p>Also, the architecture is modular, which means that other methods of improvisation are possible. That means that another object can replace the
+factor oracle player within &ldquo;improviser&rdquo; as long as it adheres to the following criteria:</p>
+<ol>
+<li>It receives a label at the beginning of each beat</li>
+<li>It produces a beat number, in response to the label, that represents the next beat to play.</li>
+</ol>
+<h4 id="example-song-with-the-same-chord-for-all-beats">Example: Song with the same chord for all beats.</h4>
+<p>In the case where all the beat labels are the same, the factor oracle player algorithm will ground out to simply choosing a measure aleatorically.</p>
+<p>In some cases this could be desired. It is perhaps more interesting, though, to take advantage of the label-matching behavior to create one&rsquo;s own labels, and thus direct the improvisation.</p>
+<p>Following the description of the <a href="/djazz_doc_website/3_api/5_improvisation.html#label-matching">matching criteria</a>, the first half of the label must be a <a href="/djazz_doc_website/3_api/5_improvisation.html">chord root symbol</a>, but the second half can be anything: it will be matched by exact string matching.</p>
+<p>A song with beats labeled thus:</p>
+<table>
+<thead>
+<tr>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th>E m7</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td>E m7</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>courld be written as</p>
+<table>
+<thead>
+<tr>
+<th>E 1</th>
+<th>E 2</th>
+<th>E 3</th>
+<th>E 4</th>
+<th>E 1</th>
+<th>E 2</th>
+<th>E 3</th>
+<th>E 4</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E 1</td>
+<td>E 2</td>
+<td>E 3</td>
+<td>E 4</td>
+<td>E 1</td>
+<td>E 2</td>
+<td>E 3</td>
+<td>E 4</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>which would always select a measure labelled with a 2 to follow a measure labelled with a 1, a 3 to follow a 2, etc. Like this, formal positions in sections could be preserved.</p>
+<table>
+<thead>
+<tr>
+<th>E a</th>
+<th>E f</th>
+<th>E d</th>
+<th>E c</th>
+<th>E a</th>
+<th>E b</th>
+<th>E a</th>
+<th>E b</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E d</td>
+<td>E f</td>
+<td>E c</td>
+<td>E 4</td>
+<td>E 1</td>
+<td>E 2</td>
+<td>E 3</td>
+<td>E 4</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Djazz supplies a software framework for empirical inquiry into the suitability of a particular data encoding for music:
+ascertaining the “correctness” of an analysis via listening to the resulting synthesis.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Improvisation with the Factor Oracle</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="description-of-the-factor-oracle">Description of the Factor Oracle</h1>
+
+<ol>
+<li>The oracle factor patch is here:</li>
+</ol>
+<p>patchers/data_structures/factor_oracle/factor_oracle.maxpat</p>
+<ol start="2">
+<li>To use different comparison functions, you need to write a Max patch that performs the label comparison. Then you can change the comparison function in the oracle factor patch by passing it the “comparison” message and the name of the comparison patch. So far, I&rsquo;ve written two comparison patches:</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="the-factor-oracle-player">The Factor Oracle Player</h1>
+
+<p>patchers/factor_oracle_player/factor_oracle_player.maxpat</p>
+<ol start="7">
+<li>The “factor oracle player” which takes labels one by one, which can be of any form (but in the current program, it&rsquo;s a dictionary with two entries: the chord root and the chord label), and uses a factor oracle to produce a beat that matches the label. It takes two parameters: max-continuity and pitch-transposition.</li>
+</ol>
+<p>When the maximum continuity is reached, it takes a suffix link and searches for a matching label. If no matching label is found, it chooses a random state.</p>
+<p>When the “NEW” button is pressed, it reads the current antescofo partition from memory (converting it into a Max dict object), then runs the factor oracle player to generate a different succession of rhythms for each requested channel, mapping these rhythms to different (unused) channels, and combining everything again into a Max dict.</p>
+<p>The factor oracle player works the same way for audio improvisers, but it doesn&rsquo;t write any scores. It sends data to supervp objects to play from the audio buffer (recorded or loaded):</p>
+<p>patchers/improvise_oracles/djazz_audio_oracle_players.maxpat</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="analyzer">Analyzer</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="listener">Listener</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/djazz_doc_website/js/clipboard.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/perfect-scrollbar.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/theme.js?1734990963" defer></script>
+  </body>
+</html>

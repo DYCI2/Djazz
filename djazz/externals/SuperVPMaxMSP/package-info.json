@@ -1,0 +1,24 @@
+{
+	"name" : "SuperVPForMax",
+	"author" : "ISMM Team @ Ircam, based on svp library by AnaSyn Team @ Ircam",
+	"description" : "SuperVPForMax: advanced phase vocoder for Max.",
+	"homepatcher" : "SuperVP-Overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "7.0.1",
+	"os" : 	{
+		"macintosh" : 		{
+      "min_version" : "10.11.x"
+			"platform" : [ "x64", "aarch64" ],
+		}
+,
+		"windows" : 		{
+      "min_version" : "7"
+			"platform" : [ "x64" ],
+		}
+
+	}
+,
+	"tags" : [ "audio", "vocoder", "externals"],
+	"version" : "2.18.9",
+	"website" : "http://forumnet.ircam.fr/product/supervp-max-en/"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="pynote" module="max" category="pymaxmusic">
+
+	<digest>
+		Like pygen, but output is in form good for a noteout object.
+	</digest>
+	
+	<description>
+    Like pygen, but output is in form good for a noteout object.
+  </description>
+
+  <!--METADATA-->
+  <metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">Pymax</metadata>
+    <metadata name="tag">Python</metadata>
+  </metadatalist>
+
+  <!--MESSAGES-->
+  <methodlist>
+    <method name="int">
+      <digest>
+        Left inlet: start/stop. Right inlet: tempo
+      </digest>
+      <description>
+        In left inlet: 0 stops the generator, and anything else starts it.
+        In right inlet: if in beats mode, sets the tempo.
+      </description>
+    </method>
+
+    <method name="float">
+      <digest>
+        Right inlet: set the tempo if in beats mode
+      </digest>
+      <description>
+        In right inlet: if in beats mode, sets the tempo.
+      </description>
+    </method>
+
+    <method name="reset">
+      <digest>
+        In middle inlet: resets the generator to its original state.
+      </digest>
+      <description>
+        In middle inlet: resets the generator to its original state.
+      </description>
+    </method>
+  </methodlist>
+
+  <!--OUTLETS-->
+  <misc name="Outlets">
+    <description>
+      Left: MIDI pitch (int)
+      Middle: MIDI velocity (int)
+      Right: MIDI channel (int)
+    </description>
+  </misc>
+
+  <!--ARGUMENTS-->
+  <objarglist>
+    <objarg name="time-increment-type" optional="0" type="symbol">
+      <digest>(Same as pygen) Must be "beats" or "ms"</digest>
+      <description>(Same as pygen) Must be "beats" or "ms." "beats" lets you control the tempo. "ms" is for fixed-time events.</description>
+    </objarg>
+    <objarg name="generator-name" optional="0" type="symbol">
+      <digest>(Same as pygen) Name of Python generator added to Pymax</digest>
+    </objarg>
+  </objarglist>
+	
+  <!--SEEALSO-->
+  <seealsolist>
+    <seealso name="pyobj"/>
+    <seealso name="pygen"/>
+
+  </seealsolist>
+	
+</c74object>

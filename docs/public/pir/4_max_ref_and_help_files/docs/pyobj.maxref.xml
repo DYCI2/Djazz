@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="pyobj" module="max" category="pymaxmusic">
+
+	<digest>
+		Send and receive messages to and from Python objects
+	</digest>
+	
+	<description>
+    Get and set object member variables, and call object methods on the Python object whose name is the argument to this object. A part of the Pymax package.
+  </description>
+
+  <!--METADATA-->
+  <metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">Pymax</metadata>
+    <metadata name="tag">Python</metadata>
+  </metadatalist>
+	
+	<!--OUTLETS-->
+	<misc name="Outlet">
+			<digest>Return value of function call (if any)</digest>
+	</misc>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="object-name" optional="0" type="symbol">
+			<digest>Name of object added to Pymax</digest>
+		</objarg>
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="get">
+			<arglist>
+				<arg name="member-variable" optional="0" type="symbol" />
+			</arglist>
+			<digest>
+				Returns the value of the argument (the member variable)
+			</digest>
+			<description>
+        Returns the value of the argument (the member variable) from the outlet
+      </description>
+		</method>
+
+    <method name="set">
+      <arglist>
+        <arg name="member-variable" optional="0" type="symbol" />
+        <arg name="value" optional="0" type="anything" />
+      </arglist>
+      <digest>
+        Sets the value of the argument (the member variable) and returns the new value
+      </digest>
+      <description>
+        Sets the value of the argument (the member variable) and returns the new value
+      </description>
+    </method>
+
+    <method name="anything">
+      <arglist>
+        <arg name="member-function-name" optional="0" type="symbol" />        
+        <arg name="arguments" optional="1" type="anything" />
+      </arglist>
+      <digest>
+				Call an object method with the method name followed by any arguments it requires.
+      </digest>
+      <description>
+        Call an object method with the method name followed by any arguments it requires.
+        Performs the function and returns the return value (if any) from the outlet
+      </description>
+    </method>
+  </methodlist>
+	
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="pygen"/>
+		<seealso name="pynote"/>
+
+  </seealsolist>
+	
+</c74object>

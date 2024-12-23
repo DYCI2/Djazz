@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on dicts :: Hugo Relearn Theme</title>
+    <link>https://example.com/3_api/0_notes_on_rewriting_djazz/thoughts_on_dicts/index.html</link>
+    <description>Dicts, like colls, are persistent and global, so use them only as read-only.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/3_api/0_notes_on_rewriting_djazz/thoughts_on_dicts/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

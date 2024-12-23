@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="External controls and views :: Hugo Relearn Theme">
+    <meta property="og:url" content="//localhost:1313/3_api/5_external_controls_and_views.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="External controls and views :: Hugo Relearn Theme">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="//localhost:1313/images/hero.png">
+    <meta itemprop="name" content="External controls and views :: Hugo Relearn Theme">
+    <meta itemprop="image" content="//localhost:1313/images/hero.png">
+    <title>External controls and views :: Hugo Relearn Theme</title>
+    <link href="//localhost:1313/3_api/5_external_controls_and_views.html" rel="canonical" type="text/html" title="External controls and views :: Hugo Relearn Theme">
+    <link href="../../3_api/5_external_controls_and_views/index.xml" rel="alternate" type="application/rss+xml" title="External controls and views :: Hugo Relearn Theme">
+    <link href="../../css/fontawesome-all.min.css?1727968802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1727968802" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css?1727968802" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1727968802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1727968802" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1727968802" rel="stylesheet">
+    <link href="../../css/fonts.css?1727968802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1727968802" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1727968802" rel="stylesheet">
+    <link href="../../css/theme-relearn-auto.css?1727968802" rel="stylesheet" id="R-variant-style">
+    <link href="../../css/chroma-relearn-auto.css?1727968802" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../css/variant.css?1727968802" rel="stylesheet">
+    <link href="../../css/print.css?1727968802" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1727968802" rel="stylesheet">
+    <script src="../../js/variant.js?1727968802"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='\/\/localhost:1313';
+      window.index_js_url="../../index.search.js?1727968802";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../3_api/5_external_controls_and_views.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">External controls and views</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../3_api/4_architecture/pattr_usage.html" title="Pattr usage (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../3_api/5_external_controls_and_views/1_parameters.html" title="Parameters (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="external-controls-and-views">External controls and views</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of External controls and views</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="parameters">Parameters</h1>
+
+<p>Attaching External Devices
+Parameters
+Parameter Listeners
+External devices with views as well as controls
+Launchpads
+Mapping editors
+Dictionary readers and writers in javascript</p>
+<p>3. Parameters and Listeners</p>
+<p>The view/control exposes the variables that can be changed by the user. It also exposes the ways in which these controls can be changed: as bools, ints, floats, bounded, etc.</p>
+<p>To attach a device or remote controller to the system, we can use the parameter system, which is independent from the pattr system but whose functionality overlaps with it in a useful way.</p>
+<p>Each pattr can be saved as a parameter. In addition, each control surface object can be saved as a parameter. When objects containing parameters are created (like midi tracks), new parameters are created.</p>
+<p>Two javascript objects then allow for device connection. The ParameterInfoProvider lists all the parameters, and alerts us when parameters are added or removed.</p>
+<p>A javascript object contains a parameterInfoProvider and an array of ParameterListeners. Each time a parameter is added, a parameter listener is created for it.</p>
+<p>This javascript object centralises parameter communication. When a parameter is changed, it sends out its name and value. It receives values too.
+Essentially it’s a replica of the pattrstorage object. Why use it?
+Because the parameters are mapped to our control surface, not the model. We can take into account the control object logic; several buttons that change the same pattr can be saved as different parameters. Then we have more than one typed interface to the variable: we can control it as a toggle, or an int. For instance, the loop variable can be controlled by buttons with a launchpad, and by the number box with the ring. All you need to do is expose the desired control type and set is as a parameter. Again, the underlying model is unaffected.</p>
+<p>Parameter listener and maxobjlisteners are hard to deal with because you can’t delete them.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="dicts">Dicts</h1>
+
+<p>Dictionaries in Javascript and pure Max
+Gotchas</p>
+<ol start="4">
+<li>Dictionary readers and writers</li>
+</ol>
+<p>Dictionaries are used in different ways, for representing songs, architecture, and as another example for the launchpad, to keep track of how buttons are mapped to parameters and how parameters are mapped to lights. For this, several different types of dictionaries were required:</p>
+<p>DICTS AND ARRAYS</p>
+<p>one containing device-specific data mapping lights to midi and control values, (« DEVICE »)</p>
+<p>one containing the actual mappings the user creates, (« MAP »)</p>
+<p>One for the the system to read to map launchpad input to parameters, (« CTRL »)</p>
+<p>And one for the system to read mapping parameters to lights. (« VIEW »)</p>
+<p>The structure for each of these dicts can be done in different ways. Some criteria exist:</p>
+<p>The user-created dict must be easy to create, either by editing the text or with a max object</p>
+<p>The program-read dicts must be efficient, easily read by the program.</p>
+<p>These two criteria are different and ask for different structures. Also, there is not a given good structure for any of these dicts, and we might want to change them later. We might even have to, as new launchpads, and new devices, use different formats.</p>
+<p>So there’s not a general method for structuring these dicts. But we want something general so that we don’t have to rewrite a new patch and dict-accessors for each new launchpad.</p>
+<p>To solve this, we create dict-readers and dict-writes, two types of javascript objects. Each one exports a set of methods that access data or modify data. The implementation of the methods are hidden to the user.
+Each one is specific to the context it acts in. The exported methods have the same names, but the implementation is different depending on the structure of the dict it reads or writes to.
+Thus, we can use a single javascript object to read the desired dictionaries and then translate them into the format the system needs.
+Each reader and writer is imported into the module using a require statement.
+If we change or add a new dict format, we write a new reader—which only involves rewriting the implementation of the exported methods—and replace it in the appropriate require field. These can also be jsarguments.
+This way, we have translators: objects that take a reader and a writer.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1727968802" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1727968802" defer></script>
+    <script src="../../js/theme.js?1727968802" defer></script>
+  </body>
+</html>

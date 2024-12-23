@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="supervp.trans~">
+	<digest>
+		SuperVP input stream processing module
+	</digest>
+	<description>
+		                             SuperVP is an extended phase vocoder engine providing high-quality temporal and spectal sound transformations as well as cross-synthesis.                             The module <o>supervp.trans~</o> allows for directly applying spectral transformations to an incoming sound stream.                              
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">
+		Ircam | Centre Pompidou
+		</metadata>
+		<metadata name="copyright">
+		 © 1995 - 2012 IRCAM - Centre Pompidou
+		</metadata>
+		<metadata name="version">
+		2.15.4 (Build 10/2012)
+		</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="channels" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Number of audio channels (default: 1)
+			</description>
+		</objarg>
+		<objarg name="window size" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			window size (default: 1024)
+			</description>
+		</objarg>
+		<objarg name="frequency oversampling" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Frequency oversampling, STFT size = windowsize * 2 ^ fftover (default: 0)
+			</description>
+		</objarg>
+		<objarg name="window oversampling" type="float" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Oversampling, STFT hop size = windowsize / oversamp (default: 4)
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="windowsize" get="1" set="1" type="long" size="1">
+			<digest>
+				Window Size
+			</digest>
+			<description>
+				Window Size
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Window Size" />
+				<attribute name="order" get="1" set="1" type="long" value="2" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="fftover" get="1" set="1" type="long" size="1">
+			<digest>
+				Frequency Oversampling
+			</digest>
+			<description>
+				Frequency Oversampling
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Frequency Oversampling" />
+				<attribute name="order" get="1" set="1" type="long" value="3" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="oversamp" get="1" set="1" type="float64" size="1">
+			<digest>
+				Oversampling Factor
+			</digest>
+			<description>
+				Oversampling Factor
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Oversampling Factor" />
+				<attribute name="order" get="1" set="1" type="long" value="4" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="transients" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Transient Preservation
+			</digest>
+			<description>
+				Enable Transient Preservation
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Transient Preservation" />
+				<attribute name="order" get="1" set="1" type="long" value="100" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="shapeinv" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Wave Form Preservation
+			</digest>
+			<description>
+				Enable Wave Form Preservation
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Wave Form Preservation" />
+				<attribute name="order" get="1" set="1" type="long" value="101" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="stereopres" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Stereo Preservation
+			</digest>
+			<description>
+				Enable Stereo Preservation
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Stereo Preservation" />
+				<attribute name="order" get="1" set="1" type="long" value="102" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="enable-transpose" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Transposition
+			</digest>
+			<description>
+				Enable Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="200" />
+				<attribute name="paint" get="1" set="1" type="long" value="1" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="transpose" get="1" set="1" type="float64" size="1">
+			<digest>
+				Transposition
+			</digest>
+			<description>
+				Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="201" />
+				<attribute name="paint" get="1" set="1" type="long" value="1" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="transmode" get="1" set="1" type="symbol" size="1">
+			<digest>
+				Transposition Mode
+			</digest>
+			<description>
+				Transposition Mode
+			</description>
+			<attributelist>
+				<attribute name="enumvals" get="1" set="1" type="atom" value="time auto freq" />
+				<attribute name="label" get="1" set="1" type="symbol" value="Transposition Mode" />
+				<attribute name="order" get="1" set="1" type="long" value="202" />
+				<attribute name="style" get="1" set="1" type="symbol" value="enum" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="mintrans" get="1" set="1" type="float64" size="1">
+			<digest>
+				Minimum Transposition
+			</digest>
+			<description>
+				Minimum Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Minimum Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="203" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="maxfreq" get="1" set="1" type="float64" size="1">
+			<digest>
+				True Envelope Maximum Frequency
+			</digest>
+			<description>
+				True Envelope Maximum Frequency
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="True Envelope Maximum Frequency" />
+				<attribute name="order" get="1" set="1" type="long" value="306" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="maxtrans" get="1" set="1" type="float64" size="1">
+			<digest>
+				Maximum Transposition
+			</digest>
+			<description>
+				Maximum Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Maximum Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="204" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="envpres" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Envelope Preservation
+			</digest>
+			<description>
+				Enable Envelope Preservation
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Envelope Preservation" />
+				<attribute name="order" get="1" set="1" type="long" value="300" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="enable-envtrans" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Envelope Transposition
+			</digest>
+			<description>
+				Enable Envelope Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Envelope Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="301" />
+				<attribute name="paint" get="1" set="1" type="long" value="1" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="envtrans" get="1" set="1" type="float64" size="1">
+			<digest>
+				Envelope Transposition
+			</digest>
+			<description>
+				Envelope Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Envelope Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="302" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="enable-envscale" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Envelope Transposition
+			</digest>
+			<description>
+				Enable Envelope Transposition
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Envelope Transposition" />
+				<attribute name="order" get="1" set="1" type="long" value="303" />
+				<attribute name="paint" get="1" set="1" type="long" value="1" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="envscale" get="1" set="1" type="float64" size="1">
+			<digest>
+				Envelope Scaling Factor
+			</digest>
+			<description>
+				Envelope Scaling Factor
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Envelope Scaling Factor" />
+				<attribute name="order" get="1" set="1" type="long" value="304" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="envmode" get="1" set="1" type="symbol" size="1">
+			<digest>
+				Spectral Envelope Mode
+			</digest>
+			<description>
+				Spectral Envelope Mode
+			</description>
+			<attributelist>
+				<attribute name="enumvals" get="1" set="1" type="atom" value="trueenv lpc" />
+				<attribute name="label" get="1" set="1" type="symbol" value="Spectral Envelope Mode" />
+				<attribute name="order" get="1" set="1" type="long" value="305" />
+				<attribute name="style" get="1" set="1" type="symbol" value="enum" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="lpcorder" get="1" set="1" type="long" size="1">
+			<digest>
+				LPC Order
+			</digest>
+			<description>
+				LPC Order
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="LPC Order" />
+				<attribute name="order" get="1" set="1" type="long" value="307" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="enable-remix" get="1" set="1" type="long" size="1">
+			<digest>
+				Enable Remixing
+			</digest>
+			<description>
+				Enable Remixing
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Enable Remixing" />
+				<attribute name="order" get="1" set="1" type="long" value="400" />
+				<attribute name="paint" get="1" set="1" type="long" value="1" />
+				<attribute name="style" get="1" set="1" type="symbol" value="onoff" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="remix" get="1" set="1" type="float64" size="1">
+			<digest>
+				Remixing Parameters
+			</digest>
+			<description>
+				Remixing Parameters
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Remixing Parameters" />
+				<attribute name="order" get="1" set="1" type="long" value="401" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="sinmode" get="1" set="1" type="symbol" size="1">
+			<digest>
+				Sinusoids Remix Mode
+			</digest>
+			<description>
+				Sinusoids Remix Mode
+			</description>
+			<attributelist>
+				<attribute name="enumvals" get="1" set="1" type="atom" value="vocoder additive" />
+				<attribute name="label" get="1" set="1" type="symbol" value="Sinusoids Remix Mode" />
+				<attribute name="order" get="1" set="1" type="long" value="402" />
+				<attribute name="style" get="1" set="1" type="symbol" value="enum" />
+			</attributelist>
+		</attribute>
+
+	</attributelist>
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="getchannels">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output number of channels (channels &lt;int: channels&gt;)
+			</description>
+		</method>
+		<method name="getwindowsize">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output window size (windowsize &lt;int: window size&gt;)
+			</description>
+		</method>
+		<method name="getfftover">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output frequency oversampling (fftover &lt;int: frequency oversampling&gt;)
+			</description>
+		</method>
+		<method name="getoversamp">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output oversampling (oversamp &lt;int: oversampling&gt;)
+			</description>
+		</method>
+		<method name="reset">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Empty internal buffers
+			</description>
+		</method>
+		<method name="getlatency">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output i/o latency in ms (latency &lt;float: latency&gt;)
+			</description>
+		</method>
+		<method name="gettransients">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output transient preservation (transients &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="getshapeinv">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output wave form preservation (shapeinv &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="getstereopres">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output stereo preservation (stereopres &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="gettranspose">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output transposition (transpose &lt;float: transposition in cent&gt; or &lt;'off': disabled&gt;)
+			</description>
+		</method>
+		<method name="gettransmode">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output transposition mode (transmode &lt;'time'|'auto'|'freq': mode&gt;)
+			</description>
+		</method>
+		<method name="getmintrans">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output minimum transposition (mintrans &lt;float: transposition in cent&gt;)
+			</description>
+		</method>
+		<method name="getmaxtrans">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output maximum transposition (maxtrans &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="getenvpres">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output envelope preservation (envpres &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="getenvtrans">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output envelope transposition (envtrans &lt;float: transposition in cent&gt; or &lt;'off': disabled&gt;)
+			</description>
+		</method>
+		<method name="getenvscale">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output envelope scaling (envscale &lt;list: timbre scaling, mean scaling&gt; or &lt;'off': disabled&gt;)
+			</description>
+		</method>
+		<method name="getenvmode">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output envelope estimation mode (envmode &lt;'trueenv'|'lpc': mode&gt;)
+			</description>
+		</method>
+		<method name="getmaxfreq">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output maxfreq maximum f0 in Hz for spectral envelope estimation in true envelope mode (maxfreq &lt;float: freq&gt;)
+			</description>
+		</method>
+		<method name="getlpcorder">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output maximum LPC order for spectral envelope estimation in LPC mode (lpcorder &lt;int: LPC order&gt;)
+			</description>
+		</method>
+		<method name="getremix">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output sinusoids/noise/transients remix (remix &lt;list: sinusoids, noise, transients, relax time, noise error&gt; or &lt;'off': disabled&gt;)
+			</description>
+		</method>
+		<method name="getsinmode">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output sinusoids remix mode (sinmode &lt;'vocoder'|'additive': mode&gt;)
+			</description>
+		</method>
+	</methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="supervp.play~" />
+		<seealso name="supervp.scrub~" />
+		<seealso name="supervp.ring~" />
+		<seealso name="supervp.cross~" />
+		<seealso name="supervp.sourcefilter~" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

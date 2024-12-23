@@ -1,0 +1,36 @@
+{
+	"device" : "Launchpad Pro MK3",
+	"parameters" : 	{
+		"midi_out_1_unmute" : "midi 41 brown",
+		"midi_out_2_unmute" : "midi 42 brown",
+		"midi_out_3_unmute" : "midi 43 brown",
+		"midi_out_4_unmute" : "midi 44 brown",
+		"midi_out_5_unmute" : "midi 45 brown",
+		"midi_out_6_unmute" : "midi 46 brown",
+		"midi_out_7_unmute" : "midi 47 brown",
+		"midi_out_8_unmute" : "midi 48 brown",
+		"midi_track_1_improvise" : "midi 31 red",
+		"midi_track_2_improvise" : "midi 32 red",
+		"midi_track_3_improvise" : "midi 33 red",
+		"midi_track_4_improvise" : "midi 34 red",
+		"midi_track_5_improvise" : "midi 35 red",
+		"midi_track_6_improvise" : "midi 36 red",
+		"midi_track_7_improvise" : "midi 37 red",
+		"midi_track_8_improvise" : "midi 38 red",
+		"midi_out_9_unmute" : "midi 21 brown",
+		"midi_out_10_unmute" : "midi 22 brown",
+		"midi_out_11_unmute" : "midi 23 brown",
+		"midi_out_12_unmute" : "midi 24 brown",
+		"midi_out_13_unmute" : "midi 25 brown",
+		"midi_out_14_unmute" : "midi 26 brown",
+		"midi_out_15_unmute" : "midi 27 brown",
+		"midi_track_9_improvise" : "midi 11 red",
+		"midi_track_10_improvise" : "midi 12 red",
+		"midi_track_11_improvise" : "midi 13 red",
+		"midi_track_12_improvise" : "midi 14 red",
+		"midi_track_13_improvise" : "midi 15 red",
+		"midi_track_14_improvise" : "midi 16 red",
+		"midi_track_15_improvise" : "midi 17 red"
+	}
+
+}

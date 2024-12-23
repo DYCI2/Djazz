@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="darr.set_at" module="max" category="djazz">
+
+<digest>
+Sets the entry at the given index
+</digest>
+
+<description>
+When using a dict to mimic an array, use this as the assignment operator [] or _set_.
+MESSAGES
+list
+left inlet: (int anything) index, entry
+symbol
+right inlet: dict name
+SEE ALSO
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+</outletlist>
+
+<methodlist>
+	<method name="list">
+		<digest>
+		left inlet: (int anything) index, entry
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="symbol">
+		<digest>
+		right inlet: dict name
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

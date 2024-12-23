@@ -1,0 +1,80 @@
+NOTE  60 1.0 beat1
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat2
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat3
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat4
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat5
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat6
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat7
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat8
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat9
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat10
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat11
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat12
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat13
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat14
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat15
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }
+NOTE  60 1.0 beat16
+	GFWD for-killall {
+    0.0   mnote 12 100 "0.0.8" 16
+    0.083333336   mnote 12 nil "0.0.400" 16
+    }

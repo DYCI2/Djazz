@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.transpose_pitch" module="max" category="djazz">
+
+<digest>
+Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of semitones.
+</digest>
+
+<description>
+Pattr messages (must be passed via an external pattrhub/pattrstorage):
+semitones (int) -255 to 255
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="list">
+		<digest>
+		symbol int float; 1. beat dict name, 2. pitchtransposition, 3. tempo
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="list">
+		<digest>
+		left inlet: (+ list: symbol int float) 1. beat dict name, 2. pitch transposition, 3. tempo
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

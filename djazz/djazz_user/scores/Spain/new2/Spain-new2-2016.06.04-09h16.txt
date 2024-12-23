@@ -1,0 +1,1341 @@
+NOTE  60 1.0 beat1
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 50 96 "0.0.204" 3
+    0.184   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat2
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.02   mnote2 54 90 "0.0.230" 3
+    0.18   mnote2 11 103 "0.0.288" 16
+    0.312   mnote2 50 90 "0.0.227" 3
+    }
+NOTE  60 1.0 beat3
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.008   mnote2 52 90 "0.0.227" 3
+    0.192   mnote2 11 103 "0.0.288" 16
+    0.308   mnote2 50 90 "0.0.227" 3
+    }
+NOTE  60 1.0 beat4
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 47 90 "0.0.227" 3
+    0.184   mnote2 11 103 "0.0.288" 16
+    0.316   mnote2 50 90 "0.0.227" 3
+    }
+NOTE  60 1.0 beat5
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    0.308   mnote2 49 90 "0.0.227" 3
+    }
+NOTE  60 1.0 beat6
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 45 90 "0.0.227" 3
+    0.184   mnote2 11 103 "0.0.288" 16
+    0.316   mnote2 49 90 "0.0.227" 3
+    }
+NOTE  60 1.0 beat7
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    0.316   mnote2 47 90 "0.0.225" 3
+    }
+NOTE  60 1.0 beat8
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.024   mnote2 43 90 "0.0.225" 3
+    0.176   mnote2 11 103 "0.0.288" 16
+    0.312   mnote2 47 90 "0.0.219" 3
+    0.484   mnote2 52 90 "0.0.438" 3
+    }
+NOTE  60 1.0 beat9
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat10
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    0.352   mnote2 52 90 "0.0.332" 3
+    }
+NOTE  60 1.0 beat11
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat12
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.044   mnote2 52 90 "0.0.1185" 3
+    0.156   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat13
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat14
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat15
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.004   mnote2 54 90 "0.0.474" 3
+    0.196   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat16
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 50 96 "0.0.204" 3
+    0.184   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat17
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 50 96 "0.0.204" 3
+    0.184   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat18
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.056   mnote2 54 90 "0.0.2024" 3
+    0.144   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat19
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat20
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat21
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat22
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat23
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    }
+NOTE  60 1.0 beat24
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 103 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.490" 3
+    }
+NOTE  60 1.0 beat25
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.3072" 7
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat26
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.296   mnote2 47 86 "0.0.490" 3
+    }
+NOTE  60 1.0 beat27
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.792   mnote2 50 86 "0.0.492" 3
+    }
+NOTE  60 1.0 beat28
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.490" 3
+    }
+NOTE  60 1.0 beat29
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat30
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.292   mnote2 47 86 "0.0.490" 3
+    }
+NOTE  60 1.0 beat31
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.788   mnote2 50 86 "0.0.463" 3
+    }
+NOTE  60 1.0 beat32
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.78   mnote2 42 86 "0.0.490" 3
+    }
+NOTE  60 1.0 beat33
+	GFWD for-killall {
+    0.0   mnote2 58 80 "0.0.3072" 7
+    0.0   mnote2 61 80 "0.0.3072" 7
+    0.0   mnote2 64 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat34
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.288   mnote2 46 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat35
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.784   mnote2 49 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat36
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.776   mnote2 42 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat37
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat38
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.284   mnote2 46 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat39
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat40
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.024   mnote2 49 91 "0.0.442" 3
+    0.176   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat41
+	GFWD for-killall {
+    0.0   mnote2 62 80 "0.0.1536" 7
+    0.0   mnote2 67 80 "0.0.1536" 7
+    0.0   mnote2 71 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.02   mnote2 40 91 "0.0.438" 3
+    0.18   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat42
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    0.288   mnote2 43 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat43
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    0.788   mnote2 44 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat44
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    0.776   mnote2 45 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat45
+	GFWD for-killall {
+    0.0   mnote2 61 80 "0.0.1536" 7
+    0.0   mnote2 64 80 "0.0.1536" 7
+    0.0   mnote2 67 80 "0.0.1536" 7
+    0.0   mnote2 69 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat46
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    0.284   mnote2 49 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat47
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    0.788   mnote2 52 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat48
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    0.772   mnote2 50 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat49
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.1536" 7
+    0.0   mnote2 62 80 "0.0.1536" 7
+    0.0   mnote2 66 80 "0.0.1536" 7
+    0.0   mnote2 69 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat50
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    0.284   mnote2 45 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat51
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    0.788   mnote2 42 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat52
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    0.776   mnote2 38 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat53
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.1536" 7
+    0.0   mnote2 62 80 "0.0.1536" 7
+    0.0   mnote2 66 80 "0.0.1536" 7
+    0.0   mnote2 69 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat54
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.284   mnote2 45 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat55
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.792   mnote2 48 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat56
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.776   mnote2 49 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat57
+	GFWD for-killall {
+    0.0   mnote2 65 80 "0.0.1536" 7
+    0.0   mnote2 68 80 "0.0.1536" 7
+    0.0   mnote2 71 80 "0.0.1536" 7
+    0.0   mnote2 73 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.776   mnote2 49 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat58
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat59
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.78   mnote2 41 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat60
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.784   mnote2 42 84 "0.0.440" 3
+    }
+NOTE  60 1.0 beat61
+	GFWD for-killall {
+    0.0   mnote2 58 80 "0.0.1536" 7
+    0.0   mnote2 61 80 "0.0.1536" 7
+    0.0   mnote2 64 80 "0.0.1536" 7
+    0.0   mnote2 66 80 "0.0.1536" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat62
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.78   mnote2 49 84 "0.0.440" 3
+    }
+NOTE  60 1.0 beat63
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat64
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat65
+	GFWD for-killall {
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 73 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 47 106 "0.0.1150" 3
+    0.188   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat66
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat67
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat68
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.08   mnote2 47 109 "0.0.883" 3
+    0.12   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat69
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    0.788   mnote2 47 109 "0.0.968" 3
+    }
+NOTE  60 1.0 beat70
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat71
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat72
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 47 106 "0.0.470" 3
+    0.188   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat73
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat74
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat75
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat76
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.264   mnote2 55 85 "0.0.161" 3
+    0.46   mnote2 54 75 "0.0.536" 3
+    }
+NOTE  60 1.0 beat77
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat78
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.004   mnote2 50 72 "0.0.217" 3
+    0.196   mnote2 11 104 "0.0.288" 16
+    0.288   mnote2 47 76 "0.0.252" 3
+    }
+NOTE  60 1.0 beat79
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.028   mnote2 52 83 "0.0.298" 3
+    0.172   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat80
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat81
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat82
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.332   mnote2 50 54 "0.0.213" 3
+    }
+NOTE  60 1.0 beat83
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.036   mnote2 49 86 "0.0.296" 3
+    0.164   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat84
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.788   mnote2 45 95 "0.0.209" 3
+    }
+NOTE  60 1.0 beat85
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.276   mnote2 47 89 "0.0.225" 3
+    }
+NOTE  60 1.0 beat86
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.3   mnote2 43 101 "0.0.242" 3
+    }
+NOTE  60 1.0 beat87
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat88
+	GFWD for-killall {
+    0.0   mnote2 50 84 "0.0.378" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat89
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.044   mnote2 52 92 "0.0.372" 3
+    0.156   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat90
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.32   mnote2 52 64 "0.0.159" 3
+    }
+NOTE  60 1.0 beat91
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    0.744   mnote2 54 81 "0.0.200" 3
+    }
+NOTE  60 1.0 beat92
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.312   mnote2 50 77 "0.0.186" 3
+    }
+NOTE  60 1.0 beat93
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 47 86 "0.0.467" 3
+    0.188   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat94
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.024   mnote2 50 76 "0.0.173" 3
+    0.176   mnote2 11 104 "0.0.288" 16
+    0.26   mnote2 47 80 "0.0.211" 3
+    }
+NOTE  60 1.0 beat95
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 52 101 "0.0.455" 3
+    0.184   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat96
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.036   mnote2 49 76 "0.0.186" 3
+    0.164   mnote2 11 104 "0.0.288" 16
+    0.312   mnote2 47 103 "0.0.182" 3
+    }
+NOTE  60 1.0 beat97
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat98
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat99
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.256   mnote2 42 82 "0.0.465" 3
+    }
+NOTE  60 1.0 beat100
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.316   mnote2 47 90 "0.0.165" 3
+    }
+NOTE  60 1.0 beat101
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat102
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.284   mnote2 46 106 "0.0.444" 3
+    }
+NOTE  60 1.0 beat103
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.348   mnote2 44 74 "0.0.221" 3
+    }
+NOTE  60 1.0 beat104
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.052   mnote2 42 96 "0.0.236" 3
+    0.148   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat105
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.336   mnote2 37 62 "0.0.228" 3
+    }
+NOTE  60 1.0 beat106
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.036   mnote2 42 65 "0.0.194" 3
+    0.164   mnote2 11 104 "0.0.288" 16
+    0.336   mnote2 37 66 "0.0.190" 3
+    0.424   mnote2 44 72 "0.0.184" 3
+    }
+NOTE  60 1.0 beat107
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.244   mnote2 37 68 "0.0.179" 3
+    }
+NOTE  60 1.0 beat108
+	GFWD for-killall {
+    0.0   mnote2 46 79 "0.0.146" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.244   mnote2 45 88 "0.0.225" 3
+    }
+NOTE  60 1.0 beat109
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.332   mnote2 42 68 "0.0.259" 3
+    }
+NOTE  60 1.0 beat110
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.3   mnote2 54 103 "0.0.227" 3
+    }
+NOTE  60 1.0 beat111
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    0.708   mnote2 54 99 "0.0.227" 3
+    }
+NOTE  60 1.0 beat112
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat113
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.044   mnote2 52 104 "0.0.643" 3
+    0.156   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat114
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.296   mnote2 50 87 "0.0.242" 3
+    }
+NOTE  60 1.0 beat115
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    0.544   mnote2 47 111 "0.0.2523" 3
+    }
+NOTE  60 1.0 beat116
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat117
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat118
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat119
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat120
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat121
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat122
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat123
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.072   mnote2 47 96 "0.0.213" 3
+    0.128   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat124
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 104 "0.0.288" 16
+    }
+NOTE  60 1.0 beat125
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.6144" 7
+    0.0   mnote2 62 80 "0.0.6144" 7
+    0.0   mnote2 66 80 "0.0.6144" 7
+    0.0   mnote2 69 80 "0.0.6144" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.036   mnote2 43 89 "0.0.751" 3
+    0.164   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat126
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.372   mnote2 49 65 "0.0.188" 3
+    0.404   mnote2 50 87 "0.0.770" 3
+    }
+NOTE  60 1.0 beat127
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat128
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.42   mnote2 54 62 "0.0.190" 3
+    0.368   mnote2 55 91 "0.0.945" 3
+    }
+NOTE  60 1.0 beat129
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat130
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.772   mnote2 50 94 "0.0.977" 3
+    }
+NOTE  60 1.0 beat131
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat132
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat133
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.068   mnote2 43 93 "0.0.916" 3
+    0.132   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat134
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat135
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat136
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.76   mnote2 55 81 "0.0.747" 3
+    }
+NOTE  60 1.0 beat137
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat138
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.4   mnote2 49 68 "0.0.184" 3
+    }
+NOTE  60 1.0 beat139
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.052   mnote2 50 77 "0.0.451" 3
+    0.148   mnote2 7 100 "0.0.288" 16
+    0.788   mnote2 50 86 "0.0.463" 3
+    }
+NOTE  60 1.0 beat140
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat141
+	GFWD for-killall {
+    0.0   mnote2 64 80 "0.0.6144" 7
+    0.0   mnote2 70 80 "0.0.6144" 7
+    0.0   mnote2 73 80 "0.0.6144" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.032   mnote2 42 85 "0.0.939" 3
+    0.168   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat142
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.768   mnote2 49 83 "0.0.958" 3
+    }
+NOTE  60 1.0 beat143
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat144
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.748   mnote2 54 85 "0.0.927" 3
+    }
+NOTE  60 1.0 beat145
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat146
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.78   mnote2 42 86 "0.0.486" 3
+    }
+NOTE  60 1.0 beat147
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat148
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.056   mnote2 42 92 "0.0.440" 3
+    0.144   mnote2 6 102 "0.0.288" 16
+    0.78   mnote2 42 86 "0.0.962" 3
+    }
+NOTE  60 1.0 beat149
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat150
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat151
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat152
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.784   mnote2 45 81 "0.0.962" 3
+    }
+NOTE  60 1.0 beat153
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat154
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.792   mnote2 46 91 "0.0.952" 3
+    }
+NOTE  60 1.0 beat155
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat156
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat157
+	GFWD for-killall {
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 67 80 "0.0.3072" 7
+    0.0   mnote2 71 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 40 73 "0.0.950" 3
+    0.188   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat158
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat159
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.008   mnote2 47 74 "0.0.956" 3
+    0.192   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat160
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat161
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 52 81 "0.0.952" 3
+    0.188   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat162
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    0.78   mnote2 47 73 "0.0.488" 3
+    }
+NOTE  60 1.0 beat163
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat164
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.052   mnote2 40 61 "0.0.447" 3
+    0.148   mnote2 4 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat165
+	GFWD for-killall {
+    0.0   mnote2 45 80 "0.0.935" 3
+    0.0   mnote2 61 80 "0.0.3072" 7
+    0.0   mnote2 64 80 "0.0.3072" 7
+    0.0   mnote2 67 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat166
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat167
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.016   mnote2 52 68 "0.0.916" 3
+    0.184   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat168
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat169
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.004   mnote2 57 72 "0.0.906" 3
+    0.196   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat170
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat171
+	GFWD for-killall {
+    0.0   mnote2 52 70 "0.0.459" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat172
+	GFWD for-killall {
+    0.0   mnote2 51 70 "0.0.467" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 9 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat173
+	GFWD for-killall {
+    0.0   mnote2 50 69 "0.0.933" 3
+    0.0   mnote2 59 80 "0.0.3072" 7
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat174
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    0.772   mnote2 50 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat175
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    0.772   mnote2 50 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat176
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat177
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.032   mnote2 50 74 "0.0.937" 3
+    0.168   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat178
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat179
+	GFWD for-killall {
+    0.0   mnote2 45 75 "0.0.457" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 2 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat180
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.004   mnote2 44 69 "0.0.470" 3
+    0.196   mnote2 2 100 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.482" 3
+    }
+NOTE  60 1.0 beat181
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.3072" 7
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.482" 3
+    }
+NOTE  60 1.0 beat182
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat183
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.044   mnote2 50 62 "0.0.453" 3
+    0.156   mnote2 7 100 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.482" 3
+    }
+NOTE  60 1.0 beat184
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    0.784   mnote2 43 86 "0.0.482" 3
+    }
+NOTE  60 1.0 beat185
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat186
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat187
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.028   mnote2 50 76 "0.0.484" 3
+    0.172   mnote2 7 100 "0.0.288" 16
+    0.78   mnote2 43 71 "0.0.461" 3
+    }
+NOTE  60 1.0 beat188
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 7 100 "0.0.288" 16
+    }
+NOTE  60 1.0 beat189
+	GFWD for-killall {
+    0.0   mnote2 59 80 "0.0.3072" 7
+    0.0   mnote2 65 80 "0.0.3072" 7
+    0.0   mnote2 68 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 49 72 "0.0.468" 3
+    0.188   mnote2 1 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat190
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 49 72 "0.0.468" 3
+    0.188   mnote2 1 102 "0.0.288" 16
+    0.776   mnote2 49 91 "0.0.829" 3
+    }
+NOTE  60 1.0 beat191
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat192
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.792   mnote2 49 63 "0.0.480" 3
+    }
+NOTE  60 1.0 beat193
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.776   mnote2 49 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat194
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat195
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    0.78   mnote2 41 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat196
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 1 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat197
+	GFWD for-killall {
+    0.0   mnote2 64 80 "0.0.3072" 7
+    0.0   mnote2 70 80 "0.0.3072" 7
+    0.0   mnote2 73 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.048   mnote2 48 72 "0.0.451" 3
+    0.152   mnote2 6 102 "0.0.288" 16
+    0.78   mnote2 42 86 "0.0.486" 3
+    }
+NOTE  60 1.0 beat198
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat199
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.028   mnote2 48 66 "0.0.904" 3
+    0.172   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat200
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat201
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.024   mnote2 48 75 "0.0.465" 3
+    0.176   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat202
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.78   mnote2 49 84 "0.0.440" 3
+    }
+NOTE  60 1.0 beat203
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    0.692   mnote2 48 67 "0.0.501" 3
+    }
+NOTE  60 1.0 beat204
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 6 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat205
+	GFWD for-killall {
+    0.0   mnote2 62 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 73 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 47 106 "0.0.920" 3
+    0.188   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat206
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat207
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.02   mnote2 42 67 "0.0.948" 3
+    0.18   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat208
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat209
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.04   mnote2 47 73 "0.0.887" 3
+    0.16   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat210
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat211
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.036   mnote2 54 64 "0.0.584" 3
+    0.164   mnote2 11 101 "0.0.288" 16
+    }
+NOTE  60 1.0 beat212
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 101 "0.0.288" 16
+    0.204   mnote2 54 67 "0.0.292" 3
+    0.572   mnote2 47 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat213
+	GFWD for-killall {
+    0.0   mnote2 63 80 "0.0.3072" 7
+    0.0   mnote2 66 80 "0.0.3072" 7
+    0.0   mnote2 69 80 "0.0.3072" 7
+    0.0   mnote2 71 80 "0.0.3072" 7
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat214
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.012   mnote2 47 72 "0.0.468" 3
+    0.188   mnote2 11 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat215
+	GFWD for-killall {
+    0.0   mnote2 47 80 "0.0.476" 3
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    }
+NOTE  60 1.0 beat216
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.004   mnote2 47 64 "0.0.472" 3
+    0.196   mnote2 11 102 "0.0.288" 16
+    0.776   mnote2 47 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat217
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    0.776   mnote2 47 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat218
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    0.776   mnote2 47 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat219
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    0.776   mnote2 47 91 "0.0.461" 3
+    }
+NOTE  60 1.0 beat220
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.19" 16
+    0.2   mnote2 11 102 "0.0.288" 16
+    }

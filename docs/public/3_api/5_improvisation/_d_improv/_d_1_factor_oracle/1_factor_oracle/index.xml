@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Description of the Factor Oracle :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/3_api/5_improvisation/_d_improv/_d_1_factor_oracle/1_factor_oracle.html</link>
+    <description>The oracle factor patch is here: patchers/data_structures/factor_oracle/factor_oracle.maxpat&#xA;To use different comparison functions, you need to write a Max patch that performs the label comparison.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3_api/5_improvisation/_d_improv/_d_1_factor_oracle/1_factor_oracle/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

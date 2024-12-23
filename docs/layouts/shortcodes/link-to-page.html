@@ -1,0 +1,8 @@
+{{- $targetPath := .Get "path" -}}
+{{- $targetPage := .Site.GetPage $targetPath -}}
+
+{{- if $targetPage -}}
+<a href="{{ $targetPage.RelPermalink }}">{{ .Inner }}</a>
+{{- else -}}
+<p>Page not found: {{ $targetPath }}</p>
+{{- end -}}

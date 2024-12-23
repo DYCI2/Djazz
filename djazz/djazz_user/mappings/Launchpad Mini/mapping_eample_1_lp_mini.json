@@ -1,0 +1,38 @@
+{
+	"device" : "Launchpad Mini",
+	"parameters" : 	{
+		"audio_1_loop_1" : "midi 64 green",
+		"audio_1_loop_2" : "midi 65 green",
+		"audio_1_loop_3" : "midi 66 green",
+		"audio_1_loop_4" : "midi 67 green",
+		"audio_2_loop_1" : "midi 68 red",
+		"audio_2_loop_2" : "midi 69 red",
+		"audio_2_loop_3" : "midi 70 red",
+		"audio_2_loop_4" : "midi 71 red",
+		"audio_1_speed_2" : "midi 80 yellow",
+		"audio_1_speed_3/2" : "midi 96 yellow",
+		"audio_1_speed_1/2" : "midi 112 yellow",
+		"audio_1_pitch_up" : "midi 81 orange",
+		"audio_1_reset_pitch" : "midi 97 orange",
+		"audio_1_pitch_down" : "midi 113 orange",
+		"audio_1_octave_up" : "midi 82 green",
+		"audio_1_reset_octave" : "midi 98 green",
+		"audio_1_octave_down" : "midi 114 green",
+		"audio_out_1_unmute" : "midi 83 yellow",
+		"audio_1_active" : "midi 99 orange",
+		"audio_1_improvise" : "midi 115 red",
+		"audio_2_speed_2" : "midi 84 yellow",
+		"audio_2_speed_3/2" : "midi 100 yellow",
+		"audio_2_speed_1/2" : "midi 116 yellow",
+		"audio_2_pitch_up" : "midi 85 orange",
+		"audio_2_reset_pitch" : "midi 101 orange",
+		"audio_2_pitch_down" : "midi 117 orange",
+		"audio_2_octave_up" : "midi 86 green",
+		"audio_2_reset_octave" : "midi 102 green",
+		"audio_2_octave_down" : "midi 118 green",
+		"audio_out_2_unmute" : "midi 87 yellow",
+		"audio_2_active" : "midi 103 orange",
+		"audio_2_improvise" : "midi 119 red"
+	}
+
+}

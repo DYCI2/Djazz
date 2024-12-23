@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/1_manual/6_tools.html</link>
+    <description>Djazz comes with many preloaded songs, but you can also load your own songs to play and improvise on.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/1_manual/6_tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Song File</title>
+      <link>http://localhost:1313/1_manual/6_tools/make_song_file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/1_manual/6_tools/make_song_file.html</guid>
+      <description>Djazz uses a song file to play a song, whether you are plaing back scores or using live MIDI or audio.</description>
+    </item>
+    <item>
+      <title>Making a Score File</title>
+      <link>http://localhost:1313/1_manual/6_tools/make_score_file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/1_manual/6_tools/make_score_file.html</guid>
+      <description>Score files contain preloaded notes, formatted so that Djazz can play them and use them to improvise.</description>
+    </item>
+  </channel>
+</rss>

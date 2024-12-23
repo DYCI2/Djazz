@@ -1,0 +1,36 @@
+{
+	"device" : "Launchpad Mini",
+	"parameters" : 	{
+		"midi_out_1_unmute" : "midi 64 orange",
+		"midi_out_2_unmute" : "midi 65 orange",
+		"midi_out_3_unmute" : "midi 66 orange",
+		"midi_out_4_unmute" : "midi 67 orange",
+		"midi_out_5_unmute" : "midi 68 orange",
+		"midi_out_6_unmute" : "midi 69 orange",
+		"midi_out_7_unmute" : "midi 70 orange",
+		"midi_out_8_unmute" : "midi 71 orange",
+		"midi_out_9_unmute" : "midi 96 orange",
+		"midi_out_10_unmute" : "midi 97 orange",
+		"midi_out_11_unmute" : "midi 98 orange",
+		"midi_out_12_unmute" : "midi 99 orange",
+		"midi_out_13_unmute" : "midi 100 orange",
+		"midi_out_14_unmute" : "midi 101 orange",
+		"midi_out_15_unmute" : "midi 102 orange",
+		"midi_track_1_improvise" : "midi 80 red",
+		"midi_track_2_improvise" : "midi 81 red",
+		"midi_track_3_improvise" : "midi 82 red",
+		"midi_track_5_improvise" : "midi 84 red",
+		"midi_track_6_improvise" : "midi 85 red",
+		"midi_track_4_improvise" : "midi 83 red",
+		"midi_track_7_improvise" : "midi 86 red",
+		"midi_track_8_improvise" : "midi 87 red",
+		"midi_track_9_improvise" : "midi 112 red",
+		"midi_track_10_improvise" : "midi 113 red",
+		"midi_track_11_improvise" : "midi 114 red",
+		"midi_track_12_improvise" : "midi 115 red",
+		"midi_track_13_improvise" : "midi 116 red",
+		"midi_track_14_improvise" : "midi 117 red",
+		"midi_track_15_improvise" : "midi 118 red"
+	}
+
+}

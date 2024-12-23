@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/djazz_doc_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=djazz_doc_website/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of octaves.">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta name="twitter:title" content="djazz.audio.transpose_octaves :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of octaves.">
+    <meta property="og:url" content="http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="djazz.audio.transpose_octaves :: Hugo Relearn Theme">
+    <meta property="og:description" content="Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of octaves.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <meta itemprop="name" content="djazz.audio.transpose_octaves :: Hugo Relearn Theme">
+    <meta itemprop="description" content="Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of octaves.">
+    <meta itemprop="wordCount" content="68">
+    <meta itemprop="image" content="http://localhost:1313/djazz_doc_website/images/hero.png">
+    <title>djazz.audio.transpose_octaves :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves.html" rel="canonical" type="text/html" title="djazz.audio.transpose_octaves :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves/index.xml" rel="alternate" type="application/rss+xml" title="djazz.audio.transpose_octaves :: Hugo Relearn Theme">
+    <link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fontawesome-all.min.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/nucleus.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/auto-complete.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/perfect-scrollbar.min.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/djazz_doc_website/css/fonts.css?1734990963" rel="stylesheet"></noscript>
+    <link href="/djazz_doc_website/css/theme.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/theme-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-style">
+    <link href="/djazz_doc_website/css/chroma-relearn-auto.css?1734990963" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/djazz_doc_website/css/variant.css?1734990963" rel="stylesheet">
+    <link href="/djazz_doc_website/css/print.css?1734990963" rel="stylesheet" media="print">
+    <link href="/djazz_doc_website/css/format-print.css?1734990963" rel="stylesheet">
+    <script src="/djazz_doc_website/js/variant.js?1734990963"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/djazz_doc_website';
+      window.index_js_url="/djazz_doc_website/index.search.js?1734990963";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_octaves.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/djazz_doc_website/3_api/1_abstraction_references.html"><span itemprop="name">Index of important abstractions</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">djazz.audio.transpose_octaves</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.supervp_player.html" title="djazz.audio.supervp_player (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/djazz_doc_website/3_api/1_abstraction_references/components/djazz.audio.transpose_pitch.html" title="djazz.audio.transpose_pitch (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="djazzaudiotranspose_octaves">djazz.audio.transpose_octaves</h1>
+
+<p>Adjusts message being sent to djaz.audio.beat_player so that the audio will be transposed up the desired number of octaves.</p>
+<p>Pattr messages (must be passed via an external pattrhub/pattrstorage):<br>
+octaves (<em>int</em>) -255 to 255</p>
+<h5 id="outlets">OUTLETS</h5>
+<h6 id="0-emsp--_list_">0    <em>list</em></h6>
+<p>(<em>symbol</em> <em>int</em> <em>float</em>) 1. beat dict name, 2. pitch transposition, 3. tempo</p>
+<h5 id="messages">MESSAGES</h5>
+<p><strong><em>list</em></strong><br>
+left inlet: (+ <em>list</em>: <em>symbol</em> <em>int</em> <em>float</em>) 1. beat dict name, 2. pitch transposition 3. tempo</p>
+<h5 id="see-also">SEE ALSO</h5>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/djazz_doc_website/js/clipboard.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/perfect-scrollbar.min.js?1734990963" defer></script>
+    <script src="/djazz_doc_website/js/theme.js?1734990963" defer></script>
+  </body>
+</html>

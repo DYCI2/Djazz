@@ -1,0 +1,791 @@
+NOTE  60 1.0 beat1
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.07854985   mnote2 41 90 ""0.0.898"" 3
+    0.07250755   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat2
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat3
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.06344411   mnote2 29 84 ""0.0.429"" 3
+    0.08761329   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat4
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.10876133   mnote2 36 64 ""0.0.461"" 3
+    0.042296075   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat5
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.07854985   mnote2 34 62 ""0.0.951"" 3
+    0.07250755   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat6
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat7
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.012084592   mnote2 46 53 ""0.0.1262"" 3
+    0.1389728   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat8
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat9
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.51057405   mnote2 39 84 ""0.0.695"" 3
+    }
+NOTE  60 1.0 beat10
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat11
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.04833837   mnote2 49 36 ""0.0.966"" 3
+    0.10271903   mnote2 3 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat12
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat13
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.03021148   mnote2 44 76 ""0.0.1949"" 3
+    0.12084592   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat14
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat15
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat16
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    0.81570995   mnote2 49 42 ""0.0.1057"" 3
+    }
+NOTE  60 1.0 beat17
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat18
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat19
+	GFWD for-killall {
+    0.0   mnote2 37 59 ""0.0.854"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat20
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat21
+	GFWD for-killall {
+    0.0   mnote2 38 89 ""0.0.892"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat22
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 101 ""0.0.335"" 16
+    0.84592146   mnote2 43 88 ""0.0.953"" 3
+    }
+NOTE  60 1.0 beat23
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat24
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat25
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.093655586   mnote2 48 48 ""0.0.1420"" 3
+    0.057401814   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat26
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat27
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat28
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.04531722   mnote2 43 75 ""0.0.567"" 3
+    0.10574018   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat29
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 100 ""0.0.335"" 16
+    0.006042296   mnote2 36 73 ""0.0.1396"" 3
+    }
+NOTE  60 1.0 beat30
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat31
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat32
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.09667674   mnote2 43 71 ""0.0.490"" 3
+    0.054380667   mnote2 0 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat33
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    0.021148038   mnote2 48 58 ""0.0.930"" 3
+    }
+NOTE  60 1.0 beat34
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat35
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.10876133   mnote2 39 95 ""0.0.438"" 3
+    0.042296075   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat36
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    0.036253777   mnote2 40 69 ""0.0.415"" 3
+    }
+NOTE  60 1.0 beat37
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    0.018126889   mnote2 41 73 ""0.0.1829"" 3
+    }
+NOTE  60 1.0 beat38
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat39
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat40
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat41
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.04531722   mnote2 35 92 ""0.0.892"" 3
+    0.10574018   mnote2 10 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat42
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat43
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.04531722   mnote2 40 96 ""0.0.899"" 3
+    0.10574018   mnote2 10 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat44
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 102 ""0.0.335"" 16
+    0.7522659   mnote2 39 104 ""0.0.975"" 3
+    }
+NOTE  60 1.0 beat45
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat46
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 100 ""0.0.335"" 16
+    0.7522659   mnote2 51 56 ""0.0.1034"" 3
+    }
+NOTE  60 1.0 beat47
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat48
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 100 ""0.0.335"" 16
+    0.83383686   mnote2 44 64 ""0.0.1911"" 3
+    }
+NOTE  60 1.0 beat49
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat50
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat51
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat52
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat53
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.093655586   mnote2 45 87 ""0.0.1238"" 3
+    0.057401814   mnote2 9 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat54
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 9 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat55
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    0.52567977   mnote2 50 105 ""0.0.673"" 3
+    }
+NOTE  60 1.0 beat56
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat57
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.12386707   mnote2 43 84 ""0.0.3128"" 3
+    0.027190334   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat58
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat59
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat60
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat61
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat62
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat63
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat64
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.018126889   mnote2 40 127 ""0.0.174"" 3
+    0.13293052   mnote2 7 100 ""0.0.335"" 16
+    0.41691843   mnote2 39 85 ""0.0.158"" 3
+    }
+NOTE  60 1.0 beat65
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.10876133   mnote2 38 85 ""0.0.1676"" 3
+    0.042296075   mnote2 9 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat66
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 9 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat67
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 9 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat68
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 9 101 ""0.0.335"" 16
+    0.5377644   mnote2 50 73 ""0.0.1428"" 3
+    }
+NOTE  60 1.0 beat69
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat70
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat71
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    0.5407855   mnote2 38 104 ""0.0.634"" 3
+    }
+NOTE  60 1.0 beat72
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 2 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat73
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.093655586   mnote2 43 95 ""0.0.1910"" 3
+    0.057401814   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat74
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat75
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat76
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat77
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.093655586   mnote2 50 80 ""0.0.454"" 3
+    0.057401814   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat78
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.01510574   mnote2 49 45 ""0.0.438"" 3
+    0.13595167   mnote2 7 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat79
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.03021148   mnote2 48 55 ""0.0.505"" 3
+    0.12084592   mnote2 7 100 ""0.0.335"" 16
+    0.83081574   mnote2 45 71 ""0.0.468"" 3
+    }
+NOTE  60 1.0 beat80
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 100 ""0.0.335"" 16
+    0.7854985   mnote2 42 88 ""0.0.1502"" 3
+    }
+NOTE  60 1.0 beat81
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 6 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat82
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 6 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat83
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 6 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat84
+	GFWD for-killall {
+    0.0   mnote2 46 47 ""0.0.490"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 6 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat85
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.06344411   mnote2 47 96 ""0.0.1441"" 3
+    0.08761329   mnote2 11 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat86
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat87
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat88
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 102 ""0.0.335"" 16
+    0.006042296   mnote2 35 69 ""0.0.431"" 3
+    }
+NOTE  60 1.0 beat89
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.12688822   mnote2 40 108 ""0.0.1910"" 3
+    0.024169185   mnote2 4 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat90
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 4 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat91
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 4 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat92
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 4 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat93
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.14199396   mnote2 48 103 ""0.0.905"" 3
+    0.009063444   mnote2 7 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat94
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat95
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.09063444   mnote2 36 94 ""0.0.470"" 3
+    0.06042296   mnote2 0 102 ""0.0.335"" 16
+    0.83081574   mnote2 39 110 ""0.0.415"" 3
+    }
+NOTE  60 1.0 beat96
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat97
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    0.08459215   mnote2 41 80 ""0.0.1375"" 3
+    }
+NOTE  60 1.0 beat98
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat99
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat100
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.06344411   mnote2 48 73 ""0.0.506"" 3
+    0.08761329   mnote2 5 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat101
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.06042296   mnote2 46 62 ""0.0.1443"" 3
+    0.09063444   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat102
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat103
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat104
+	GFWD for-killall {
+    0.0   mnote2 53 89 ""0.0.508"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat105
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.03021148   mnote2 52 67 ""0.0.898"" 3
+    0.12084592   mnote2 3 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat106
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.83081574   mnote2 45 84 ""0.0.922"" 3
+    }
+NOTE  60 1.0 beat107
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat108
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.755287   mnote2 44 89 ""0.0.996"" 3
+    }
+NOTE  60 1.0 beat109
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat110
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    0.6616314   mnote2 51 46 ""0.0.513"" 3
+    }
+NOTE  60 1.0 beat111
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    0.72205437   mnote2 50 84 ""0.0.542"" 3
+    }
+NOTE  60 1.0 beat112
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    0.7824773   mnote2 49 39 ""0.0.2003"" 3
+    }
+NOTE  60 1.0 beat113
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat114
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat115
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat116
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 100 ""0.0.335"" 16
+    0.83081574   mnote2 37 71 ""0.0.960"" 3
+    }
+NOTE  60 1.0 beat117
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat118
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 101 ""0.0.335"" 16
+    0.84592146   mnote2 42 92 ""0.0.975"" 3
+    }
+NOTE  60 1.0 beat119
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat120
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 1 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat121
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.03021148   mnote2 48 73 ""0.0.1911"" 3
+    0.12084592   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat122
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat123
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat124
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat125
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.01510574   mnote2 47 96 ""0.0.1805"" 3
+    0.13595167   mnote2 11 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat126
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat127
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat128
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 11 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat129
+	GFWD for-killall {
+    0.0   mnote2 34 71 ""0.0.431"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat130
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.0755287   mnote2 36 89 ""0.0.431"" 3
+    0.0755287   mnote2 10 101 ""0.0.335"" 16
+    0.8187311   mnote2 37 100 ""0.0.429"" 3
+    }
+NOTE  60 1.0 beat131
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat132
+	GFWD for-killall {
+    0.0   mnote2 38 108 ""0.0.416"" 3
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 10 101 ""0.0.335"" 16
+    0.8006042   mnote2 39 94 ""0.0.386"" 3
+    }
+NOTE  60 1.0 beat133
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.8006042   mnote2 41 90 ""0.0.468"" 3
+    }
+NOTE  60 1.0 beat134
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.72205437   mnote2 43 81 ""0.0.384"" 3
+    }
+NOTE  60 1.0 beat135
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.72205437   mnote2 46 77 ""0.0.429"" 3
+    }
+NOTE  60 1.0 beat136
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 3 102 ""0.0.335"" 16
+    0.6586103   mnote2 44 75 ""0.0.2055"" 3
+    }
+NOTE  60 1.0 beat137
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat138
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat139
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat140
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 8 100 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat141
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.093655586   mnote2 43 75 ""0.0.937"" 3
+    0.057401814   mnote2 7 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat142
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 7 101 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat143
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.07854985   mnote2 48 70 ""0.0.922"" 3
+    0.07250755   mnote2 0 102 ""0.0.335"" 16
+    }
+NOTE  60 1.0 beat144
+	GFWD for-killall {
+    0.0   mnote2 12 100 ""0.0.15"" 16
+    0.1510574   mnote2 0 102 ""0.0.335"" 16
+    }

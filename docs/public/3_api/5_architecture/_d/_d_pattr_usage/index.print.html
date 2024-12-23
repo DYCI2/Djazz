@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="Pattr translation in control and view control
+Interface - not much to say.">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Pattr usage :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Pattr translation in control and view control
+Interface - not much to say.">
+    <meta property="og:url" content="//localhost:1313/3_api/5_architecture/_d/_d_pattr_usage.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="Pattr usage :: Hugo Relearn Theme">
+    <meta property="og:description" content="Pattr translation in control and view control
+Interface - not much to say.">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="//localhost:1313/images/hero.png">
+    <meta itemprop="name" content="Pattr usage :: Hugo Relearn Theme">
+    <meta itemprop="description" content="Pattr translation in control and view control
+Interface - not much to say.">
+    <meta itemprop="wordCount" content="1377">
+    <meta itemprop="image" content="//localhost:1313/images/hero.png">
+    <title>Pattr usage :: Hugo Relearn Theme</title>
+    <link href="//localhost:1313/3_api/5_architecture/_d/_d_pattr_usage.html" rel="canonical" type="text/html" title="Pattr usage :: Hugo Relearn Theme">
+    <link href="../../../../3_api/5_architecture/_d/_d_pattr_usage/index.xml" rel="alternate" type="application/rss+xml" title="Pattr usage :: Hugo Relearn Theme">
+    <link href="../../../../css/fontawesome-all.min.css?1732822245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/fontawesome-all.min.css?1732822245" rel="stylesheet"></noscript>
+    <link href="../../../../css/nucleus.css?1732822245" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1732822245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/auto-complete.css?1732822245" rel="stylesheet"></noscript>
+    <link href="../../../../css/perfect-scrollbar.min.css?1732822245" rel="stylesheet">
+    <link href="../../../../css/fonts.css?1732822245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../../css/fonts.css?1732822245" rel="stylesheet"></noscript>
+    <link href="../../../../css/theme.css?1732822245" rel="stylesheet">
+    <link href="../../../../css/theme-relearn-auto.css?1732822245" rel="stylesheet" id="R-variant-style">
+    <link href="../../../../css/chroma-relearn-auto.css?1732822245" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../../css/variant.css?1732822245" rel="stylesheet">
+    <link href="../../../../css/print.css?1732822245" rel="stylesheet" media="print">
+    <link href="../../../../css/format-print.css?1732822245" rel="stylesheet">
+    <script src="../../../../js/variant.js?1732822245"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='\/\/localhost:1313';
+      window.index_js_url="../../../../index.search.js?1732822245";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../../../3_api/5_architecture/_d/_d_pattr_usage.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../../3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../../3_api/5_architecture.html"><span itemprop="name">System Architecture</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Pattr usage</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../../3_api/5_architecture/overview_of_mvcv.html" title="Overview of MVVCC (Model-View-View Controller-View) Architecture (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../../3_api/5_architecture/pattr_usage.html" title="Pattr usage (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="pattr-usage">Pattr usage</h1>
+
+<p>Pattr translation in control and view control</p>
+<p>Interface - not much to say. Just graphical controls.
+Sends and receives pattrs to and from control. Infinite loop is avoided via pattrstorage output mode set to 5.</p>
+<p>The CONTROL PATTRS and DATA PATTRS (dicts) are saved.
+On loading, the data pattrs must be fully loaded first; their priorities are set to 1.
+The control pattrs are independent so their priorities are all 0.</p>
+<p>Every parameter is stored in a pattr object.</p>
+<p>As an example, here is a midi player object, which contains, among other components, a beat clock. The beat clock itself contains several components. Here we see one of them, « loop_section » and the pattr objects it contains. [SLIDE]</p>
+<p>The pattrhub object invokes them, so a message “step 2” will set the step pattr object in beat_clock to 2.</p>
+<p>Pattrs act hierarchically. The beat clock is named “beat_clock” [SLIDE], so the step variable can be invoked by sending the beat clock the message “beat_clock::step 2.” This double-colon format continues as the pattr object is nested in deeper levels of a hierarchy.</p>
+<p>The control consists of bpatchers. No bpatchers are in the model. These handle all the user interface logic like buttons and file selection. To change a parameter in the model, a pattr object must exist in the view with the same name as the corresponding one in the model. These names don’t conflict because they are in different sub patchers.</p>
+<p>A pattrstorage object in the control keeps track of pattern changes. When the outputmode attribute is non-zero, it will send the names and values of changed parameters out its outlet.  Hence, to communicate parameter changes to the model, the pattrstorage output is sent out the control and into a pattrthub object at the top level of the model, which then broadcasts the changes to the proper places.</p>
+<p>Note: with this method, the interior pattrhub objects end up not being used at all, but it’s still good to leave them in so that these objects can be reused and are not dependent on being called this way.</p>
+<p>The hierarchical nature of the model, though, means that the parameter names sent from the control must have the same hierarchical structure as those in the model. Thus to control the “midi_player_1::beat_clock::loop_length” parameter, there must be a control bpatcher called “midi_player_1” that contains a bpatcher “beat_clock” that contains a pattr “loop_length.”</p>
+<pre><code>For smaller systems, this could be a good method: the control and the model are parallel hierarchies.
+</code></pre>
+<p>There are three problems with this method, though. The separation of model and control is supposed to give you the freedom to design the control without worrying about how things are being processed inside the model.</p>
+<ol>
+<li>
+<p>The control architecture is completely linked to the model architecture, which becomes very constraining, especially as the control logic in a complicated system probably does not reflect the way things are processed.</p>
+</li>
+<li>
+<p>You don’t necessarily want to control all the pattrs in the model. Some you might find unnecessary. This is not a big problem, but there is another related one:</p>
+</li>
+<li>
+<p>Some pattrs in the model are not actually independent of each other at runtime.    Objects were created independently, but their functions in the system are dependent on each other or other objects</p>
+</li>
+</ol>
+<p>It’s useful to design objects by thinking of their function independently of other objects, even though in the system they will not be independent.</p>
+<p>For example:</p>
+<p>There is an object that outputs a given number of bangs at a given tempo: it has two pattrs, “tempo” and “count”: the number of bangs to output.</p>
+<p>There is another object that changes the system tempo.</p>
+<p>The tempo object can be used to adjust the tempo by itself. But it is also used to control a parameter called “speed.”
+Speed makes the musical output play twice as fast (double time), or in triplets, etc. Changing the speed to two means both doubling the tempo and setting the number of bangs to two.</p>
+<p>Thus the mapping from control pattrs to model pattrs is not one-to-one. We can imagine more complicated networks of dependencies among model parameters that we don’t want to reflect in the control.</p>
+<p>It’s useful to design these two objects separately because they can then be tested and maybe reused later. We end up with a model that is “feature-rich,” and the job is now to decide which features we want to use, and how they will be reflected in the control.</p>
+<p>Note: In terms of domain-driven design, it’s important not to spend too much time building objects that do lots of things that we may not ultimately care about using. We’re not building a library, we’re building an application. On the other hand, building separate small objects that handle specific independent functions is a useful way to make building blocks for our application. So there’s a trade-off: designing for the application with an eye for the kind of independent and reusable objects that will make up a library.</p>
+<p>To address these three problems, Djazz uses the following method:</p>
+<p>For each important object that is made up of smaller components containing pattrs, like the “midi player,” there is a parameter bank. [SLIDE] This bank consists only of the surface pattrs that the control will call.</p>
+<p>The midi player and the parameter bank are wrapped in a larger object, and parameters from the bank are passed to the midi player through a translator object.</p>
+<p>This translator handles the three problems above. It translates the surface parameters to their corresponding hierarchically named pattrs, which is very easy. In this object, too, are placed the objects that translate control variables into dependent model variables, like f(speed)—&gt;[bang_count, tempo].
+Finally, unused variables simply aren’t called. But to be absolutely sure that uncalled variables don’t give us trouble, by storing state that have forgotten about, or by accidentally being called, due to sharing names accidentally with a control variable, we can turn off their visibility to the pattrstorage system, which means they can never be called. There is a javascript object I wrote which will turn off all the pattrs in an object. The first argument tells it what the visibility is, the second weather to recursively change the visibility in sub patchers. [EXAMPLE]</p>
+<pre><code>Now, in the control bpatcher, there is a similar parameter bank. Now the architectures of the control and the model are separate, and we are free to design the control as we want. As long as our controls send a message to the parameter bank with the right name, it will be sent to the model. [SLIDE] Now we can set up the controls as we like, and all the control logic—button operation, etc.—is completely independent of anything that happens in the model, and vice versa.
+</code></pre>
+<p>Because the pattrstorage object is inside the view, the namespace “view” is not included in parameter names.</p>
+<p>The model outputs midi and audio, but it also outputs pattrs to any view that wants to receive them. It does this the same way as the control: a pattrstorage object is at the top level of the model patcher, and when a pattr value is updated, it outputs the pattr name and value.
+There are two types of pattrs that the model outputs: those that are specifically for a view, and the parameters that were sent from the control.
+[SLIDE]
+Because the control is the view, this flow of pattrs becomes a loop. [SLIDE] The control/view pattrstorage sends values to the model’s pattrhub, and the model pattrstorage send values to the control/view’s pattrhub</p>
+<p>To avoid an infinite loop, we make use the pattrstorage’s outputmode attribute.</p>
+<p>In the model, the output mode is 2: any changed values are sent out.
+But in the view, the output mode is 6: values that are changed by objects in the pattr system are not sent out. That is, only values that are changed by user interaction are sent out. Thus the values received by pattrhub are set but not passed on. The loop is broken. [SLIDE]</p>
+<p>The control flow is clear
+All of the state is centralised in the parameter banks
+The state can be read in in real time by the client windows (easy to debug)
+The state can be saved as preset files and reloaded.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../../../js/clipboard.min.js?1732822245" defer></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1732822245" defer></script>
+    <script src="../../../../js/theme.js?1732822245" defer></script>
+  </body>
+</html>

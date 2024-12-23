@@ -1,0 +1,96 @@
+NOTE  60 1.0 beat1
+	GFWD for-killall {
+    0.0   mnote2 60 80 "0.0.1872" 7
+    0.0   mnote2 64 80 "0.0.1872" 7
+    0.0   mnote2 67 80 "0.0.1872" 7
+    0.0   mnote2 69 80 "0.0.1872" 7
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat2
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat3
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat4
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat5
+	GFWD for-killall {
+    0.0   mnote2 62 80 "0.0.1872" 7
+    0.0   mnote2 66 80 "0.0.1872" 7
+    0.0   mnote2 69 80 "0.0.1872" 7
+    0.0   mnote2 71 80 "0.0.1872" 7
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat6
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat7
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat8
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat9
+	GFWD for-killall {
+    0.0   mnote2 58 80 "0.0.1872" 7
+    0.0   mnote2 62 80 "0.0.1872" 7
+    0.0   mnote2 65 80 "0.0.1872" 7
+    0.0   mnote2 67 80 "0.0.1872" 7
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat10
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat11
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat12
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat13
+	GFWD for-killall {
+    0.0   mnote2 60 80 "0.0.1872" 7
+    0.0   mnote2 64 80 "0.0.1872" 7
+    0.0   mnote2 67 80 "0.0.1872" 7
+    0.0   mnote2 69 80 "0.0.1872" 7
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat14
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat15
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }
+NOTE  60 1.0 beat16
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.12" 16
+    0.125   mnote2 12 nil "0.0.360" 16
+    }

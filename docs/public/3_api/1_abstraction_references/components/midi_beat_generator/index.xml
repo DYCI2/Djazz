@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIDI Beat Generator :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/3_api/1_abstraction_references/components/midi_beat_generator.html</link>
+    <description>MIDI Beat Generator flowchart TB; subgraph MidiBeatGenerator direction TB MidiBeatGeneratorIn(( )) BeatReader[Beat Reader] Looper[Beat Number Looper] BeatReader[MIDI Beat Reader] MidiBeatGeneratorOut((( ))) MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut end </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3_api/1_abstraction_references/components/midi_beat_generator/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

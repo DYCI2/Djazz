@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.beat_clock" module="max" category="djazz">
+
+<digest>
+Inputs bangs and outputs a beat number, based on loop, step, start, and end parameters.
+</digest>
+
+<description>
+Will not output when end beat is reached or after.
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="int">
+		<digest>
+		next beat
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="1" type="bang">
+		<digest>
+		bang when loop occurs
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+	<outlet id="2" type="bang">
+		<digest>
+		bang when end is reached
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="bang">
+		<digest>
+		left inlet: bang for next beat
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="next_beat">
+		<digest>
+		right inlet: (+ int) sets the next beat to play when next bang is received
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="end">
+		<digest>
+		right inlet: (+ int) sets the end beat; when reached, no more output will occur
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="step">
+		<digest>
+		right inlet: (+ int) how many beats to advance upon receiving a bang; default is 1
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

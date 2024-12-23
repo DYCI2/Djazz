@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saving and Loading Files :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/djazz_doc_website/1_manual/9_saving_and_loading_files.html</link>
+    <description>Djazz saves files together in folders.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/djazz_doc_website/1_manual/9_saving_and_loading_files/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

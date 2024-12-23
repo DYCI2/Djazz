@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="djazz :: Hugo Relearn Theme">
+    <meta property="og:url" content="//localhost:1313/3_api/1_abstraction-references/main_components/_d_djazz.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="djazz :: Hugo Relearn Theme">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="//localhost:1313/images/hero.png">
+    <meta itemprop="name" content="djazz :: Hugo Relearn Theme">
+    <meta itemprop="image" content="//localhost:1313/images/hero.png">
+    <title>djazz :: Hugo Relearn Theme</title>
+    <link href="../../../3_api/1_abstraction-references/main_components/_d_djazz/index.xml" rel="alternate" type="application/rss+xml" title="djazz :: Hugo Relearn Theme">
+    <link href="../../../3_api/1_abstraction-references/main_components/_d_djazz/index.print.html" rel="alternate" type="text/html" title="djazz :: Hugo Relearn Theme">
+    <link href="../../../css/fontawesome-all.min.css?1732973826" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fontawesome-all.min.css?1732973826" rel="stylesheet"></noscript>
+    <link href="../../../css/nucleus.css?1732973826" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1732973826" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/auto-complete.css?1732973826" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar.min.css?1732973826" rel="stylesheet">
+    <link href="../../../css/fonts.css?1732973826" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../css/fonts.css?1732973826" rel="stylesheet"></noscript>
+    <link href="../../../css/theme.css?1732973826" rel="stylesheet">
+    <link href="../../../css/theme-relearn-auto.css?1732973826" rel="stylesheet" id="R-variant-style">
+    <link href="../../../css/chroma-relearn-auto.css?1732973826" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="../../../css/variant.css?1732973826" rel="stylesheet">
+    <link href="../../../css/print.css?1732973826" rel="stylesheet" media="print">
+    <script src="../../../js/variant.js?1732973826"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='\/\/localhost:1313';
+      window.index_js_url="../../../index.search.js?1732973826";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../../../3_api/1_abstraction-references/main_components/_d_djazz.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents"></nav> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../3_api/1_abstraction-references.html"><span itemprop="name">Index of important abstractions</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../../3_api/1_abstraction-references/main_components.html"><span itemprop="name">Main Components</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">djazz</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/3_API/1_abstraction%20references/main_components/_d_djazz/_index.md" target="_self" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../3_api/1_abstraction-references/main_components/_d_djazz/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../3_api/1_abstraction-references/main_components.html" title="Main Components (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="../../../3_api/1_abstraction-references/main_components/_d_djazz_view.html" title="djazz view (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="djazz">djazz</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation showVisitedLinks">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="R-logo" href="../../../index.html">
+  <img src='../../../images/djazz_logo.png'>
+</a>
+        </div>
+
+        <search><form action="../../../search.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../../../js/auto-complete.js?1732973826" defer></script>
+        <script src="../../../js/lunr/lunr.min.js?1732973826" defer></script>
+        <script src="../../../js/lunr/lunr.stemmer.support.min.js?1732973826" defer></script>
+        <script src="../../../js/lunr/lunr.multi.min.js?1732973826" defer></script>
+        <script src="../../../js/lunr/lunr.en.min.js?1732973826" defer></script>
+        <script src="../../../js/search.js?1732973826" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/1_manual.html" class="alwaysopen"><input type="checkbox" id="R-section-1bcfc5d5405617a68f74aa479dae99d2" aria-controls="R-subsections-1bcfc5d5405617a68f74aa479dae99d2" checked><label for="R-section-1bcfc5d5405617a68f74aa479dae99d2"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Manual</span></label><a class="padding" href="../../../1_manual.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> Manual<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-1bcfc5d5405617a68f74aa479dae99d2" class="morespace collapsible-menu">
+          <li data-nav-id="/1_manual/1_installation.html" class=""><a class="padding" href="../../../1_manual/1_installation.html">Installation<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/2_main_window.html" class=""><a class="padding" href="../../../1_manual/2_main_window.html">Main Window<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/3_midi_window.html" class=""><a class="padding" href="../../../1_manual/3_midi_window.html">MIDI Window<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/4_audio_window.html" class=""><a class="padding" href="../../../1_manual/4_audio_window.html">Audio Window<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/5_external-controllers.html" class=""><a class="padding" href="../../../1_manual/5_external-controllers.html">External Controllers<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/6_tools.html" class="alwaysopen"><input type="checkbox" id="R-section-50bd791b5bcb8984bfa7107fb2298946" aria-controls="R-subsections-50bd791b5bcb8984bfa7107fb2298946" checked><label for="R-section-50bd791b5bcb8984bfa7107fb2298946"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Tools</span></label><a class="padding" href="../../../1_manual/6_tools.html">Tools<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-50bd791b5bcb8984bfa7107fb2298946" class="morespace collapsible-menu">
+          <li data-nav-id="/1_manual/6_tools/make_song_file.html" class=""><a class="padding" href="../../../1_manual/6_tools/make_song_file.html">Making a Song File<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/1_manual/6_tools/make_score_file.html" class=""><a class="padding" href="../../../1_manual/6_tools/make_score_file.html">Making a Score File<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/2_tutorials.html" class="alwaysopen"><input type="checkbox" id="R-section-a813c75b6e1c91a03e4c14df28a78b87" aria-controls="R-subsections-a813c75b6e1c91a03e4c14df28a78b87" checked><label for="R-section-a813c75b6e1c91a03e4c14df28a78b87"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Tutorials</span></label><a class="padding" href="../../../2_tutorials.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> Tutorials<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-a813c75b6e1c91a03e4c14df28a78b87" class="morespace collapsible-menu">
+          <li data-nav-id="/2_tutorials/1_play_midi_score.html" class=""><a class="padding" href="../../../2_tutorials/1_play_midi_score.html">Playing a MIDI Score<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/2_tutorials/2_record_audio.html" class=""><a class="padding" href="../../../2_tutorials/2_record_audio.html">Recording and playing back audio<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/2_tutorials/3_record_midi.html" class=""><a class="padding" href="../../../2_tutorials/3_record_midi.html">Recording and playing back MIDI<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api.html" class="parent alwaysopen"><input type="checkbox" id="R-section-de962242ae288aca3f6a1dd98cf0c730" aria-controls="R-subsections-de962242ae288aca3f6a1dd98cf0c730" checked><label for="R-section-de962242ae288aca3f6a1dd98cf0c730"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu API</span></label><a class="padding" href="../../../3_api.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> API<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-de962242ae288aca3f6a1dd98cf0c730" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/1_abstraction-references.html" class="parent alwaysopen"><input type="checkbox" id="R-section-fec774a4609659ef3c67f97c2a4e9dcb" aria-controls="R-subsections-fec774a4609659ef3c67f97c2a4e9dcb" checked><label for="R-section-fec774a4609659ef3c67f97c2a4e9dcb"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Index of important abstractions</span></label><a class="padding" href="../../../3_api/1_abstraction-references.html">Index of important abstractions<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-fec774a4609659ef3c67f97c2a4e9dcb" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/1_abstraction-references/main_components.html" class="parent alwaysopen"><input type="checkbox" id="R-section-b1ba32f9fd78e29493a72129425323df" aria-controls="R-subsections-b1ba32f9fd78e29493a72129425323df" checked><label for="R-section-b1ba32f9fd78e29493a72129425323df"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Main Components</span></label><a class="padding" href="../../../3_api/1_abstraction-references/main_components.html">Main Components<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b1ba32f9fd78e29493a72129425323df" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/1_abstraction-references/main_components/_d_djazz.html" class="active"><a class="padding" href="../../../3_api/1_abstraction-references/main_components/_d_djazz.html">djazz<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/main_components/_d_djazz_view.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/main_components/_d_djazz_view.html">djazz view<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/main_components/_d_djazz_control.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/main_components/_d_djazz_control.html">djazz control<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components.html" class="alwaysopen"><input type="checkbox" id="R-section-50c415bcf571d968aa0e6c1663c60666" aria-controls="R-subsections-50c415bcf571d968aa0e6c1663c60666" checked><label for="R-section-50c415bcf571d968aa0e6c1663c60666"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Other Components</span></label><a class="padding" href="../../../3_api/1_abstraction-references/components.html">Other Components<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-50c415bcf571d968aa0e6c1663c60666" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/1_abstraction-references/components/audio_beat_generator.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/audio_beat_generator.html">Audio Beat Generator<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/audio_record.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/audio_record.html">Audio Record<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/beat_clock.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/beat_clock.html">Beat Clock<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/beat_generator.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/beat_generator.html">Beat Generator<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/factor_oracle.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/factor_oracle.html">Factor Oracle<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/factor_oracle_player.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/factor_oracle_player.html">Factor Oracle Player<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/improviser.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/improviser.html">Improviser<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/listener.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/listener.html">Listener<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/master_control.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/master_control.html">Master Control<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/midi_beat_generator.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/midi_beat_generator.html">MIDI Beat Generator<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/midi_record.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/midi_record.html">MIDI Record<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/score_loader.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/score_loader.html">Score Loader<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/1_abstraction-references/components/to_vjazz.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/components/to_vjazz.html">UDP Send to VJazz<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/1_abstraction-references/tools.html" class="alwaysopen"><input type="checkbox" id="R-section-4f20c7b3e669deb1ca6eeaaa7c7fbb1d" aria-controls="R-subsections-4f20c7b3e669deb1ca6eeaaa7c7fbb1d" checked><label for="R-section-4f20c7b3e669deb1ca6eeaaa7c7fbb1d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Tools</span></label><a class="padding" href="../../../3_api/1_abstraction-references/tools.html">Tools<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-4f20c7b3e669deb1ca6eeaaa7c7fbb1d" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/1_abstraction-references/tools/make_song_file.html" class=""><a class="padding" href="../../../3_api/1_abstraction-references/tools/make_song_file.html">make song file<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          <li data-nav-id="/3_api/2_externals.html" class="alwaysopen"><input type="checkbox" id="R-section-e8792b186280afdf02181a4395457f8b" aria-controls="R-subsections-e8792b186280afdf02181a4395457f8b" checked><label for="R-section-e8792b186280afdf02181a4395457f8b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu externals</span></label><a class="padding" href="../../../3_api/2_externals.html">externals<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-e8792b186280afdf02181a4395457f8b" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/2_externals/antescofo.html" class=""><a class="padding" href="../../../3_api/2_externals/antescofo.html">antescofo<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/2_externals/midifile.html" class=""><a class="padding" href="../../../3_api/2_externals/midifile.html">midifile<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/2_externals/supervp.html" class=""><a class="padding" href="../../../3_api/2_externals/supervp.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">30.</b> supervp<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/3_file_formats_used.html" class=""><a class="padding" href="../../../3_api/3_file_formats_used.html">File formats used<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/4_external_controls_and_views.html" class="alwaysopen"><input type="checkbox" id="R-section-cd234e8b268effbb4d5d4f115acb40e0" aria-controls="R-subsections-cd234e8b268effbb4d5d4f115acb40e0" checked><label for="R-section-cd234e8b268effbb4d5d4f115acb40e0"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu External controls and views</span></label><a class="padding" href="../../../3_api/4_external_controls_and_views.html">External controls and views<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-cd234e8b268effbb4d5d4f115acb40e0" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/4_external_controls_and_views/1_parameters.html" class=""><a class="padding" href="../../../3_api/4_external_controls_and_views/1_parameters.html">Parameters<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/4_external_controls_and_views/2_dicts.html" class=""><a class="padding" href="../../../3_api/4_external_controls_and_views/2_dicts.html">Dicts<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/5_improvisation.html" class="alwaysopen"><input type="checkbox" id="R-section-a5f5365ae453b23d7a3ba7167da05ff3" aria-controls="R-subsections-a5f5365ae453b23d7a3ba7167da05ff3" checked><label for="R-section-a5f5365ae453b23d7a3ba7167da05ff3"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Improvisation with the Factor Oracle</span></label><a class="padding" href="../../../3_api/5_improvisation.html">Improvisation with the Factor Oracle<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-a5f5365ae453b23d7a3ba7167da05ff3" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/5_improvisation/0_general_description.html" class=""><a class="padding" href="../../../3_api/5_improvisation/0_general_description.html">General Description<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/5_improvisation/1_factor_oracle.html" class=""><a class="padding" href="../../../3_api/5_improvisation/1_factor_oracle.html">Description of the Factor Oracle<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/5_improvisation/2_factor_oracle_player.html" class=""><a class="padding" href="../../../3_api/5_improvisation/2_factor_oracle_player.html">The Factor Oracle Player<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/5_improvisation/3_analyzer.html" class=""><a class="padding" href="../../../3_api/5_improvisation/3_analyzer.html">The Analyzer<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/6_architecture.html" class="alwaysopen"><input type="checkbox" id="R-section-c068588df7641bbc6f35a050a776c9ab" aria-controls="R-subsections-c068588df7641bbc6f35a050a776c9ab" checked><label for="R-section-c068588df7641bbc6f35a050a776c9ab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu System Architecture</span></label><a class="padding" href="../../../3_api/6_architecture.html">System Architecture<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-c068588df7641bbc6f35a050a776c9ab" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/6_architecture/component_descriptions/master_control.html" class=""><a class="padding" href="../../../3_api/6_architecture/component_descriptions/master_control.html">main components<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/6_architecture/control_flow.html" class=""><a class="padding" href="../../../3_api/6_architecture/control_flow.html">control flow<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/6_architecture/overview_of_mvcv.html" class=""><a class="padding" href="../../../3_api/6_architecture/overview_of_mvcv.html">Overview of MVVCC (Model-View-View Controller-View) Architecture<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/6_architecture/pattr_usage.html" class=""><a class="padding" href="../../../3_api/6_architecture/pattr_usage.html">Pattr usage<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/7_going_further.html" class="alwaysopen"><input type="checkbox" id="R-section-f2ec5ddfe6677fabdd6072923a75ddcc" aria-controls="R-subsections-f2ec5ddfe6677fabdd6072923a75ddcc" checked><label for="R-section-f2ec5ddfe6677fabdd6072923a75ddcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Going further</span></label><a class="padding" href="../../../3_api/7_going_further.html">Going further<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-f2ec5ddfe6677fabdd6072923a75ddcc" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/7_going_further/dynamic_object_creation_and_destruction.html" class=""><a class="padding" href="../../../3_api/7_going_further/dynamic_object_creation_and_destruction.html">Dynamic Object Creation and Destruction<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/7_going_further/factor_oracle_creation.html" class=""><a class="padding" href="../../../3_api/7_going_further/factor_oracle_creation.html">Factor Oracle Labeling<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/7_going_further/listeners-and-analyzers.html" class=""><a class="padding" href="../../../3_api/7_going_further/listeners-and-analyzers.html">Listeners and Real-time Analyzers<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/3_api/8_notes_on_rewriting_djazz.html" class="alwaysopen"><input type="checkbox" id="R-section-c2f05543f31914343c51bfe4db66d0df" aria-controls="R-subsections-c2f05543f31914343c51bfe4db66d0df" checked><label for="R-section-c2f05543f31914343c51bfe4db66d0df"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Notes on databases in Max</span></label><a class="padding" href="../../../3_api/8_notes_on_rewriting_djazz.html">Notes on databases in Max<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-c2f05543f31914343c51bfe4db66d0df" class="morespace collapsible-menu">
+          <li data-nav-id="/3_api/8_notes_on_rewriting_djazz/max_dictionaris_in_js_and_max.html" class=""><a class="padding" href="../../../3_api/8_notes_on_rewriting_djazz/max_dictionaris_in_js_and_max.html">Dicts in Max and javascript<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/3_api/8_notes_on_rewriting_djazz/thoughts_on_dicts.html" class=""><a class="padding" href="../../../3_api/8_notes_on_rewriting_djazz/thoughts_on_dicts.html">Notes on dicts<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/danielbrownmusic/djazz_with_data"><i class='fa-fw fab fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="../../../index.html"><i class='fa-fw fas fa-bullhorn'></i> Credits</a></li>
+            <li><a class="padding" href="../../../tags.html"><i class='fa-fw fas fa-tags'></i> Tags</a></li>
+            <li><a class="padding" href="../../../categories.html"><i class='fa-fw fas fa-layer-group'></i> Categories</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showVisitedLinks showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch showVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="../../../3_api/1_abstraction-references/main_components/_d_djazz.html" lang="en" selected>English</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                      <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                      <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                      <option id="R-select-variant-relearn-bright" value="relearn-bright">Relearn Bright</option>
+                      <option id="R-select-variant-zen-auto" value="zen-auto">Zen Light/Dark</option>
+                      <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                      <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                      <option id="R-select-variant-retro-auto" value="retro-auto">Retro Learn/Neon</option>
+                      <option id="R-select-variant-neon" value="neon">Neon</option>
+                      <option id="R-select-variant-learn" value="learn">Learn</option>
+                      <option id="R-select-variant-blue" value="blue">Blue</option>
+                      <option id="R-select-variant-green" value="green">Green</option>
+                      <option id="R-select-variant-red" value="red">Red</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks showVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+            <span class="github-buttons"></span>
+            <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+            <script>
+              function githubButtonsScheme(){
+                var scheme = 'light';
+                var colorPropertyValue = window.getComputedStyle( document.querySelector( '#R-sidebar' ) ).getPropertyValue( 'background-color' );
+                var colorValues = colorPropertyValue.match( /\d+/g ).map( function( e ){ return parseInt(e,10); });
+                if( colorValues.length === 3 && ((0.2126 * colorValues[0]) + (0.7152 * colorValues[1]) + (0.0722 * colorValues[2]) < 165) ){
+                  scheme = 'dark';
+                }
+                return scheme;
+              }
+              function githubButtonsInit(){
+                if( !window.githubButtons ){
+                  setTimeout( githubButtonsInit, 50 );
+                  return;
+                }
+                var scheme = githubButtonsScheme();
+                var githubButtonsHTML = `
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn/archive/main.zip" data-color-scheme="${scheme}" data-icon="octicon-cloud-download"  aria-label="Download McShelby/hugo-theme-relearn on GitHub">Download</a>
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn" data-color-scheme="${scheme}" data-icon="octicon-star" data-show-count="true"  aria-label="Star McShelby/hugo-theme-relearn on GitHub">Star</a>
+                  <a class="github-button" href="https://github.com/McShelby/hugo-theme-relearn/fork" data-color-scheme="${scheme}" data-icon="octicon-repo-forked"   data-show-count="true" aria-label="Fork McShelby/hugo-theme-relearn on GitHub">Fork</a>
+                 `;
+                document.querySelector( '.github-buttons' ).innerHTML = githubButtonsHTML;
+                document.querySelectorAll( '.github-button' ).forEach( function( anchor ){
+                  anchor.dataset.colorScheme = scheme;
+                  window.githubButtons.render( anchor, function( el ){
+                    anchor.parentNode.replaceChild( el, anchor );
+                  });
+                });
+              }
+              document.addEventListener( 'themeVariantLoaded', function( e ){
+                setTimeout( githubButtonsInit, 400 );
+              });
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+                setTimeout( githubButtonsInit, 400 );
+              });
+            </script>
+            <script async src="../../../js/github-buttons.js?1732973826"></script>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="../../../js/clipboard.min.js?1732973826" defer></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1732973826" defer></script>
+    <script src="../../../js/theme.js?1732973826" defer></script>
+  </body>
+</html>

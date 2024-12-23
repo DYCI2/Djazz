@@ -1,0 +1,35 @@
+{
+    "device" : "Launchpad Pro MK3"
+    ,
+    "grid" : {
+        "chapter" :     {
+            "cells" : [
+                "cc 89", "cc 79", "cc 69", "cc 59", 
+                "cc 49", "cc 39", "cc 29", "cc 19"
+            ]
+                ,
+                "colors" : {
+                    "unused"    : "none",
+                    "off"       : "green dim static",  
+                    "waiting"   : "green dim static",
+                    "playing"   : "green bright static"
+                }
+        }
+        ,
+        "bar" :         {
+            "cells" : [
+                "midi 81", "midi 82", "midi 83", "midi 84", "midi 85", "midi 86", "midi 87", "midi 88", 
+                "midi 71", "midi 72", "midi 73", "midi 74", "midi 75", "midi 76", "midi 77", "midi 78", 
+                "midi 61", "midi 62", "midi 63", "midi 64", "midi 65", "midi 66", "midi 67", "midi 68", 
+                "midi 51", "midi 52", "midi 53", "midi 54", "midi 55", "midi 56", "midi 57", "midi 58"
+            ]
+            ,
+            "colors" :  {
+                "unused"    : "none",
+                "off"       : "brown dim static",  
+                "waiting"   : "red dim static",
+                "playing"   : "red bright static"
+            }
+        }
+    }
+}

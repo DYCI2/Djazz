@@ -1,0 +1,75 @@
+{
+	"metadata" : 	{
+		"name" : "Free1",
+		"tempo" : 100,
+		"beats_per_measure" : 4,
+		"chapter_count" : 1,
+		"beat_count" : 4
+	}
+,
+	"chapters" : 	{
+		"0" : 		{
+			"min_measure" : 0,
+			"max_measure" : 1,
+			"min_beat" : 0,
+			"max_beat" : 4
+		}
+
+	}
+,
+	"measures" : 	{
+		"0" : 		{
+			"min_beat" : 0,
+			"length_in_beats" : 4
+		}
+
+	}
+,
+	"beats" : 	{
+		"0" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 0
+		}
+,
+		"1" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 1
+		}
+,
+		"2" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 2
+		}
+,
+		"3" : 		{
+			"chapter" : 0,
+			"measure" : 0,
+			"position" : 3
+		}
+
+	}
+,
+	"grid" : 	{
+		"0" : 		{
+			"0" : 			{
+				"0" : 0,
+				"1" : 1,
+				"2" : 2,
+				"3" : 3
+			}
+
+		}
+
+	}
+,
+	"grid_data" : 	{
+		"0" : "2_7",
+		"1" : "2_7",
+		"2" : "2_7",
+		"3" : "2_7"
+	}
+
+}

@@ -1,0 +1,194 @@
+$outlet                 := test
+$tempo                  := 60
+$beat_duration_in_ms    := 1000
+$new_beat               := tab []
+
+
+whenever ($tempo)
+{
+     $beat_duration_in_ms := 60000.0 / $tempo
+}
+
+whenever ($new_beat)
+{
+     $note_data_length   := 4
+
+    $channel    := $new_beat[0]
+    $speed      := $new_beat[1]
+    $beat       := $new_beat[2]
+    $note_count := $new_beat[3]
+
+     forall $i in $note_count
+     {
+        @local $note_pos, $ontime_raw, $pitch, $velocity, $duration
+          $note_pos := $note_data_length * $i + 4; 
+
+          $ontime_raw := $new_beat[$note_pos + 0]
+          ; $ontime   := $new_beat[$note_pos + 0] * $speed * $beat_duration_in_ms
+          printo $ontime_raw $ontime
+          $pitch    := $new_beat[$note_pos + 1]
+          $velocity := $new_beat[$note_pos + 2]
+          $duration := $new_beat[$note_pos + 3] * $speed * $beat_duration_in_ms
+
+          $ontime_raw @command($outlet) $channel $pitch $velocity $duration $beat
+     }
+
+     $notes_in_beat := tab []
+}
+
+; tempo off
+
+
+/*
+
+
+
+
+$outlet                  := test
+$tempo                   := 60
+$beat_duration_in_ms     := 1000
+$notes_in_beat           := tab []
+
+
+whenever ($tempo)
+{
+     $beat_duration_in_ms := 60000.0 / $tempo
+}
+
+
+@proc_def ::play_beat($channel, $beat, $note_count, $notes)
+{
+     $note_data_length   := 4
+     ; $note_count         := $notes[0]
+
+     forall $i in $note_count
+     {
+          $note_pos := $note_data_length * $i + 1; 
+
+          $ontime   := $notes[$note_pos + 0] * $beat_duration_in_ms
+          $pitch    := $notes[$note_pos + 1]
+          $velocity := $notes[$note_pos + 2]
+          $duration := $notes[$note_pos + 3] * $beat_duration_in_ms
+
+          § $ontime @command($outlet) $channel $pitch $velocity $duration $beat
+     }
+
+     $notes_in_beat := tab []
+}
+
+
+$channel_1 := 0
+$channel_2 := 0
+$channel_3 := 0
+$channel_4 := 0
+$channel_5 := 0
+$channel_6 := 0
+$channel_7 := 0
+$channel_8 := 0
+$channel_9 := 0
+$channel_10 := 0
+$channel_11 := 0
+$channel_12 := 0
+$channel_13 := 0
+$channel_14 := 0
+$channel_15 := 0
+$channel_16 := 0
+
+
+whenever ($channel_1)
+{
+    ::play_beat($channel_1)
+}
+
+whenever ($channel_2)
+{
+    ::play_beat($channel_2)
+}
+
+whenever ($channel_3)
+{
+    ::play_beat($channel_3)
+}
+
+whenever ($channel_4)
+{
+    ::play_beat($channel_4)
+}
+
+whenever ($channel_5)
+{
+    ::play_beat($channel_5)
+}
+
+whenever ($channel_6)
+{
+    ::trace($channel_6)
+}
+
+whenever ($channel_7)
+{
+    ::trace($channel_7)
+}
+
+whenever ($channel_8)
+{
+    ::trace($channel_8)
+}
+
+whenever ($channel_9)
+{
+    ::trace($channel_9)
+}
+
+whenever ($channel_10)
+{
+    ::trace($channel_10)
+}
+
+whenever ($channel_11)
+{
+    ::trace($channel_11)
+}
+
+whenever ($channel_12)
+{
+    ::trace($channel_12)
+}
+
+whenever ($channel_13)
+{
+    ::trace($channel_13)
+}
+
+whenever ($channel_14)
+{
+    ::trace($channel_14)
+}
+
+whenever ($channel_15)
+{
+    ::trace($channel_15)
+}
+
+whenever ($channel_16)
+{
+    ::trace($channel_16)
+}
+
+
+
+
+
+
+
+
+
+@proc_def ::trace($note)
+{
+    $d := $note[0]
+    $e := $note[1]
+    print begin $e
+    $d print end $e
+}
+
+*/

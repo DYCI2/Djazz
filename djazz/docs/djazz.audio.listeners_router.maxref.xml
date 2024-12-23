@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.listeners_router" module="max" category="djazz">
+
+<digest>
+Controls which other audio generator(s) a generator will listen to
+</digest>
+
+<description>
+Pattr messages (must be passed via an external pattrhub/pattrstorage):
+include_master (int) 0/1
+listener_1 (int 1-3) which player listener 1 is listening to 
+listener_2 (int 1-3) which player listener 2 is listening to
+listener_3 (int 1-3) which player listener 3 is listening to
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="symbol">
+		<digest>
+		label received from player being listened to
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="list">
+		<digest>
+		right inlet: (int symbol) listener number and label passed from listener
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="label">
+		<digest>
+		left inlet: (symbol) the label passed from the master control. Will be passed through if include_master is set to 1
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name="djazz.analyzer"/></seealsolist>
+
+</c74object>

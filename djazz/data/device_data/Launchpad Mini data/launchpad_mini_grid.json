@@ -1,0 +1,34 @@
+{
+    "device" : "Launchpad Mini"
+    ,
+    "grid" : {
+        "chapter" :     {
+            "cells" : [
+                "midi 8",   "midi 24",  "midi 40",  "midi 56", 
+                "midi 72",  "midi 88",  "midi 104", "midi 120"
+            ]
+            ,
+            "colors" : {
+                "unused"    : "none",
+                "off"       : "green dim static",  
+                "waiting"   : "green dim static",
+                "playing"   : "green bright static"
+            }
+        }
+        ,
+        "bar" :         {
+            "cells" : [
+                "midi 0" , "midi 1" , "midi 2" , "midi 3" , "midi 4" , "midi 5" , "midi 6" , "midi 7" , 
+                "midi 16", "midi 17", "midi 18", "midi 19", "midi 20", "midi 21", "midi 22", "midi 23", 
+                "midi 32", "midi 33", "midi 34", "midi 35", "midi 36", "midi 37", "midi 38", "midi 39", 
+                "midi 48", "midi 49", "midi 50", "midi 51", "midi 52", "midi 53", "midi 54", "midi 55"]
+            ,
+            "colors" :  {
+                "unused"    : "none",
+                "off"       : "brown dim static",  
+                "waiting"   : "red dim static",
+                "playing"   : "red bright static"
+            }
+        }    
+    }
+}

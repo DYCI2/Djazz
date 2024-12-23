@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.audio.beat_generator" module="max" category="djazz">
+
+<digest>
+Upon receipt of a beat number, label, and tempo, sends data about the next beat to read to the beat reader.
+</digest>
+
+<description>
+Pattr messages (must be passed via an external pattrhub/pattrstorage):
+transpose_pitch (int) -255 - +255
+transpose_octave (int) -255 - +255
+next_beat (int) 0-255
+end_beat (int) 0-255
+speed_active (int) 0/1
+speed_numerator (int) 1-255
+speed_denominator (int) 1-255
+loop_length (int) 1-8
+loop_section_active (int) 0/1
+loop_section_beats (list: int int)
+improvise (int) 0/1
+pitch_range (int) 0-11
+max_continuity (int) 0-255
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="list">
+		<digest>
+		(int int int int) 1. beat generator number, 2. track number, 3. start time in ms, 4. end time in ms 
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="symbol">
+		<digest>
+		right inlet: label for analyzer
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="beat">
+		<digest>
+		left inlet: (+ int) incoming beat number
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="label ">
+		<digest>
+		left inlet: (+ symbol) incoming beat label
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="tempo">
+		<digest>
+		left inlet: (+ float) current tempo
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="factor_oracle">
+		<digest>
+		left inlet: (+ symbol) dict name
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="beat_dict_name">
+		<digest>
+		left inlet: (+ symbol) dict name
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+	<seealso name=""/>
+</seealsolist>
+
+</c74object>

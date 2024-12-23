@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.129.0">
+    <meta name="generator" content="Relearn 6.0.0+tip">
+    <meta name="description" content="MIDI Beat Generator flowchart TB; subgraph MidiBeatGenerator direction TB MidiBeatGeneratorIn(( )) BeatReader[Beat Reader] Looper[Beat Number Looper] BeatReader[MIDI Beat Reader] MidiBeatGeneratorOut((( ))) MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut end ">
+    <meta name="author" content="Daniel Brown">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="MIDI Beat Generator :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="MIDI Beat Generator flowchart TB; subgraph MidiBeatGenerator direction TB MidiBeatGeneratorIn(( )) BeatReader[Beat Reader] Looper[Beat Number Looper] BeatReader[MIDI Beat Reader] MidiBeatGeneratorOut((( ))) MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut end ">
+    <meta property="og:url" content="http://localhost:1313/3_api/1_abstraction-references/components/midi_beat_generator.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="MIDI Beat Generator :: Hugo Relearn Theme">
+    <meta property="og:description" content="MIDI Beat Generator flowchart TB; subgraph MidiBeatGenerator direction TB MidiBeatGeneratorIn(( )) BeatReader[Beat Reader] Looper[Beat Number Looper] BeatReader[MIDI Beat Reader] MidiBeatGeneratorOut((( ))) MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut end ">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/images/hero.png">
+    <meta itemprop="name" content="MIDI Beat Generator :: Hugo Relearn Theme">
+    <meta itemprop="description" content="MIDI Beat Generator flowchart TB; subgraph MidiBeatGenerator direction TB MidiBeatGeneratorIn(( )) BeatReader[Beat Reader] Looper[Beat Number Looper] BeatReader[MIDI Beat Reader] MidiBeatGeneratorOut((( ))) MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut end ">
+    <meta itemprop="wordCount" content="31">
+    <meta itemprop="image" content="http://localhost:1313/images/hero.png">
+    <title>MIDI Beat Generator :: Hugo Relearn Theme</title>
+    <link href="http://localhost:1313/3_api/1_abstraction-references/components/midi_beat_generator.html" rel="canonical" type="text/html" title="MIDI Beat Generator :: Hugo Relearn Theme">
+    <link href="/3_api/1_abstraction-references/components/midi_beat_generator/index.xml" rel="alternate" type="application/rss+xml" title="MIDI Beat Generator :: Hugo Relearn Theme">
+    <link href="/css/fontawesome-all.min.css?1734552045" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1734552045" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1734552045" rel="stylesheet">
+    <link href="/css/auto-complete.css?1734552045" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1734552045" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1734552045" rel="stylesheet">
+    <link href="/css/fonts.css?1734552045" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1734552045" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1734552045" rel="stylesheet">
+    <link href="/css/theme-relearn-auto.css?1734552045" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-auto.css?1734552045" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1734552045" rel="stylesheet">
+    <link href="/css/print.css?1734552045" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1734552045" rel="stylesheet">
+    <script src="/js/variant.js?1734552045"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.index_js_url="/index.search.js?1734552045";
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/3_api/1_abstraction-references/components/midi_beat_generator.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/3_api.html"><span itemprop="name">API</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/3_api/1_abstraction-references.html"><span itemprop="name">Index of important abstractions</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/3_api/1_abstraction-references/components.html"><span itemprop="name">Other Components</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">MIDI Beat Generator</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/3_api/1_abstraction-references/components/master_control.html" title="Master Control (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/3_api/1_abstraction-references/components/midi_record.html" title="MIDI Record (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="midi-beat-generator">MIDI Beat Generator</h1>
+
+<h2 id="midi-beat-generator">MIDI Beat Generator</h2>
+
+<pre class="mermaid align-left zoomable">
+flowchart TB;
+subgraph MidiBeatGenerator
+direction TB
+		MidiBeatGeneratorIn(( ))
+		BeatReader[Beat Reader]
+		Looper[Beat Number Looper]
+		BeatReader[MIDI Beat Reader]
+		MidiBeatGeneratorOut((( )))
+		MidiBeatGeneratorIn --&gt; BeatGenerator --&gt; Looper --&gt; BeatReader --&gt; MidiBeatGeneratorOut
+end
+</pre>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1734552045" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-color.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1734552045" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1734552045" defer></script>
+    <script src="/js/js-yaml.min.js?1734552045" defer></script>
+    <script src="/js/mermaid.min.js?1734552045" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"securityLevel\": \"loose\" }");
+    </script>
+    <script src="/js/theme.js?1734552045" defer></script>
+  </body>
+</html>

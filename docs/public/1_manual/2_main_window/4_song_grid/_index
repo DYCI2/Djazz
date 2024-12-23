@@ -1,0 +1,21 @@
++++
+title = "Song Grid"
+weight = 45
++++
+
+When a song is loaded, its grid will appear. 
+### Chapter Select
+![pic1](images/chapter_grid.png)
+At the top are listed the "chapters" of the song--different sections like verses, choruses, and bridges. Clicking on a chapter will take you to the first measure of the chapter. If Djazz is engaged, it will start playing from here when the next beat is received.
+### Bar Select
+![pic1](images/bar_grid.png)
+When a chapter is selected, the bars in the chapter are shown below it. Each bar contains the number of beats given by the song's time signature. Clicking on a bar will take you to the first beat in the bar. If Djazz is engaged, it will start playing from here when the next beat is received.
+
+### Rewind-to-beginning Button
+![pic1](images/bar_grid.png)
+Click to go to the beginning (first bar of first chapter) of the song.
+When the "lock" button next to the rewind button is on, Djazz will rewind to the beginning of the song every time it is disengaged (i.e., when the metronome is turned off, or when the engage button is unselected in manual or remote beat input.)
+
+### Loop-Chapter/Song Button
+![pic1](images/loop_chapter_button.png)
+When selected, Djazz will loop the current chapter or the whole song, depending on the choice selected to the right of the button. That is, it will start from the beginning immediately when the end of the current chapter or song is reached

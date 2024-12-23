@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="djazz.antescofo_file_to_tracks_dict" module="max" category="djazz">
+
+<digest>
+Converts an antescofo file into a Max dict (which can then be saved as a JSON file).
+</digest>
+
+<description>
+Dict format: 
+tracks
+    int
+        beat  
+            int  
+                notes  
+                    int: note data  
+                    int: note data 
+            int
+...
+            
+</description>
+
+<metadatalist>
+    <metadata name="author">Daniel Brown</metadata>
+    <metadata name="tag">IRCAM</metadata>
+    <metadata name="tag">Djazz</metadata>
+</metadatalist>
+
+<outletlist>
+	<outlet id="0" type="symbol ">
+		<digest>
+		tracks dict name
+		</digest>
+
+		<description>
+		</description>
+	</outlet>
+
+</outletlist>
+
+<methodlist>
+	<method name="symbol">
+		<digest>
+		full path to antescofo file
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+	<method name="clear">
+		<digest>
+		clears the Max dict
+		</digest>
+
+		<description>
+		</description>
+	</method>
+
+</methodlist>
+
+<seealsolist>
+</seealsolist>
+
+</c74object>

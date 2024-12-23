@@ -1,0 +1,20 @@
+NOTE  60 1.0 beat1
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.8" 16
+    0.083333336   mnote2 2 102 "0.0.400" 16
+    }
+NOTE  60 1.0 beat2
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.8" 16
+    0.083333336   mnote2 2 102 "0.0.400" 16
+    }
+NOTE  60 1.0 beat3
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.8" 16
+    0.083333336   mnote2 2 102 "0.0.400" 16
+    }
+NOTE  60 1.0 beat4
+	GFWD for-killall {
+    0.0   mnote2 12 100 "0.0.8" 16
+    0.083333336   mnote2 2 102 "0.0.400" 16
+    }

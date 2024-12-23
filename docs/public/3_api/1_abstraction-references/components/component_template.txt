@@ -1,0 +1,47 @@
+component template 1000
+
+Digest
+Description
+
+INLETS
+
+0 type1 type2 type3
+digest
+type1 description
+type2 description
+type3 description
+
+1 type1 type2 type3
+digest
+type1 description
+type2 description
+type3 description
+
+OUTLETS
+
+0 type
+digest
+description
+
+1 type
+digest
+description
+
+ATTRIBUTES
+
+attribute_1 type g s
+digest
+definition
+
+attribute_2 type g s
+digest
+definition
+
+MESSAGES
+message1
+digest
+description
+
+SEE ALSO
+another-abstraction-1 /path/to/abstraction1
+another-abstraction-2 /path/to/abstraction2

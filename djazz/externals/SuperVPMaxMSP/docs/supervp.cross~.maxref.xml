@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="supervp.cross~">
+	<digest>
+		SuperVP generalized cross-synthesis module
+	</digest>
+	<description>
+		                             SuperVP is an extended phase vocoder engine providing high-quality temporal and spectal sound transformations as well as cross-synthesis.                             The module <o>supervp.cross~</o> performs generalized cross-synthesis to two incoming sound streams,                              mixing the amplitudes and phases of both streams in frequency domain.                             
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">
+		Ircam | Centre Pompidou
+		</metadata>
+		<metadata name="copyright">
+		 © 1995 - 2012 IRCAM - Centre Pompidou
+		</metadata>
+		<metadata name="version">
+		2.15.4 (Build 10/2012)
+		</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="channels" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Number of audio channels (default: 1)
+			</description>
+		</objarg>
+		<objarg name="window size" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			window size (default: 1024)
+			</description>
+		</objarg>
+		<objarg name="frequency oversampling" type="int" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Frequency oversampling, STFT size = windowsize * 2 ^ fftover (default: 0)
+			</description>
+		</objarg>
+		<objarg name="window oversampling" type="float" optional="1"> 
+			<digest>
+			</digest>
+			<description>
+			Oversampling, STFT hop size = windowsize / oversamp (default: 4)
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="windowsize" get="1" set="1" type="long" size="1">
+			<digest>
+				Window Size
+			</digest>
+			<description>
+				Window Size
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Window Size" />
+				<attribute name="order" get="1" set="1" type="long" value="2" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="fftover" get="1" set="1" type="long" size="1">
+			<digest>
+				Frequency Oversampling
+			</digest>
+			<description>
+				Frequency Oversampling
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Frequency Oversampling" />
+				<attribute name="order" get="1" set="1" type="long" value="3" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="oversamp" get="1" set="1" type="float64" size="1">
+			<digest>
+				Oversampling Factor
+			</digest>
+			<description>
+				Oversampling Factor
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Oversampling Factor" />
+				<attribute name="order" get="1" set="1" type="long" value="4" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="transients" get="1" set="1" type="symbol" size="1">
+			<digest>
+				Transient Preservation
+			</digest>
+			<description>
+				Transient Preservation
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Transient Preservation" />
+				<attribute name="order" get="1" set="1" type="long" value="100" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="scaling" get="1" set="1" type="float64" size="1">
+			<digest>
+				Amplitude/Frequency Scaling
+			</digest>
+			<description>
+				Amplitude/Frequency Scaling
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Amplitude/Frequency Scaling" />
+				<attribute name="order" get="1" set="1" type="long" value="101" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="qfactor" get="1" set="1" type="float64" size="1">
+			<digest>
+				Q-Factor
+			</digest>
+			<description>
+				Q-Factor
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Q-Factor" />
+				<attribute name="order" get="1" set="1" type="long" value="102" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="qexp" get="1" set="1" type="float64" size="1">
+			<digest>
+				Q-Exponent
+			</digest>
+			<description>
+				Q-Exponent
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Q-Exponent" />
+				<attribute name="order" get="1" set="1" type="long" value="103" />
+			</attributelist>
+		</attribute>
+
+		<attribute name="phasesync" get="1" set="1" type="float64" size="1">
+			<digest>
+				Phase Syncronisation Threshold
+			</digest>
+			<description>
+				Phase Syncronisation Threshold
+			</description>
+			<attributelist>
+				<attribute name="label" get="1" set="1" type="symbol" value="Phase Syncronisation Threshold" />
+				<attribute name="order" get="1" set="1" type="long" value="104" />
+			</attributelist>
+		</attribute>
+
+	</attributelist>
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="getchannels">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output number of channels (channels &lt;int: channels&gt;)
+			</description>
+		</method>
+		<method name="getwindowsize">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output window size (windowsize &lt;int: window size&gt;)
+			</description>
+		</method>
+		<method name="getfftover">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output frequency oversampling (fftover &lt;int: frequency oversampling&gt;)
+			</description>
+		</method>
+		<method name="getoversamp">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output oversampling (oversamp &lt;int: oversampling&gt;)
+			</description>
+		</method>
+		<method name="reset">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Empty internal buffers
+			</description>
+		</method>
+		<method name="getlatency">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output i/o latency in ms (latency &lt;float: latency&gt;)
+			</description>
+		</method>
+		<method name="gettransients">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output transient preservation (transients &lt;'on'|'off': enabled&gt;)
+			</description>
+		</method>
+		<method name="getscaling">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output amplitude and frequency scaling factors (scaling &lt;list: amp left, freq left, amp right, freq right&gt;)
+			</description>
+		</method>
+		<method name="getqfactor">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output Q-factor (qfactor &lt;float: Q-factor&gt;)
+			</description>
+		</method>
+		<method name="getqexp">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output Q-exponent (qexp &lt;float: Q-exponent&gt;)
+			</description>
+		</method>
+		<method name="getphasesync">
+			<arglist>
+			</arglist>
+			<digest>
+			</digest>
+			<description>
+				Output phase syncronisation threshold (phasesync &lt;float: threshold&gt;)
+			</description>
+		</method>
+	</methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="supervp.play~" />
+		<seealso name="supervp.scrub~" />
+		<seealso name="supervp.ring~" />
+		<seealso name="supervp.trans~" />
+		<seealso name="supervp.sourcefilter~" />
+	</seealsolist>
+
+	<!--MENU ITEMS-->
+	<menuitemlist>
+	</menuitemlist>
+
+	<!--EXAMPLE-->
+	<examplelist>
+	</examplelist>
+
+
+</c74object>
+

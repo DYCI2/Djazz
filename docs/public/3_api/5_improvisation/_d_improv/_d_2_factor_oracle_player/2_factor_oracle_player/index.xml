@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Factor Oracle Player :: Hugo Relearn Theme</title>
+    <link>http://localhost:1313/3_api/5_improvisation/_d_improv/_d_2_factor_oracle_player/2_factor_oracle_player.html</link>
+    <description>patchers/factor_oracle_player/factor_oracle_player.maxpat&#xA;The “factor oracle player” which takes labels one by one, which can be of any form (but in the current program, it’s a dictionary with two entries: the chord root and the chord label), and uses a factor oracle to produce a beat that matches the label.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/3_api/5_improvisation/_d_improv/_d_2_factor_oracle_player/2_factor_oracle_player/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

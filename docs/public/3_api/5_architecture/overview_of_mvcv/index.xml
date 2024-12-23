@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview of MVVCC (Model-View-View Controller-View) Architecture :: Hugo Relearn Theme</title>
+    <link>//localhost:1313/3_api/5_architecture/overview_of_mvcv.html</link>
+    <description>1. Architecture Model/Control/View Control/View MVC:&#xA;Djazz uses the Model-View-Control design pattern.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/3_api/5_architecture/overview_of_mvcv/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
