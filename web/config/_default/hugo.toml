@@ -3,8 +3,8 @@
 # set it like "https://example.com/mysite/"
 
 #baseURL = 'http://localhost:1313'
-baseURL = 'https://github.com/DYCI2/Djazz_2.0'
-
+baseURL = 'https://dyci2.github.io/Djazz_2.0/'
+publishDir = "../docs"
 alwaysopen = false
 
 # required value to serve this page from a webserver AND the file system;
