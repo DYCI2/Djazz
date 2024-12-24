@@ -3,7 +3,7 @@
 # set it like "https://example.com/mysite/"
 
 #baseURL = 'http://localhost:1313'
-baseURL = 'https://www.danielbrownmusic.com/djazz_doc_website/'
+baseURL = 'https://github.com/DYCI2/Djazz_2.0'
 
 alwaysopen = false
 
