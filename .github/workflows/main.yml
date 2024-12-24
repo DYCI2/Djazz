@@ -55,7 +55,6 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
-        working-directory: web
         run: |
           hugo \
             --gc \
