@@ -5,7 +5,7 @@ weight = 10
 +++
 
 Djazz needs no special installation.
-Download the [djazz folder here](https://github.com/danielbrownmusic/djazz_with_data).
+Download the [djazz folder here](https://github.com/DYCI2/Djazz_2.0).
 Open Max.
 Select <b>Options</b> from the menu bar at the top of the screen.
 
