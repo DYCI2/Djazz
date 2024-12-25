@@ -5,7 +5,6 @@
 #baseURL = 'http://localhost:1313'
 baseURL = 'https://dyci2.github.io/Djazz_2.0/'
 alwaysopen = false
-publishDir = "../docs"
 
 # required value to serve this page from a webserver AND the file system;
 # if you don't want to serve your page from the file system, you can also set this value
@@ -18,7 +17,7 @@ relativeURLs = false # -> rewrite all site-relative URLs (those with a leading s
 # so your site can be also served from the file system; if you don't want that,
 # set disableExplicitIndexURLs=true in the [params] section
 
-uglyURLs = true    # true -> basic/index.html -> basic.html
+uglyURLs = false    # true -> basic/index.html -> basic.html
 
 # the directory where Hugo reads the themes from; this is specific to your
 # installation and most certainly needs be deleted or changed
