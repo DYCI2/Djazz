@@ -6,6 +6,8 @@
 baseURL = 'https://dyci2.github.io/Djazz_2.0/'
 alwaysopen = false
 
+publishDir = "public"
+
 # required value to serve this page from a webserver AND the file system;
 # if you don't want to serve your page from the file system, you can also set this value
 # to false
