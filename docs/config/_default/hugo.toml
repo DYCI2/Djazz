@@ -10,7 +10,7 @@ alwaysopen = false
 # if you don't want to serve your page from the file system, you can also set this value
 # to false
 
-publishDir: "docs"
+publishDir = "docs"
 
 relativeURLs = false # -> rewrite all site-relative URLs (those with a leading slash) to be relative to the current content
 
