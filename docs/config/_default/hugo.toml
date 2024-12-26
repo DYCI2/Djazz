@@ -23,7 +23,7 @@ uglyURLs = true    # true -> basic/index.html -> basic.html
 # the directory where Hugo reads the themes from; this is specific to your
 # installation and most certainly needs be deleted or changed
 
-#themesdir = "../../themes"
+themesdir = "./themes"
 
 # yeah, well, obviously a mandatory setting for your site, if you want to
 # use this theme ;-)
