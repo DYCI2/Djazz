@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 282.0, 112.0, 1358.0, 953.0 ],
+		"rect" : [ 455.0, 514.0, 1358.0, 951.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-26",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -178,7 +178,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -758,7 +758,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-151",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -771,7 +770,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-149",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -820,7 +818,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-160",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1534,8 +1531,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 783.0, 137.0, 116.0, 22.0 ],
-									"text" : "djazz_tempo_to_ms"
+									"patching_rect" : [ 783.0, 137.0, 113.0, 22.0 ],
+									"text" : "djazz.tempo_to_ms"
 								}
 
 							}
@@ -2165,7 +2162,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-181",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -2467,7 +2463,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -2819,7 +2814,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-38",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -3777,7 +3772,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-3",
-																	"linecount" : 3,
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -4177,7 +4172,7 @@
 , 																			{
 																				"box" : 																				{
 																					"id" : "obj-17",
-																					"linecount" : 3,
+																					"linecount" : 2,
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
@@ -4479,7 +4474,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-4",
-																	"linecount" : 3,
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -4523,7 +4518,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-1",
-																	"linecount" : 3,
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -4861,7 +4856,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-1",
-																	"linecount" : 3,
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -5215,7 +5210,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-38",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,

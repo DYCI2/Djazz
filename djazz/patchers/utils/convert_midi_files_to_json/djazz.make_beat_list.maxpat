@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 318.0, 100.0, 1376.0, 983.0 ],
+		"rect" : [ 318.0, 100.0, 1376.0, 951.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,8 +127,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 210.0, 196.0, 116.0, 22.0 ],
-									"text" : "djazz_tempo_to_ms"
+									"patching_rect" : [ 210.0, 196.0, 113.0, 22.0 ],
+									"text" : "djazz.tempo_to_ms"
 								}
 
 							}
@@ -1258,8 +1258,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 563.0, 228.0, 116.0, 22.0 ],
-									"text" : "djazz_tempo_to_ms"
+									"patching_rect" : [ 563.0, 228.0, 113.0, 22.0 ],
+									"text" : "djazz.tempo_to_ms"
 								}
 
 							}

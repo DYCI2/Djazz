@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 209.0, 140.0, 1016.0, 917.0 ],
+		"rect" : [ 209.0, 134.0, 1016.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -479,8 +479,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 783.0, 137.0, 116.0, 22.0 ],
-									"text" : "djazz_tempo_to_ms"
+									"patching_rect" : [ 783.0, 137.0, 113.0, 22.0 ],
+									"text" : "djazz.tempo_to_ms"
 								}
 
 							}
