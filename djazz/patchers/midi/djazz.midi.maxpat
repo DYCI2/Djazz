@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 788.0, 110.0, 367.0, 361.0 ],
+		"rect" : [ 971.0, 207.0, 367.0, 361.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 240.0, 100.0, 1067.0, 436.0 ],
+						"rect" : [ 552.0, 197.0, 1067.0, 436.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -122,6 +122,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",
@@ -1872,7 +1873,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 952.0, 208.0, 68.0, 22.0 ],
+									"patching_rect" : [ 752.0, 168.0, 68.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2177,7 +2178,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 396.5, 130.0, 133.0, 22.0 ],
+									"patching_rect" : [ 396.5, 124.0, 133.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3207,7 +3208,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 952.0, 144.0, 208.0, 49.0 ],
+									"patching_rect" : [ 752.0, 104.0, 208.0, 49.0 ],
 									"text" : "pv MIDI_IN_BEAT_LIST_DICT_NAME MIDI_IN_BEAT_LIST_DICT_NAME"
 								}
 
@@ -3233,8 +3234,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 364.0, 44.0, 84.0, 35.0 ],
-									"restore" : [ 0 ],
+									"patching_rect" : [ 364.0, 41.5, 84.0, 35.0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3253,7 +3254,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 952.0, 84.0, 275.0, 49.0 ],
+									"patching_rect" : [ 752.0, 44.0, 275.0, 49.0 ],
 									"text" : "pv MIDI_IN_FACTOR_ORACLE_LIST_DICT_NAME MIDI_IN_FACTOR_ORACLE_LIST_DICT_NAME"
 								}
 
@@ -3278,7 +3279,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.0, 337.0, 30.0, 30.0 ]
+									"patching_rect" : [ 99.0, 345.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3320,26 +3321,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"id" : "obj-34",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 758.0, 22.0, 74.0, 35.0 ],
-									"saved_object_attributes" : 									{
-										"initial" : [ "NONE" ],
-										"parameter_enable" : 0,
-										"parameter_mappable" : 0
-									}
-,
-									"text" : "pattr folder_path",
-									"varname" : "folder_path"
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -3365,7 +3346,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"midpoints" : [ 565.5, 199.5, 321.5, 199.5 ],
+									"midpoints" : [ 565.5, 198.5, 321.5, 198.5 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -3394,6 +3375,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
+									"midpoints" : [ 642.5, 266.5, 236.5, 266.5 ],
 									"source" : [ "obj-22", 1 ]
 								}
 
@@ -3401,6 +3383,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
+									"midpoints" : [ 620.5, 246.5, 108.5, 246.5 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -3425,6 +3408,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"midpoints" : [ 520.0, 154.5, 565.5, 154.5 ],
 									"source" : [ "obj-44", 1 ]
 								}
 
@@ -3485,7 +3469,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 992.0, 213.0, 529.0, 567.0 ],
+						"rect" : [ 991.0, 213.0, 529.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5174,7 +5158,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 248.0, 30.0, 30.0 ]
+					"patching_rect" : [ 26.0, 251.0, 30.0, 30.0 ]
 				}
 
 			}

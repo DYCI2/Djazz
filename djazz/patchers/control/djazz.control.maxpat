@@ -3062,7 +3062,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 538.0, 95.0, 119.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 882, 177, 1265, 539 ],
+						"client_rect" : [ 1139, 103, 1522, 465 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -5132,9 +5132,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-7", 0 ],
-													"source" : [ "obj-35", 0 ],
-													"watchpoint_flags" : 1,
-													"watchpoint_id" : 1
+													"source" : [ "obj-35", 0 ]
 												}
 
 											}
@@ -5215,9 +5213,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-39", 0 ],
 													"midpoints" : [ 282.5, 541.5, 138.5, 541.5 ],
-													"source" : [ "obj-5", 0 ],
-													"watchpoint_flags" : 1,
-													"watchpoint_id" : 2
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
