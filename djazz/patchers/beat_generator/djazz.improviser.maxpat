@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 530.0, 100.0, 729.0, 951.0 ],
+		"rect" : [ 52.0, 100.0, 729.0, 951.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -652,7 +652,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 404.901041666666629, 501.0, 214.333333333333258, 22.0 ],
+					"patching_rect" : [ 405.0, 488.0, 214.333333333333258, 22.0 ],
 					"text" : "djazz.bang_speed",
 					"varname" : "speed"
 				}
@@ -731,7 +731,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 898.658853337458254, 15.00001967271487, 93.0, 35.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

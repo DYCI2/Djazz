@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 148.0, 1091.0, 983.0 ],
+		"rect" : [ 117.0, 132.0, 1091.0, 951.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -238,7 +238,7 @@
 				"box" : 				{
 					"comment" : "messages: audio_buffer_name + symbol",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -288,7 +288,7 @@
 				"box" : 				{
 					"comment" : "(list: int float int int) 1. pitch transposition 2. tempo 3. start time 4. end time",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -478,7 +478,7 @@
 				"box" : 				{
 					"comment" : "messages: audio_buffer_offset_in_ms + int, crossfade_time_in_ms + int",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -491,7 +491,7 @@
 				"box" : 				{
 					"comment" : "(signal) audio out 1",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -503,7 +503,7 @@
 				"box" : 				{
 					"comment" : "(signal) audio out 2",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -777,27 +777,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "djazz.audio.supervp_player.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/audio/audio_in",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.tempo_to_ms.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils",
-				"patcherrelativepath" : "../../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "supervp.scrub~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

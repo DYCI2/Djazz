@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 110.0, 970.0, 834.0 ],
+		"rect" : [ 62.0, 106.0, 642.0, 532.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4004,7 +4004,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : [ "none", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "none", ",", "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Logic Pro Virtual In" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9042,7 +9042,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 8,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "", "" ],
-					"patching_rect" : [ 861.666666666666629, 922.0, 225.0, 22.0 ],
+					"patching_rect" : [ 861.666666666666629, 915.0, 225.0, 22.0 ],
 					"text" : "djazz",
 					"varname" : "model"
 				}
@@ -10204,7 +10204,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-13",
-					"items" : [ "none", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "none", ",", "to Max 1", ",", "to Max 2", ",", "Logic Pro Virtual Out" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
