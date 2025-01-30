@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 500.0, 144.0, 1194.0, 939.0 ],
+		"rect" : [ 388.0, 360.0, 1194.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,6 +89,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
