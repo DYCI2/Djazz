@@ -85,9 +85,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 147.0, 91.0, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 27.0, 47.0, 22.0 ]
+					"patching_rect" : [ 147.0, 91.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -149,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 147.0, 143.0, 113.0, 22.0 ],
+					"patching_rect" : [ 147.0, 155.0, 113.0, 22.0 ],
 					"text" : "djazz.tempo_to_ms"
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 189.0, 298.0, 1207.0, 394.0 ],
+		"rect" : [ 241.0, 496.0, 882.0, 587.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 264.0, 128.0, 18.0 ],
+					"patching_rect" : [ 53.0, 334.0, 128.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 283.0, 5.0, 48.0, 18.0 ],
 					"text" : "TEMPO",
@@ -70,7 +70,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "", "" ],
-					"patching_rect" : [ 194.0, 91.0, 421.0, 23.0 ],
+					"patching_rect" : [ 195.0, 158.0, 421.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.093028, 3.0, 279.0, 22.0 ],
 					"viewvisibility" : 1
@@ -81,11 +81,11 @@
 				"box" : 				{
 					"comment" : "(float) initial tempo",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 87.0, 30.0, 30.0 ]
+					"patching_rect" : [ 93.0, 154.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -256,7 +256,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 193.0, 163.0, 280.146910110003319, 22.0 ],
+					"patching_rect" : [ 194.0, 230.0, 280.146910110003319, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -275,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 300.0, 51.0, 20.0 ],
+					"patching_rect" : [ 194.0, 367.0, 51.0, 20.0 ],
 					"text" : "BEAT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -289,7 +289,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 193.0, 265.0, 50.0, 22.0 ]
+					"patching_rect" : [ 194.0, 332.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -299,7 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.926544944998341, 394.0, 106.0, 20.0 ],
+					"patching_rect" : [ 529.0, 461.0, 106.0, 20.0 ],
 					"text" : "LOOP SECTION",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -311,7 +311,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.926544944998341, 394.0, 35.0, 20.0 ],
+					"patching_rect" : [ 448.0, 461.0, 35.0, 20.0 ],
 					"text" : "END",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -323,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.926544944998341, 394.0, 53.0, 20.0 ],
+					"patching_rect" : [ 342.0, 461.0, 53.0, 20.0 ],
 					"text" : "START",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -335,7 +335,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 317.0, 51.0, 20.0 ],
+					"patching_rect" : [ 339.0, 384.0, 51.0, 20.0 ],
 					"text" : "LABEL",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -352,7 +352,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 454.0, 265.0, 50.0, 22.0 ],
+					"patching_rect" : [ 455.0, 332.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 333.0, 3.0, 47.0, 22.0 ],
 					"textcolor" : [ 0.650980392156863, 0.650980392156863, 0.650980392156863, 1.0 ]
@@ -498,7 +498,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 323.0, 216.0, 99.0, 22.0 ],
+					"patching_rect" : [ 324.0, 283.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -518,7 +518,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 265.0, 99.0, 22.0 ]
+					"patching_rect" : [ 324.0, 332.0, 99.0, 22.0 ]
 				}
 
 			}
@@ -526,7 +526,7 @@
 				"box" : 				{
 					"comment" : "pattrs",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -555,7 +555,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 596.0, 17.0, 116.0, 35.0 ],
+					"patching_rect" : [ 597.0, 84.0, 116.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0, 0 ],
 						"parameter_enable" : 0,
@@ -575,8 +575,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 462.0, 17.0, 118.0, 35.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 463.0, 84.0, 118.0, 35.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -595,7 +595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 92.0, 17.0, 79.0, 35.0 ],
+					"patching_rect" : [ 93.0, 84.0, 79.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 60.0 ],
 						"parameter_enable" : 0,
@@ -615,7 +615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 328.0, 17.0, 62.0, 35.0 ],
+					"patching_rect" : [ 329.0, 84.0, 62.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ -1 ],
 						"parameter_enable" : 0,
@@ -635,7 +635,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 194.0, 17.0, 65.0, 35.0 ],
+					"patching_rect" : [ 195.0, 84.0, 65.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -726,15 +726,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "djazz.view.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
-				"patcherrelativepath" : "../view",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "djazz_toggle",
 				"default" : 				{

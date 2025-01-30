@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 702.0, 406.0, 396.0, 458.0 ],
+		"rect" : [ 708.0, 147.0, 400.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -290,7 +290,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ "none", ",", "to Max 1", ",", "to Max 2", ",", "Launchpad Mini", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW", ",", "Logic Pro Virtual Out" ],
+					"items" : [ "none", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -306,7 +306,7 @@
 				"box" : 				{
 					"comment" : "anything to trigger bang",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -319,7 +319,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -339,7 +339,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.0, 126.0, 46.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.0, 27.0, 23.0, 23.0 ],
+					"presentation_rect" : [ 75.0, 26.5, 23.0, 23.0 ],
 					"style" : "djazz_toggle"
 				}
 
@@ -348,11 +348,11 @@
 				"box" : 				{
 					"comment" : "(0/1) inactive/active",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 15.0, -152.0, 30.0, 30.0 ]
 				}
 
@@ -360,7 +360,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-					"fontsize" : 24.0,
+					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -370,7 +370,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 128.0, 51.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 27.0, 47.0, 23.0 ],
+					"presentation_rect" : [ 51.0, 27.0, 22.0, 22.0 ],
 					"style" : "djazz_toggle",
 					"text" : "4",
 					"texton" : "4"
@@ -381,7 +381,7 @@
 				"box" : 				{
 					"comment" : "(1/0) inactive/active",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -455,8 +455,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "djazz_toggle",
 				"default" : 				{

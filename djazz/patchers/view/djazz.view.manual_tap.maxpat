@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 903.0, 553.0, 0.0, 480.0 ],
+		"rect" : [ 662.0, 181.0, 388.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "anything to trigger bang",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -55,11 +55,11 @@
 				"box" : 				{
 					"comment" : "(0/1) inactive/active",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 24.0, 23.0, 30.0, 30.0 ]
 				}
 
@@ -67,7 +67,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
-					"fontsize" : 36.0,
+					"fontsize" : 24.0,
 					"id" : "obj-14",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -77,7 +77,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.0, 86.0, 51.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 47.0, 47.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 47.0, 23.0 ],
 					"style" : "djazz_toggle",
 					"text" : "4",
 					"texton" : "4"
@@ -88,7 +88,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -100,7 +100,7 @@
 				"box" : 				{
 					"comment" : "(1/0) inactive/active",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -155,8 +155,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "djazz_toggle",
 				"default" : 				{
