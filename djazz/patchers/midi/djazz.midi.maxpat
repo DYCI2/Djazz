@@ -4373,7 +4373,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 907.0, 242.0, 759.0, 631.0 ],
+										"rect" : [ 635.0, 507.0, 759.0, 631.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -4401,7 +4401,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -5158,7 +5157,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 252.0, 30.0, 30.0 ]
+					"patching_rect" : [ 26.0, 248.0, 30.0, 30.0 ]
 				}
 
 			}
