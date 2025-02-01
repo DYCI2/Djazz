@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 138.0, 217.0, 838.0, 821.0 ],
+		"rect" : [ 674.0, 190.0, 513.0, 821.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -316,7 +316,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "clear" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 56.0, 25.0, 30.0, 30.0 ]
 								}
 
@@ -1032,6 +1032,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1331,7 +1332,7 @@
 				"box" : 				{
 					"comment" : "(symbol) label for analyzer",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1358,7 +1359,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 236.0, 167.0, 22.0 ],
 					"text" : "djazz.beat_generator",
 					"varname" : "beat_generator"
@@ -1382,7 +1383,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1395,7 +1396,7 @@
 				"box" : 				{
 					"comment" : "(list: i i i i ) beat_generator_number track_number start_time_in_ms end_time_in_ms ",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1589,7 +1590,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1865.0, 15.0, 93.0, 35.0 ],
-					"restore" : [ 255 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1655,7 +1656,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1527.0, 15.0, 118.0, 35.0 ],
-					"restore" : [ 0, 0 ],
+					"restore" : [ 0, 16 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2458,212 +2459,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "darr.get_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils/dict",
-				"patcherrelativepath" : "../../utils/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "darr.set_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils/dict",
-				"patcherrelativepath" : "../../utils/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.analyzer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/analyzer",
-				"patcherrelativepath" : "../../analyzer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio.beat_reader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/audio/audio_in",
-				"patcherrelativepath" : "../audio_in",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio.transpose_octave.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/audio/audio_in",
-				"patcherrelativepath" : "../audio_in",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio.transpose_pitch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/audio/audio_in",
-				"patcherrelativepath" : "../audio_in",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.bang_speed.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator/bang_speed",
-				"patcherrelativepath" : "../../beat_generator/bang_speed",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_clock",
-				"patcherrelativepath" : "../../beat_clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator",
-				"patcherrelativepath" : "../../beat_generator",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.factor_oracle_player.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle_player",
-				"patcherrelativepath" : "../../factor_oracle_player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.improviser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator",
-				"patcherrelativepath" : "../../beat_generator",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.loop_previous_beats.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator",
-				"patcherrelativepath" : "../../beat_generator",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.loop_section.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_clock",
-				"patcherrelativepath" : "../../beat_clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.make_bangs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator/bang_speed",
-				"patcherrelativepath" : "../../beat_generator/bang_speed",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.score_player.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator",
-				"patcherrelativepath" : "../../beat_generator",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.skip_bangs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/beat_generator/bang_speed",
-				"patcherrelativepath" : "../../beat_generator/bang_speed",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.tempo_to_ms.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils",
-				"patcherrelativepath" : "../../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils/dict/nested",
-				"patcherrelativepath" : "../../utils/dict/nested",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "du.get_key_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils/dict",
-				"patcherrelativepath" : "../../utils/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "eqsym.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/utils",
-				"patcherrelativepath" : "../../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "factor_oracle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.add_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.get.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.get_matching_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.get_state_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.make_key.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.make_state.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fo.set_suffix_link.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/patchers/factor_oracle/factor_oracle",
-				"patcherrelativepath" : "../../factor_oracle/factor_oracle",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pattrvis.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_IRCAM/code/pattr",
-				"patcherrelativepath" : "../../../code/pattr",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

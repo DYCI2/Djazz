@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 796.0, 120.0, 265.0, 192.0 ],
+		"rect" : [ 796.0, 120.0, 332.0, 552.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 					"patching_rect" : [ 625.0, 74.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 67.0, 133.0, 20.0 ],
-					"text" : "XFADE TIME (ms)",
+					"text" : "XFADE % (0-100)",
 					"textcolor" : [ 1.0, 0.992156862745098, 0.796078431372549, 1.0 ]
 				}
 
@@ -382,8 +382,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 402.0, 24.0, 129.0, 35.0 ],
-					"restore" : [ 203 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 50 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -397,6 +397,8 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "number",
+					"maximum" : 100,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
