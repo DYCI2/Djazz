@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1006.0, 241.0, 518.0, 530.0 ],
+		"rect" : [ 794.0, 553.0, 518.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.0, 261.0, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -129,7 +140,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 611.0, 100.0, 392.0, 432.0 ],
+						"rect" : [ 796.0, 280.0, 392.0, 432.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -511,7 +522,7 @@
 											}
 , 											{
 												"box" : 												{
-													"comment" : "",
+													"comment" : "(list: int int float int int) 1. audio generator number 2. pitch transposition 3. tempo 4. start time 5. end time",
 													"id" : "obj-4",
 													"index" : 2,
 													"maxclass" : "outlet",
@@ -612,7 +623,7 @@
 											}
 , 											{
 												"box" : 												{
-													"comment" : "",
+													"comment" : "(list: int int float int int) 1. audio generator number 2. pitch transposition 3. tempo 4. start time 5. end time",
 													"id" : "obj-14",
 													"index" : 1,
 													"maxclass" : "outlet",
@@ -723,7 +734,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-50", 0 ],
-													"midpoints" : [ 342.0, 134.5, 84.5, 134.5 ],
+													"midpoints" : [ 342.0, 151.5, 84.5, 151.5 ],
 													"source" : [ "obj-7", 1 ]
 												}
 
@@ -731,7 +742,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-51", 0 ],
-													"midpoints" : [ 366.5, 156.5, 84.5, 156.5 ],
+													"midpoints" : [ 366.5, 195.5, 84.5, 195.5 ],
 													"source" : [ "obj-7", 2 ]
 												}
 
@@ -1342,7 +1353,7 @@
 											}
 , 											{
 												"box" : 												{
-													"comment" : "",
+													"comment" : "(list: int int float int int) 1. audio generator number 2. pitch transposition 3. tempo 4. start time 5. end time",
 													"id" : "obj-12",
 													"index" : 1,
 													"maxclass" : "inlet",
@@ -1515,7 +1526,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "reset" ],
 									"patching_rect" : [ 25.0, 22.0, 30.0, 30.0 ],
 									"varname" : "u559007452"
 								}
@@ -3129,7 +3140,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -6328,7 +6339,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "reset" ],
 									"patching_rect" : [ 108.000001609325409, 24.000000357627869, 30.0, 30.0 ]
 								}
 
@@ -6694,7 +6705,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "reset" ],
 					"patching_rect" : [ 328.0, 23.0, 30.0, 30.0 ]
 				}
 
