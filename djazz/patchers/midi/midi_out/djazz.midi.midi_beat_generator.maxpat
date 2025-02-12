@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 821.0, 100.0, 709.0, 969.0 ],
+		"rect" : [ 381.0, 110.0, 709.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -603,7 +603,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1085.0, 172.0, 438.0, 480.0 ],
+										"rect" : [ 962.0, 175.0, 570.0, 773.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -633,12 +633,24 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 210.0, 86.0, 74.0, 22.0 ],
+													"text" : "route NONE"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-3",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "beats", "" ],
-													"patching_rect" : [ 230.0, 104.0, 87.0, 22.0 ],
+													"patching_rect" : [ 265.0, 125.0, 87.0, 22.0 ],
 													"text" : "t beats s"
 												}
 
@@ -650,7 +662,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 230.0, 160.0, 87.0, 22.0 ],
+													"patching_rect" : [ 265.0, 172.0, 87.0, 22.0 ],
 													"text" : "du.get_subdict"
 												}
 
@@ -670,6 +682,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-9",
+													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -738,7 +751,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 230.0, 9.0, 30.0, 30.0 ]
+													"patching_rect" : [ 210.0, 9.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -773,7 +786,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-60", 1 ],
-													"midpoints" : [ 239.5, 231.0, 117.499997333333312, 231.0 ],
+													"midpoints" : [ 274.5, 231.0, 117.499997333333312, 231.0 ],
 													"source" : [ "obj-2", 0 ]
 												}
 
@@ -789,6 +802,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-4", 1 ]
 												}
 
 											}
@@ -815,7 +835,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
+													"destination" : [ "obj-4", 0 ],
 													"order" : 0,
 													"source" : [ "obj-7", 0 ]
 												}
@@ -824,7 +844,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
-													"midpoints" : [ 239.5, 71.0, 70.499997333333312, 71.0 ],
+													"midpoints" : [ 219.5, 71.0, 70.499997333333312, 71.0 ],
 													"order" : 1,
 													"source" : [ "obj-7", 0 ]
 												}
@@ -1879,7 +1899,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1973,7 +1992,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.5, 729.0, 30.0, 30.0 ]
+					"patching_rect" : [ 244.5, 732.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2070,7 +2089,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1623.0, 20.0, 93.0, 35.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 255 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2136,7 +2155,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1266.0, 20.0, 118.0, 35.0 ],
-					"restore" : [ 0, 32 ],
+					"restore" : [ 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
