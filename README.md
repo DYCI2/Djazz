@@ -18,7 +18,7 @@ The main Djazz application is the patch `djazz_2_0_0.maxpat`. You can open this 
 
 ## Documentation and Resources
 
-The documentation, including the manual, tutorials, and API, are [online here](https://dyci2.github.io/Djazz_2.0_documentation/index.html)
+The documentation, including the manual, tutorials, and API, are [online here](https://repmus-docs.github.io/DjazzDocs/index.html)
 
 ## License
 
