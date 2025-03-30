@@ -9,7 +9,7 @@
 
 Djazz needs no special installation; just follow these steps:
 
-- Go to the [Djazz repository](https://github.com/DYCI2/Djazz_2.0) and download the djazz folder.
+- Go to the [Djazz repository](https://github.com/DYCI2/Djazz) and download the djazz folder.
 - Unzip the extracted folder into the `Packages` folder in your Max folder (by default, this is `"~/Documents/Max 8/Packages"`)
 - From the "Options" tab in the Max menu bar, select "File Preferences," and then add the path to the Djazz folder you just put in your Packages folder.
 
