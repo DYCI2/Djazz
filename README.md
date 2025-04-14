@@ -26,7 +26,7 @@ Djazz is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.htm
 
 ## Credits
 
-Djazz 2.0 (c) Ircam 2012-2024
+Djazz 2.0 (c) Ircam and CAMS (EHESS) 2009-2024
 
 Djazz was created by [Marc Chemillier](https://www.ehess.fr/fr/personne/marc-chemillier) in collaboration with
 [Gérard Assayag](https://www.ircam.fr/person/gerard-assayag), 
