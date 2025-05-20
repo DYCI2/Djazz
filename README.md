@@ -1,6 +1,6 @@
 # Djazz 2.0
 
-Djazz is a generative music program that (co-)improvises using material from pre-recorded scores or live human contributions. Born of jazz improvisation, it has been extended to world music and electro, and uses a data structure known as the factor oracle to improvise beat by beat. It can accomadate a scenario such as a harmonic template, and is thus well adapted to "idiomatic" improvisation s.a. djazz, classical or traditional music, pop or electronic musics.
+Djazz is a generative music program that (co-)improvises using material from pre-recorded scores or live human contributions. Born of jazz improvisation, it has been extended to world music and electro, and uses a data structure known as the factor oracle to improvise beat by beat. It can accomadate a scenario such as a harmonic template, and is thus well adapted to "idiomatic" improvisation s.a. jazz, classical or traditional music, pop or electronic musics.
 
 ## Requirements
 
