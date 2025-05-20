@@ -4,6 +4,8 @@ Djazz is a generative music program that (co-)improvises using material from pre
 
 ## Requirements
 
+* processor Intel x86 or ARM with Rosetta (Djazz version 2.0)
+* processor ARM  (Djazz version 2.1)
 * macOS 10.13 or later 
 * Max 8.5 or later
 
