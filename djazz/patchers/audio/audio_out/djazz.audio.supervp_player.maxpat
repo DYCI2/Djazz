@@ -1268,7 +1268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 22.990606777282665, 412.342105627059937, 117.0, 102.0 ],
-					"text" : "supervp.scrub~ NONE 2 2250 0 4 @transients on @shapeinv off @envtrans on @maxfreq 200 @remix on"
+					"text" : "supervp.scrub~ NONE 2 2250 0 4 @transients on @shapeinv off @envtrans off @maxfreq 200 @remix off"
 				}
 
 			}

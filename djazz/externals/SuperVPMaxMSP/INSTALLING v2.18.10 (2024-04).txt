@@ -1,0 +1,58 @@
+==============================================================================
+                          SuperVP for Max/MSP
+==============================================================================
+
+*) Where to install the SuperVpMaxMsp files
+
+Ircam SuperVP is a package for Max/MSP.
+The recommended installation procedure consists in copying the "SuperVPMaxMSP" folder (from the dmg disk image) to your "Max Package folder".
+Your "Max Package folder" is typically located in your "Documents" folder, more specifically :
+"~/Documents/Max 8/Packages" if you are using Max 8
+"~/Documents/Max 7/Packages" if you are using Max 7
+
+In case you use both Max 7 and Max 8, you might want to copy the "SuperVPMaxMSP" folder in each of the Max Package folders.
+
+*) Quarantine on macOS 10.15 Catalina
+
+If you are using macOS 10.15 Catalina, it is possible that the downloaded "SuperVPMaxMSP" files have been "quarantined" by the OS.
+As the result, the supervp external objets wouldn't load in Max.
+To avoid this issue, you need to remove the quarantine. To do so, you need to open the Terminal application, and execute the following command :
+
+xattr -d -r com.apple.quarantine [path/to/extern/directory]
+
+Examples :
+xattr -d -r com.apple.quarantine "~/Documents/Max 8/Packages/SuperVPMaxMSP"
+xattr -d -r com.apple.quarantine "~/Documents/Max 7/Packages/SuperVPMaxMSP"
+
+Further information is available here :
+https://cycling74.com/articles/using-unsigned-max-externals-on-mac-os-10-15-catalina
+
+Once you have removed the quarantine, you can start Max, and SuperVPMaxMSP external objects should work properly.
+
+
+*) Additional information
+
+For additional information and troubleshooting, visit the dedicated help/discussion forum :
+https://discussion.forum.ircam.fr/c/supervp-for-max
+(Use the search engine of the forum website to see if your problem has already been discussed)
+
+
+*) Bug reporting guidelines
+
+Please report any problems you experience with clear and complete information, including steps to reproduce,
+software and system information, and where possible, an isolated example patch and crash log.
+Crash logs are located here:
+Mac: ~/Library/Logs/DiagnosticReports
+Windows: C:\Users\[yourusername]\AppData\Roaming\Cycling ‘74\Logs
+
+With all bug/crash reports please provide your support information dictionary (Max menu->About Max->Copy support information to clipboard),
+a clear example patch with steps to reproduce, and crash logs where relevant.
+
+Below is a template you can use for reporting bugs.
+With clear and complete information, it is more likely we will be able to reproduce and fix a problem quickly.
+- Summary: Provide a descriptive summary of the issue.
+- Steps to Reproduce: In numbered format, detail the exact steps taken to produce the bug.
+- Expected Results: Describe what you expected to happen when you executed the steps above.
+- Actual Results: Please explain what actually occurred when steps above are executed.
+- Regression: Describe circumstances where the problem occurs or does not occur, such as software versions and/or hardware configurations.
+- Notes: Provide additional information, such as references to related problems, workarounds and relevant attachments.
