@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 192.0, 132.0, 1091.0, 951.0 ],
+		"rect" : [ 324.0, 132.0, 955.0, 951.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -400,7 +400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 96.500003222976602, 87.0, 53.0, 22.0 ],
+					"patching_rect" : [ 96.500003222976602, 83.0, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -445,8 +445,8 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 271.283095158742299, 652.807011961936951, 155.0, 22.0 ],
 					"text" : "djazz.audio.supervp_player"
 				}
@@ -467,6 +467,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-356",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -493,8 +494,8 @@
 					"id" : "obj-344",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 109.283095158742356, 652.807011961936951, 155.0, 22.0 ],
 					"text" : "djazz.audio.supervp_player"
 				}
@@ -700,7 +701,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 254.783095158742356, 710.070172190666199, 494.283095158742299, 710.070172190666199 ],
+					"midpoints" : [ 209.449761825409041, 710.070172190666199, 494.283095158742299, 710.070172190666199 ],
 					"source" : [ "obj-344", 2 ]
 				}
 
@@ -722,7 +723,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 2 ],
-					"midpoints" : [ 416.783095158742299, 696.070172190666199, 530.783095158742299, 696.070172190666199 ],
+					"midpoints" : [ 371.449761825408984, 696.070172190666199, 530.783095158742299, 696.070172190666199 ],
 					"source" : [ "obj-35", 2 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 720.0, 116.0, 452.0, 881.0 ],
+		"rect" : [ 353.0, 143.0, 896.0, 881.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,24 +41,48 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"maxclass" : "button",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.297626249404857, 323.0, 24.0, 24.0 ]
+					"patching_rect" : [ 308.0, 279.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.297626249404857, 274.0, 35.0, 22.0 ],
-					"text" : "reset"
+					"patching_rect" : [ 308.0, 314.0, 78.0, 22.0 ],
+					"text" : "prepend play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 341.0, 246.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 308.0, 246.0, 22.0, 22.0 ],
+					"text" : "t 1"
 				}
 
 			}
@@ -69,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 325.297626249404857, 223.0, 42.0, 22.0 ],
+					"patching_rect" : [ 308.0, 199.0, 51.648813124702428, 22.0 ],
 					"text" : "edge~"
 				}
 
@@ -92,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 489.0, 315.0, 860.0, 527.0 ],
+						"rect" : [ 108.0, 477.0, 860.0, 527.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -805,7 +829,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1123.0, 183.0, 360.0, 803.0 ],
+						"rect" : [ 67.0, 246.0, 990.0, 803.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1054,12 +1078,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 12,
+									"linecount" : 16,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 218.0, 17.0, 150.0, 167.0 ],
-									"text" : "input 1:\n\n1. start time in buffer in ms\n2. end time in buffer in ms\n3. duration to play  in ms\n\nEX: 100 400 600\ngoes from 100 ms to 400 ms at half speed\n\ninput 2: crossfade time in ms"
+									"patching_rect" : [ 218.0, 17.0, 150.0, 221.0 ],
+									"text" : "input 1:\n\n1. start time in buffer in ms\n2. end time in buffer in ms\n3. duration to play  in ms\n4. pitch transposition in semitones (unused)\n\nEX: 100 400 600\ngoes from 100 ms to 400 ms at half speed\n\ninput 2: crossfade time as percentage of beat time (applied at beginning of beat)"
 								}
 
 							}
@@ -1282,16 +1306,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1359,6 +1381,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 159.148813124702428, 401.842105627059937, 32.490606777282665, 401.842105627059937 ],
 					"source" : [ "obj-16", 0 ]
@@ -1374,8 +1403,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1443,6 +1479,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
